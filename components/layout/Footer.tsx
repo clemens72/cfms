@@ -92,8 +92,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/links-and-jams" className="text-muted-foreground hover:text-primary transition-colors">
-                  Links & Jams
+                <Link href="/links" className="text-muted-foreground hover:text-primary transition-colors">
+                  Links
                 </Link>
               </li>
               <li>

@@ -109,10 +109,10 @@ export function Header() {
                 Outreach
               </NavLink>
               <NavLink
-                href="/links-and-jams"
+                href="/links"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Links & Jams
+                Links
               </NavLink>
               <Button className="w-full mt-2" asChild>
                 <Link href="/join-donate">Become a Member</Link>

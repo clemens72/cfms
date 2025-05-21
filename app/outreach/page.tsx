@@ -62,7 +62,7 @@ export default function OutreachPage() {
                   and sharing the joy of folk music.
                 </p>
                 <Button variant="outline" asChild>
-                  <Link href="/links-and-jams">Join a Jam</Link>
+                  <Link href="/links">Join a Jam</Link>
                 </Button>
               </CardContent>
             </Card>
