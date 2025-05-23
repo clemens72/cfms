@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Music } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { NavigationMenu } from '@/components/layout/NavigationMenu';
@@ -36,9 +37,13 @@ export function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-            <Music className="h-6 w-6 text-primary" />
-          </div>
+            <Image
+              src="/logo.png"
+              alt="CFMS Logo"
+              width={40}
+              height={40}
+              className="h-10 w-20 object-contain"
+            />
           <div className="font-serif">
             <span className="font-bold text-xl md:text-2xl text-primary">
               Columbus

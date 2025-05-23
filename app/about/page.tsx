@@ -27,7 +27,7 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                 <AnimatedImage
-                  src="https://images.pexels.com/photos/1813124/pexels-photo-1813124.jpeg"
+                  src="/atww3.jpeg"
                   alt="CFMS Community Event"
                   width={600}
                   height={400}

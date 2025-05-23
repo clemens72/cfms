@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { Facebook, Instagram, Twitter, Youtube, Music, Mail } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Youtube, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Separator } from '@/components/ui/separator';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -11,9 +12,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                <Music className="h-6 w-6 text-primary" />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="CFMS Logo"
+                width={40}
+                height={40}
+                className="h-10 w-20 object-contain"
+              />
               <div className="font-serif">
                 <span className="font-bold text-xl text-primary">Columbus</span>
                 <br />

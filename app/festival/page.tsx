@@ -13,7 +13,7 @@ export default function FestivalPage() {
       <PageHeader
         title="Annual Folk Festival"
         subtitle="A celebration of folk music and community"
-        backgroundImage="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg"
+        backgroundImage="/03duo.jpg"
       />
       
       <section className="py-16">

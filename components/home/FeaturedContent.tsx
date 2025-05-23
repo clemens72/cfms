@@ -23,19 +23,19 @@ export function FeaturedContent() {
     {
       title: "Annual Folk Festival",
       description: "Our signature event featuring top folk performers, workshops, and community activities.",
-      image: "https://images.pexels.com/photos/2417726/pexels-photo-2417726.jpeg",
+      image: "/03duo.jpg",
       link: "/festival"
     },
     {
       title: "Educational Outreach",
       description: "Programs bringing folk music to schools and community centers across Columbus.",
-      image: "https://images.pexels.com/photos/6647115/pexels-photo-6647115.jpeg",
+      image: "/07youth.jpg",
       link: "/outreach"
     },
     {
       title: "Monthly Newsletter",
       description: "Stay informed with our award-winning newsletter covering local folk music and events.",
-      image: "https://images.pexels.com/photos/6230955/pexels-photo-6230955.jpeg",
+      image: "/05news.jpg",
       link: "/newsletter"
     }
   ];

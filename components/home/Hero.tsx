@@ -62,7 +62,7 @@ export function Hero() {
         variants={imageVariants}
       >
         <Image
-          src="https://images.pexels.com/photos/7097455/pexels-photo-7097455.jpeg"
+          src="/01bufrose.jpg"
           alt="Musicians playing folk music"
           fill
           priority
@@ -71,7 +71,7 @@ export function Hero() {
       </motion.div>
 
       {/* Decorative elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-transparent z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 to-transparent z-10"></div>
       <div className="absolute inset-0 bg-neutral-900/30 z-[5]"></div>
 
       {/* Content */}
@@ -84,7 +84,7 @@ export function Hero() {
           variants={containerVariants}
         >
           <motion.div variants={itemVariants}>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-secondary mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
               Celebrate the Folk Music Tradition
             </h1>
           </motion.div>

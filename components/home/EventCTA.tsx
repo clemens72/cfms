@@ -56,12 +56,12 @@ export function EventCTA() {
 
   // Sample event data (in a real app, this would come from an API or CMS)
   const upcomingEvent = {
-    title: "Saturday Night Concert Series: Old-Time String Band",
-    date: "June 24, 2023",
-    time: "7:00 PM - 9:30 PM",
-    location: "Columbus Performing Arts Center",
-    image: "https://images.pexels.com/photos/2102568/pexels-photo-2102568.jpeg",
-    description: "Join us for an evening of traditional old-time string band music featuring the talented musicians of the Appalachian Wildcats. Refreshments will be available.",
+    title: "Concert Series: Appalachian Swing",
+    date: "Saturday, June 7, 2025",
+    time: "Food 2:00 PM | Open Mic 2:30 PM | Show 3:00 PM",
+    location: "The Reeb Center | 280 Reeb Ave, Columbus, OH",
+    image: "/250607appalachianswing.jpg",
+    description: "They have built their sound around The Kentucky Colonel's brand of bluegrass with influences of Clarence & Roland White. In short, The Kentucky Colonels may have LIT the spark, but Appalachian Swing MAKES the music. And great music they make! Adam Schlenker, just one band member, is known worldwide for his flatpicking and bluegrass guitar skills and is a renowned educator.",
     slug: "/events/old-time-string-band"
   };
 
