@@ -9,6 +9,7 @@ interface PageHeaderProps {
   title: string;
   subtitle?: string;
   backgroundImage?: string;
+  backgroundImageStyle?: string;
   align?: 'left' | 'center' | 'right';
   className?: string;
 }
@@ -17,6 +18,7 @@ export function PageHeader({
   title,
   subtitle,
   backgroundImage,
+  backgroundImageStyle = 'object-cover',
   align = 'center',
   className,
 }: PageHeaderProps) {
@@ -67,7 +69,7 @@ export function PageHeader({
             alt={title}
             fill
             priority
-            className="object-cover"
+            className={backgroundImageStyle}
           />
           <div className="absolute inset-0 bg-black/50"></div>
         </>

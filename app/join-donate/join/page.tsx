@@ -7,7 +7,8 @@ export default function JoinPage() {
       <PageHeader
         title="Become a Member"
         subtitle="Join our community of folk music enthusiasts"
-        backgroundImage="https://images.pexels.com/photos/2526075/pexels-photo-2526075.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">

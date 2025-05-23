@@ -1,6 +1,5 @@
 import { PageHeader } from '@/components/shared/PageHeader';
 import { AnimatedImage } from '@/components/home/AnimatedImage';
-import { Card, CardContent } from '@/components/ui/card';
 import { MapPin, Mail, Phone, Clock } from 'lucide-react';
 
 export default function AboutPage() {
@@ -9,7 +8,8 @@ export default function AboutPage() {
       <PageHeader
         title="About Us"
         subtitle="Columbus Folk Music Society and how to Contact Us"
-        backgroundImage="https://images.pexels.com/photos/3777883/pexels-photo-3777883.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">

@@ -10,7 +10,8 @@ export default function JoinDonatePage() {
       <PageHeader
         title="Support Folk Music"
         subtitle="Join our community or donate to support our mission"
-        backgroundImage="https://images.pexels.com/photos/7097442/pexels-photo-7097442.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">

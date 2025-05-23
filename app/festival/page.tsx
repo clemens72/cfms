@@ -13,7 +13,7 @@ export default function FestivalPage() {
       <PageHeader
         title="Annual Folk Festival"
         subtitle="A celebration of folk music and community"
-        backgroundImage="/03duo.jpg"
+        backgroundImage="/11festival.jpg"
       />
       
       <section className="py-16">
@@ -53,7 +53,7 @@ export default function FestivalPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <AnimatedImage
-                src="https://images.pexels.com/photos/2531728/pexels-photo-2531728.jpeg"
+                src="/03duo.jpg"
                 alt="Festival performance"
                 width={400}
                 height={400}
@@ -62,7 +62,7 @@ export default function FestivalPage() {
                 className="rounded-lg shadow-lg object-cover w-full h-full"
               />
               <AnimatedImage
-                src="https://images.pexels.com/photos/1090408/pexels-photo-1090408.jpeg"
+                src="/04oldjam.jpg"
                 alt="Festival audience"
                 width={400}
                 height={400}
@@ -71,7 +71,7 @@ export default function FestivalPage() {
                 className="rounded-lg shadow-lg object-cover w-full h-full mt-8"
               />
               <AnimatedImage
-                src="https://images.pexels.com/photos/3916019/pexels-photo-3916019.jpeg"
+                src="/09festival.jpg"
                 alt="Workshop session"
                 width={400}
                 height={400}
@@ -80,7 +80,7 @@ export default function FestivalPage() {
                 className="rounded-lg shadow-lg object-cover w-full h-full"
               />
               <AnimatedImage
-                src="https://images.pexels.com/photos/1749822/pexels-photo-1749822.jpeg"
+                src="/10festival.jpg"
                 alt="Folk dancers"
                 width={400}
                 height={400}

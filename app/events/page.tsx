@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { format } from 'date-fns';
-import { Calendar, CalendarIcon, Clock, MapPin, Filter } from 'lucide-react';
+import { CalendarIcon, Clock, MapPin, Filter } from 'lucide-react';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -16,86 +15,46 @@ import { AnimatedImage } from '@/components/home/AnimatedImage';
 const events = [
   {
     id: 1,
-    title: "Saturday Night Concert Series: Old-Time String Band",
-    date: "2023-06-24",
-    time: "7:00 PM - 9:30 PM",
-    location: "Columbus Performing Arts Center",
-    address: "549 Franklin Ave, Columbus, OH 43215",
+    title: "Concert Series: Appalachian Swing",
+    date: "Saturday, June 7, 2025",
+    time: "Food 2:00 PM | Open Mic 2:30 PM | Show 3:00 PM",
+    location: "The Reeb Center",
+    address: "280 Reeb Ave, Columbus, OH",
     category: "concert",
-    description: "Join us for an evening of traditional old-time string band music featuring the talented musicians of the Appalachian Wildcats. Refreshments will be available.",
-    image: "https://images.pexels.com/photos/2102568/pexels-photo-2102568.jpeg",
+    description: "Bluegrass / Newark, OH",
+    image: "/250607appalachianswing.jpg",
     featured: true,
-    tickets: true,
-    ticketPrice: "$15-25",
+    tickets: false,
+    ticketPrice: "Free"
   },
   {
     id: 2,
-    title: "Folk Jam Session: Bluegrass Edition",
-    date: "2023-07-02",
-    time: "2:00 PM - 5:00 PM",
-    location: "Whetstone Park",
-    address: "3923 N High St, Columbus, OH 43214",
-    category: "jam",
-    description: "Bring your instrument and join our monthly bluegrass jam session. All skill levels welcome!",
-    image: "https://images.pexels.com/photos/6647115/pexels-photo-6647115.jpeg",
+    title: "Concert Series: The Mighty Troubadours",
+    date: "Saturday, July 12, 2025",
+    time: "Food 2:00 PM | Open Mic 2:30 PM | Show 3:00 PM",
+    location: "The Reeb Center",
+    address: "280 Reeb Ave, Columbus, OH",
+    category: "concert",
+    description: "Bluegrass / Columbus, OH",
+    image: "/250712themightytroubadours.jpg",
     featured: false,
     tickets: false,
+    ticketPrice: "Free"
   },
   {
     id: 3,
-    title: "Folk Music Workshop: Fingerstyle Guitar",
-    date: "2023-07-15",
-    time: "1:00 PM - 3:00 PM",
-    location: "Columbus Music Academy",
-    address: "1234 Main St, Columbus, OH 43215",
-    category: "workshop",
-    description: "Learn the basics of fingerstyle guitar techniques with instructor and master guitarist Michael Johnson.",
-    image: "https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg",
-    featured: false,
-    tickets: true,
-    ticketPrice: "$25",
-  },
-  {
-    id: 4,
-    title: "Celtic Folk Night",
-    date: "2023-07-28",
-    time: "7:30 PM - 10:00 PM",
-    location: "The Celtic Corner",
-    address: "567 Irish Ave, Columbus, OH 43228",
+    title: "Concert Series: Walhalla Ramblers",
+    date: "Saturday, August 2, 2025",
+    time: "Food 2:00 PM | Open Mic 2:30 PM | Show 3:00 PM",
+    location: "The Reeb Center",
+    address: "280 Reeb Ave, Columbus, OH",
     category: "concert",
-    description: "Experience the rich traditions of Celtic folk music with performances by The Emerald Isle Trio and special guests.",
-    image: "https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg",
-    featured: true,
-    tickets: true,
-    ticketPrice: "$20",
-  },
-  {
-    id: 5,
-    title: "Kids Folk Music Day",
-    date: "2023-08-12",
-    time: "10:00 AM - 2:00 PM",
-    location: "Community Park",
-    address: "789 Community Rd, Columbus, OH 43229",
-    category: "education",
-    description: "A day of folk music activities for children ages 5-12. Instrument petting zoo, sing-alongs, and folk dance lessons.",
-    image: "https://images.pexels.com/photos/8412400/pexels-photo-8412400.jpeg",
+    description: "Bluegrass / Columbus, OH",
+    image: "/250802walhallaramblers.jpg",
     featured: false,
     tickets: false,
-  },
-  {
-    id: 6,
-    title: "Singer-Songwriter Showcase",
-    date: "2023-08-26",
-    time: "8:00 PM - 11:00 PM",
-    location: "The Acoustic Cafe",
-    address: "321 Guitar St, Columbus, OH 43201",
-    category: "concert",
-    description: "Local singer-songwriters share their original folk compositions in this intimate showcase event.",
-    image: "https://images.pexels.com/photos/8412393/pexels-photo-8412393.jpeg",
-    featured: false,
-    tickets: true,
-    ticketPrice: "$10",
-  },
+    ticketPrice: "Free"
+  }
 ];
 
 export default function EventsPage() {
@@ -111,7 +70,8 @@ export default function EventsPage() {
       <PageHeader
         title="Upcoming Events"
         subtitle="Concerts, jam sessions, workshops, and more"
-        backgroundImage="https://images.pexels.com/photos/3328348/pexels-photo-3328348.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">

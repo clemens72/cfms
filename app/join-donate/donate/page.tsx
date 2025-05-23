@@ -7,7 +7,8 @@ export default function DonatePage() {
       <PageHeader
         title="Donate to Support Folk Music"
         subtitle="Your contribution helps preserve folk music traditions"
-        backgroundImage="https://images.pexels.com/photos/1444941/pexels-photo-1444941.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">

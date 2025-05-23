@@ -1,11 +1,7 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { AnimatedImage } from '@/components/home/AnimatedImage';
-import { CalendarIcon, Clock, MapPin, Music, User, Mic2, Coffee, Utensils, Mail, FileText, Calendar } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';import { Mail, FileText, Calendar } from 'lucide-react';
 
 export default function NewsletterPage() {
   return (
@@ -13,7 +9,8 @@ export default function NewsletterPage() {
       <PageHeader
         title="Newsletter"
         subtitle="Stay connected with the Columbus Folk Music Society"
-        backgroundImage="https://images.pexels.com/photos/7095517/pexels-photo-7095517.jpeg"
+        //backgroundImage="/art1.jpg"
+        className="bg-muted/80"
       />
       
       <section className="py-16">
