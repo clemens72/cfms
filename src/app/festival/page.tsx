@@ -1,6 +1,340 @@
+import { Users, Megaphone, HelpCircle, Calendar, Clock, MapPin, User } from 'lucide-react';
+import Image from 'next/image';
+
 export default function FestivalPage() {
-    return (
-        <main>
-        </main>
-    )
+
+  // Helper component for uniform buttons
+  const FestivalButton = ({ children, color = 'bBlue', href = '#' }: { children: React.ReactNode, color?: 'bBlue' | 'coral-red' | 'bYellow', href?: string }) => (
+    <a href={href} className={`px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]
+      ${color === 'bBlue' ? 'bg-bBlue hover:bg-bBlue/90 text-white' : ''}
+      ${color === 'coral-red' ? 'bg-coral-red hover:bg-coral-red/90 text-white' : ''}
+      ${color === 'bYellow' ? 'bg-bYellow hover:bg-bYellow/90 text-charcoal' : ''}`.replace(/\s+/g, ' ')}>
+      {children}
+    </a>
+  );
+
+  return (
+    <div className="min-h-screen bg-light-gray">
+      {/* Hero Section */}
+      <header className="relative py-24 md:py-32 bg-charcoal text-white overflow-hidden shadow-xl">
+        {/* Background Image: Uses festival.jpg */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/festival.jpg')" }}
+          role="img"
+          aria-label="A shot of the 2025 Columbus Folk Music Festival."
+        >
+           <div className="absolute inset-0 bg-charcoal opacity-40"></div>
+        </div>
+        <div className="relative container mx-auto px-4 text-center">
+          <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-bYellow tracking-tight mb-4 animate-fadeInDown">
+            Central Ohio Folk Festival
+          </h1>
+          <p className="text-xl md:text-2xl font-body text-white/90 mb-8 max-w-2xl mx-auto">
+            "Two days of music, community, and tradition."
+          </p>
+        </div>
+      </header>
+
+      {/* --- SECTION #2: Central Ohio Folk Festival Preview --- */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Left Column: Text, Buttons, Icons */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
+              Central Ohio Folk Festival
+            </h2>
+            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+              Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids' and youth activities. Enjoy food from some of Columbus' favorite food trucks as well as local Nocterra craft beer.
+            </p>
+            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+              In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
+            </p>
+
+            {/* Feature Buttons */}
+            <div className="flex flex-wrap gap-3 mb-8">
+              <FestivalButton>Get Tickets</FestivalButton>
+              <FestivalButton href="/festival/headliner">2026 Headliner</FestivalButton>
+              <FestivalButton>2026 Lineup</FestivalButton>
+              <FestivalButton>2026 Schedule</FestivalButton>
+            </div>
+
+            {/* Playlist Links */}
+            <div className="flex items-center gap-4 border-t border-bBlue/30 pt-4">
+              <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
+              <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
+                <Image src="/youtubemusic.png" alt="YouTube Music" width={100} height={32} />
+              </a>
+              <a href="#" aria-label="Spotify Playlist" className="transition transform hover:scale-110">
+                <Image src="/spotify.png" alt="YouTube Music" width={100} height={32} />
+              </a>
+              <a href="#" aria-label="Amazon Music Playlist" className="transition transform hover:scale-110">
+                <Image src="/amazonmusic.png" alt="YouTube Music" width={100} height={16} />
+              </a>
+            </div>
+          </div>
+
+          {/* Right Column: Photo Placeholder */}
+          <div
+            className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-cover bg-center border-4 border-bBlue"
+            style={{ backgroundImage: "url('/Shindell.jpeg')" }}
+          >
+          </div>
+        </div>
+      </section>
+      {/* --- END #2 SECTION --- */}
+
+      {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
+      <section className="bg-bBlue py-16 text-white shadow-inner">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+            What's New for 2026
+          </h2>
+          <p className="text-xl font-body mb-8 max-w-3xl">
+            A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
+          </p>
+          <FestivalButton color="bYellow" href="#">
+            CHECK IT OUT
+          </FestivalButton>
+        </div>
+      </section>
+      {/* --- END #3 SECTION --- */}
+
+      {/* --- SECTION #4: Volunteer (Split with Image) --- */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Left Column: Text and Button */}
+          <div>
+            <div className="flex items-center gap-3 mb-4 text-bBlue">
+              <Users size={32} />
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
+                Volunteer
+              </h2>
+            </div>
+            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+              The Central Ohio Folk Festival is made possible by the dedicated work of volunteers. Join our vibrant community of volunteers, and be part of making the festival a success!
+            </p>
+            <FestivalButton color="bBlue" href="#">
+              BECOME A VOLUNTEER
+            </FestivalButton>
+          </div>
+
+          {/* Right Column: Photo Placeholder */}
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-bBlue bg-light-gray flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold md:order-last order-first">
+            <span className="p-4 text-center">Volunteer Team Photo Placeholder (800x600)</span>
+          </div>
+        </div>
+      </section>
+      {/* --- END #4 SECTION --- */}
+
+      {/* --- SECTION #5: Festival Details (Full Width) --- */}
+      <section className="bg-bBlue py-20 text-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-bYellow mb-4">
+              Festival Details
+            </h2>
+            <p className="text-xl font-body max-w-4xl mx-auto text-white/80">
+              The festival runs rain or shine! Bicentennial Park offers ample green space and paved walkways. Bring blankets or low chairs. Food, non-alcoholic drinks, and artisan vendors will be on-site throughout the weekend. We are committed to accessibility for everyone.
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
+            {/* Card 1 */}
+            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
+                <Calendar className="text-bYellow" size={28} />
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
+                <p className="font-body text-sm leading-relaxed">June 6th & 7th, 2026<br />Saturday and Sunday<br />ADD TO CALENDAR</p>
+              </div>
+            </div>
+            {/* Card 2 */}
+            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
+                <Clock className="text-bYellow" size={28} />
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
+                <p className="font-body text-sm leading-relaxed">Saturday: 10:30am - 10pm<br />Sunday: 10:30am - 5:30pm</p>
+              </div>
+            </div>
+            {/* Card 3 */}
+            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
+                <MapPin className="text-bYellow" size={28} />
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
+                <p className="font-body text-sm leading-relaxed">
+                  Bank Run Metro Park<br />
+                  Address to follow <i>(still under construction)</i><br />
+                  Lockbourne, Ohio</p>
+              </div>
+            </div>
+            {/* Card 4 */}
+            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
+                <User className="text-bYellow" size={28} />
+              </div>
+              <div>
+                <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
+                <p className="font-body text-sm leading-relaxed">
+                  $10 pre-registration (18 and over)<br />
+                  $15 onsite (18 and over)<br />
+                  17 and under: Free<br />
+                  Staurday night headliner: preferred seating + $10<br />
+                  &nbsp;&nbsp;Ticketing opens in early 2026<br />
+                  &nbsp;&nbsp;All admission tickets cover BOTH days!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --- END #5 SECTION --- */}
+
+      {/* --- SECTION #6: Other Festival Happenings (Split with Image) --- */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Left Column: Text and Buttons */}
+          <div className="md:order-last">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
+              Other Festival Happenings
+            </h2>
+            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+              Explore everything the Central Ohio Folk Festival has to offer: our stage lineups, workshops, kids' and youth activites, and more.
+            </p>
+
+            {/* Feature Buttons */}
+            <div className="flex flex-wrap gap-3 mb-8">
+              <FestivalButton>2026 Lineup</FestivalButton>
+              <FestivalButton>2025 Workshops</FestivalButton>
+              <FestivalButton>Other Activities</FestivalButton>
+              <FestivalButton>Vendors</FestivalButton>
+            </div>
+          </div>
+
+          {/* Right Column: Photo Placeholder */}
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-bBlue bg-light-gray flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
+            <span className="p-4 text-center">Workshop/Activity Photo Placeholder (800x600)</span>
+          </div>
+        </div>
+      </section>
+      {/* --- END #6 SECTION --- */}
+
+      {/* --- SECTION #7: Inquiries / Apply --- */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="text-center mb-10">
+          <div className="flex items-center justify-center gap-3 mb-4 text-bBlue">
+            <Megaphone size={32} />
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
+              Inquiries / Apply
+            </h2>
+          </div>
+          <p className="font-body text-gray-700 max-w-4xl mx-auto">
+            Visit our performer, workshop and singer-songwriter contest pages to find deadlines and other useful information when applying.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists & Performers</h3>
+            <div className="flex flex-wrap gap-2">
+              <FestivalButton>2026 Performer/Presenter Apply</FestivalButton>
+              <FestivalButton>Performing Questions</FestivalButton>
+              <FestivalButton>Agent Inquiries</FestivalButton>
+              <FestivalButton>2026 Singer-Songwriter Contest</FestivalButton>
+            </div>
+          </div>
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
+            <div className="flex flex-wrap gap-2">
+              <FestivalButton>Food Truck Inquiries</FestivalButton>
+              <FestivalButton>Vendor Applications</FestivalButton>
+            </div>
+          </div>
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
+            <div className="flex flex-wrap gap-2">
+              <FestivalButton>Other Questions</FestivalButton>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --- END #7 SECTION --- */}
+
+      {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
+      <section className="bg-bBlue py-12 text-white text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-heading font-bold mb-4">
+            Help Us Move It Forward
+          </h2>
+          <p className="font-body text-lg mb-6">
+            Interested in promoting our event or donating?
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <FestivalButton color="bYellow">Sponsors</FestivalButton>
+            <FestivalButton color="bYellow">2025 Press</FestivalButton>
+            <FestivalButton color="bYellow">Donate</FestivalButton>
+          </div>
+        </div>
+      </section>
+      {/* --- END #8 SECTION --- */}
+
+      {/* --- SECTION #9: Getting Here & FAQ --- */}
+      <section className="container mx-auto px-4 py-12">
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-3 mb-4 text-bBlue">
+            <HelpCircle size={32} />
+            <h2 className="text-3xl font-heading font-bold text-charcoal">
+              Getting Here & FAQ
+            </h2>
+          </div>
+          <p className="font-body text-lg mb-6 text-gray-700">
+            Check out festival fast facts, maps and frequently asked questions.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <FestivalButton>Fast Facts</FestivalButton>
+            <FestivalButton>Maps</FestivalButton>
+            <FestivalButton>FAQ</FestivalButton>
+          </div>
+        </div>
+      </section>
+      {/* --- END #9 SECTION --- */}
+
+      {/* --- SECTION #10: Festival History & Photos --- */}
+      <section className="bg-light-gray py-12">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-heading font-bold text-charcoal mb-4">
+            Festival History & Photos
+          </h2>
+          <p className="font-body text-lg mb-6 text-gray-700">
+            Curious about the festival's history? Do you want to view recent or past festival photos? Click the tabs below.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <FestivalButton>History</FestivalButton>
+            <FestivalButton>Links to Photos</FestivalButton>
+          </div>
+        </div>
+      </section>
+      {/* --- END #10 SECTION --- */}
+
+      {/* --- SECTION #11: Sponsor Logos --- */}
+      <section className="bg-charcoal py-12">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap justify-center items-center gap-8">
+            {/* These are placeholder sponsor divs. In a real app, you would use <img> tags here. 
+            <div className="w-24 h-12 bg-white rounded flex items-center justify-center text-xs text-charcoal font-bold"></div>*/}
+            <div className="">
+              <Image src="/sponsors.jpg" alt="Sponsors" width={2000} height={800} />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --- END #11 SECTION --- */}
+
+    </div>
+
+  );
 }

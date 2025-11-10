@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
 
   return (
     // Set background to solid bBlue and use a stronger shadow
-    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-bBlue">
+    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-light-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           

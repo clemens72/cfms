@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat, Arimo } from "next/font/google";
 import "./globals.css";
 
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/layout/NavBar";
+import { Footer } from "@/components/layout/Footer";
 
 // FONTS
 const arimo = Arimo({
@@ -36,6 +37,7 @@ export default function RootLayout({
         <div className="pt-16">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
