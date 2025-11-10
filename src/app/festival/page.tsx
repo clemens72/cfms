@@ -31,7 +31,7 @@ export default function FestivalPage() {
             Central Ohio Folk Festival
           </h1>
           <p className="text-xl md:text-2xl font-body text-white/90 mb-8 max-w-2xl mx-auto">
-            "Two days of music, community, and tradition."
+            &quot;Two days of music, community, and tradition.&quot;
           </p>
         </div>
       </header>
@@ -45,7 +45,7 @@ export default function FestivalPage() {
               Central Ohio Folk Festival
             </h2>
             <p className="font-body text-gray-700 mb-8 leading-relaxed">
-              Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids' and youth activities. Enjoy food from some of Columbus' favorite food trucks as well as local Nocterra craft beer.
+              Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
             </p>
             <p className="font-body text-gray-700 mb-8 leading-relaxed">
               In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
@@ -88,7 +88,7 @@ export default function FestivalPage() {
       <section className="bg-bBlue py-16 text-white shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-            What's New for 2026
+            What&apos;s New for 2026
           </h2>
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
@@ -203,7 +203,7 @@ export default function FestivalPage() {
               Other Festival Happenings
             </h2>
             <p className="font-body text-gray-700 mb-8 leading-relaxed">
-              Explore everything the Central Ohio Folk Festival has to offer: our stage lineups, workshops, kids' and youth activites, and more.
+              Explore everything the Central Ohio Folk Festival has to offer: our stage lineups, workshops, kids&apos; and youth activites, and more.
             </p>
 
             {/* Feature Buttons */}
@@ -310,7 +310,7 @@ export default function FestivalPage() {
             Festival History & Photos
           </h2>
           <p className="font-body text-lg mb-6 text-gray-700">
-            Curious about the festival's history? Do you want to view recent or past festival photos? Click the tabs below.
+            Curious about the festival&apos;s history? Do you want to view recent or past festival photos? Click the tabs below.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton>History</FestivalButton>

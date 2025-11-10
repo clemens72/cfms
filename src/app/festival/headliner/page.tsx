@@ -19,7 +19,7 @@ export default function HeadlinerPage() {
                             CENTRAL OHIO FOLK FESTIVAL
                         </h3>
                         <h3 className="text-xl md:text-2xl mb-4">
-                            <i>Innovative, original and occasionally spiritual, Shindell's songs weave tales that interchangeably champion the downtrodden, exalt the disaffected or wax empathetic to those lost to society's fringes.</i>
+                            <i>Innovative, original and occasionally spiritual, Shindell&apos;s songs weave tales that interchangeably champion the downtrodden, exalt the disaffected or wax empathetic to those lost to society&apos;s fringes.</i>
                         </h3>
                         <div className="flex items-center gap-4 border-t border-bBlue/30 pt-4 mb-4">
                             <span className="text-sm font-heading font-semibold text-charcoal">LISTEN HERE:</span>
