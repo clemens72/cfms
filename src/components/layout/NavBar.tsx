@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Menu, X, LucideIcon } from 'lucide-react';
+import Image from 'next/image';
 
 interface NavItem {
   name: string;
@@ -9,7 +10,9 @@ interface NavItem {
 
 const navLinks: NavItem[] = [
   { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
   { name: 'Festival', href: '/festival' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 
@@ -52,8 +55,18 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           
           {/* Logo/Brand (Now using green text) */}
-          <a href="/" className="flex-shrink-0 font-heading text-2xl font-extrabold text-green">
-            Columbus Folk Music Society
+          <a href="/" className="flex items-center gap-3 flex-shrink-0 group">
+            <Image
+              src="/logo.png"
+              alt="CFMS Logo"
+              width={60}
+              height={60}
+              className="h-12 w-12 object-contain transition-transform duration-200 group-hover:scale-105"
+            />
+            <div className="hidden md:flex flex-col leading-tight">
+              <span className="font-heading text-xl font-bold text-green">Columbus Folk Music Society</span>
+            </div>
+            <span className="md:hidden font-heading text-lg font-bold text-green">CFMS</span>
           </a>
 
           {/* Desktop Navigation Links */}

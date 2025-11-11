@@ -7,7 +7,7 @@ export default function Homepage() {
 
       <Hero
         title="Next Concert: Holler Choir"
-        subtitle="Saturday, October 25th, 7pm"
+        subtitle="Saturday, November 22nd, 7pm"
         subtitle2="The Columbus Mennonite Church"
         imageURL="/HollerChoir.jpg"
         buttonText="Info and Tickets"
@@ -124,7 +124,7 @@ export default function Homepage() {
             Thanks for your support!
           </h2>
           <p className="font-body text-lg mb-6 text-gray-700">
-            The Columbus Folk Music Society gratefully acknowledges support from <a className="text-green" href="https://columbusfoundation.org/">The Columbus Foundation&apos;s Community Arts Fund</a> (with the assistance of the Ingram-White Castle Foundation), the <a className="text-green" href="https://oac.ohio.gov/">Ohio Arts Council</a>, and the <a className="text-green" href="https://www.gcac.org/">Greater Columbus Arts Council</a>.
+            The Columbus Folk Music Society gratefully acknowledges support from <a className="text-green hover:underline font-semibold" href="https://columbusfoundation.org/">The Columbus Foundation&apos;s Community Arts Fund</a> (with the assistance of the Ingram-White Castle Foundation), the <a className="text-green hover:underline font-semibold" href="https://oac.ohio.gov/">Ohio Arts Council</a>, and the <a className="text-green hover:underline font-semibold" href="https://www.gcac.org/">Greater Columbus Arts Council</a>.
           </p>
           <div className="mx-auto max-w-4xl">
             <Image src="/mainsponsors.png" alt="Sponsors" width={800} height={600} />

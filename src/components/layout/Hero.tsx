@@ -9,7 +9,7 @@ interface HeroProps {
 
 export function Hero({ title, subtitle, subtitle2, imageURL, buttonText, buttonLink}: HeroProps) {
     return (
-        <section className="relative py-24 md:py-32 bg-charcoal overflow-hidden shadow-xl">
+        <section className="relative py-24 md:py-32 bg-light-orange overflow-hidden shadow-xl">
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url('${imageURL}')` }}
