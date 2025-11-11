@@ -52,27 +52,27 @@ const Navbar: React.FC = () => {
 
     return (
         <header className="w-full">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center h-16">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+                <div className="flex justify-between items-center h-16">
 
                     {/* Logo/Brand (Now using green text) */}
-                    <h3 className="hidden sm:flex flex-shrink-0 font-heading text-2xl font-extrabold text-brown mr-8">
+                    <h3 className="flex flex-shrink-0 font-heading text-2xl font-extrabold text-brown">
                         Jump to:
                     </h3>
 
                     {/* Desktop Navigation Links */}
-                    <div className="hidden sm:flex sm:space-x-8">
+                    <div className="hidden lg:flex sm:space-x-8">
                         <NavLinks />
                     </div>
 
                     {/* Mobile Menu Button (Hamburger/X Icon) */}
-                    <div className="flex sm:hidden">
+                    <div className="flex lg:hidden">
                         <button
                             onClick={toggleMenu}
                             type="button"
-                            className="inline-flex items-center justify-center p-2 rounded-md text-green // Icon color is yellow
-                         hover:text-white hover:bg-white/20 // Hover changes icon to white and adds a slight hover background
-                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green transition duration-150"
+                            className="inline-flex items-center justify-center p-2 rounded-md text-brown
+                         hover:text-white hover:bg-white/20
+                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brown transition duration-150"
                             aria-expanded={isOpen}
                             aria-controls="mobile-menu"
                         >
@@ -86,11 +86,11 @@ const Navbar: React.FC = () => {
             {/* Mobile Menu Panel */}
             <div
                 id="mobile-menu"
-                className={`sm:hidden transition-all ease-in-out duration-300 overflow-hidden ${isOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
+                className={`lg:hidden transition-all ease-in-out duration-300 overflow-hidden ${isOpen ? 'max-h-85 opacity-100' : 'max-h-0 opacity-0'
                     }`}
             >
-                {/* Mobile menu panel now uses green with a yellow border separator */}
-                <div className="px-2 pt-2 pb-3 space-y-1">
+                {/* Mobile menu panel*/}
+                <div className="px-2 pt-2 space-y-1">
                     <NavLinks isMobile={true} />
                 </div>
             </div>
