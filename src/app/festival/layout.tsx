@@ -12,5 +12,9 @@ export default function FestivalLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+    </>
+  );
 }

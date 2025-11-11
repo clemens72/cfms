@@ -1,22 +1,23 @@
 import { Users, Megaphone, HelpCircle, Calendar, Clock, MapPin, User } from 'lucide-react';
 import Image from 'next/image';
+import NavBar from './NavBar';
 
 export default function FestivalPage() {
 
   // Helper component for uniform buttons
-  const FestivalButton = ({ children, color = 'bBlue', href = '#' }: { children: React.ReactNode, color?: 'bBlue' | 'coral-red' | 'bYellow', href?: string }) => (
+  const FestivalButton = ({ children, color = 'green', href = '#' }: { children: React.ReactNode, color?: 'green' | 'coral-red' | 'skyblue', href?: string }) => (
     <a href={href} className={`px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]
-      ${color === 'bBlue' ? 'bg-bBlue hover:bg-bBlue/90 text-white' : ''}
+      ${color === 'green' ? 'bg-green hover:bg-green/90 text-white' : ''}
       ${color === 'coral-red' ? 'bg-coral-red hover:bg-coral-red/90 text-white' : ''}
-      ${color === 'bYellow' ? 'bg-bYellow hover:bg-bYellow/90 text-charcoal' : ''}`.replace(/\s+/g, ' ')}>
+      ${color === 'skyblue' ? 'bg-skyblue hover:bg-skyblue/90 text-charcoal' : ''}`.replace(/\s+/g, ' ')}>
       {children}
     </a>
   );
 
   return (
-    <div className="min-h-screen bg-light-gray">
+    <div className="min-h-screen bg-light-brown">
       {/* Hero Section */}
-      <header className="relative py-24 md:py-32 bg-charcoal text-white overflow-hidden shadow-xl">
+      <header className="relative py-24 md:py-32 bg-charcoal overflow-hidden shadow-xl">
         {/* Background Image: Uses festival.jpg */}
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -27,14 +28,17 @@ export default function FestivalPage() {
            <div className="absolute inset-0 bg-charcoal opacity-40"></div>
         </div>
         <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-bYellow tracking-tight mb-4 animate-fadeInDown">
+          <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-light-orange tracking-tight mb-4 drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]"
+          >
             Central Ohio Folk Festival
           </h1>
-          <p className="text-xl md:text-2xl font-body text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl font-body text-white/90 mb-8 max-w-2xl drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] mx-auto">
             &quot;Two days of music, community, and tradition.&quot;
           </p>
         </div>
       </header>
+
+      <NavBar />
 
       {/* --- SECTION #2: Central Ohio Folk Festival Preview --- */}
       <section className="container mx-auto px-4 py-16">
@@ -60,23 +64,23 @@ export default function FestivalPage() {
             </div>
 
             {/* Playlist Links */}
-            <div className="flex items-center gap-4 border-t border-bBlue/30 pt-4">
+            <div className="flex items-center gap-4 border-t border-green/30 pt-4">
               <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
               <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
-                <Image src="/youtubemusic.png" alt="YouTube Music" width={100} height={32} />
+                <Image src="/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
               </a>
               <a href="#" aria-label="Spotify Playlist" className="transition transform hover:scale-110">
                 <Image src="/spotify.png" alt="YouTube Music" width={100} height={32} />
               </a>
               <a href="#" aria-label="Amazon Music Playlist" className="transition transform hover:scale-110">
-                <Image src="/amazonmusic.png" alt="YouTube Music" width={100} height={16} />
+                <Image src="/amazonmusic.png" alt="YouTube Music" width={60} height={16} />
               </a>
             </div>
           </div>
 
           {/* Right Column: Photo Placeholder */}
           <div
-            className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-cover bg-center border-4 border-bBlue"
+            className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-cover bg-center border-4 border-green"
             style={{ backgroundImage: "url('/Shindell.jpeg')" }}
           >
           </div>
@@ -85,7 +89,7 @@ export default function FestivalPage() {
       {/* --- END #2 SECTION --- */}
 
       {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
-      <section className="bg-bBlue py-16 text-white shadow-inner">
+      <section id="whatsnew" className="bg-green py-16 text-white shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             What&apos;s New for 2026
@@ -93,7 +97,7 @@ export default function FestivalPage() {
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
           </p>
-          <FestivalButton color="bYellow" href="#">
+          <FestivalButton color="skyblue" href="#">
             CHECK IT OUT
           </FestivalButton>
         </div>
@@ -101,11 +105,11 @@ export default function FestivalPage() {
       {/* --- END #3 SECTION --- */}
 
       {/* --- SECTION #4: Volunteer (Split with Image) --- */}
-      <section className="container mx-auto px-4 py-16">
+      <section id="volunteer" className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text and Button */}
           <div>
-            <div className="flex items-center gap-3 mb-4 text-bBlue">
+            <div className="flex items-center gap-3 mb-4 text-green">
               <Users size={32} />
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
                 Volunteer
@@ -114,13 +118,13 @@ export default function FestivalPage() {
             <p className="font-body text-gray-700 mb-8 leading-relaxed">
               The Central Ohio Folk Festival is made possible by the dedicated work of volunteers. Join our vibrant community of volunteers, and be part of making the festival a success!
             </p>
-            <FestivalButton color="bBlue" href="#">
+            <FestivalButton color="green" href="#">
               BECOME A VOLUNTEER
             </FestivalButton>
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-bBlue bg-light-gray flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold md:order-last order-first">
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-green bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold md:order-last order-first">
             <span className="p-4 text-center">Volunteer Team Photo Placeholder (800x600)</span>
           </div>
         </div>
@@ -128,21 +132,21 @@ export default function FestivalPage() {
       {/* --- END #4 SECTION --- */}
 
       {/* --- SECTION #5: Festival Details (Full Width) --- */}
-      <section className="bg-bBlue py-20 text-white">
+      <section id="details" className="bg-brown py-20 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-bYellow mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-skyblue mb-4">
               Festival Details
             </h2>
-            <p className="text-xl font-body max-w-4xl mx-auto text-white/80">
+            <p className="text-xl font-body max-w-4xl mx-auto text-skyblue/80">
               The festival runs rain or shine! Bicentennial Park offers ample green space and paved walkways. Bring blankets or low chairs. Food, non-alcoholic drinks, and artisan vendors will be on-site throughout the weekend. We are committed to accessibility for everyone.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
             {/* Card 1 */}
-            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
-                <Calendar className="text-bYellow" size={28} />
+            <div className="bg-white rounded-xl p-6 border border-skyblue/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
+                <Calendar className="text-skyblue" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
@@ -150,9 +154,9 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
-                <Clock className="text-bYellow" size={28} />
+            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
+                <Clock className="text-skyblue" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
@@ -160,9 +164,9 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
-                <MapPin className="text-bYellow" size={28} />
+            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
+                <MapPin className="text-skyblue" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
@@ -173,9 +177,9 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 4 */}
-            <div className="bg-white rounded-xl p-6 border border-bBlue/30 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-bBlue flex items-center justify-center">
-                <User className="text-bYellow" size={28} />
+            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
+                <User className="text-skyblue" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
@@ -195,7 +199,7 @@ export default function FestivalPage() {
       {/* --- END #5 SECTION --- */}
 
       {/* --- SECTION #6: Other Festival Happenings (Split with Image) --- */}
-      <section className="container mx-auto px-4 py-16">
+      <section id="activities" className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text and Buttons */}
           <div className="md:order-last">
@@ -216,7 +220,7 @@ export default function FestivalPage() {
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-bBlue bg-light-gray flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-green bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
             <span className="p-4 text-center">Workshop/Activity Photo Placeholder (800x600)</span>
           </div>
         </div>
@@ -224,9 +228,9 @@ export default function FestivalPage() {
       {/* --- END #6 SECTION --- */}
 
       {/* --- SECTION #7: Inquiries / Apply --- */}
-      <section className="container mx-auto px-4 py-16">
+      <section id="inquiries" className="container mx-auto px-4 py-16">
         <div className="text-center mb-10">
-          <div className="flex items-center justify-center gap-3 mb-4 text-bBlue">
+          <div className="flex items-center justify-center gap-3 mb-4 text-green">
             <Megaphone size={32} />
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
               Inquiries / Apply
@@ -238,7 +242,7 @@ export default function FestivalPage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists & Performers</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton>2026 Performer/Presenter Apply</FestivalButton>
@@ -247,14 +251,14 @@ export default function FestivalPage() {
               <FestivalButton>2026 Singer-Songwriter Contest</FestivalButton>
             </div>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton>Food Truck Inquiries</FestivalButton>
               <FestivalButton>Vendor Applications</FestivalButton>
             </div>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-bBlue">
+          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton>Other Questions</FestivalButton>
@@ -265,7 +269,7 @@ export default function FestivalPage() {
       {/* --- END #7 SECTION --- */}
 
       {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
-      <section className="bg-bBlue py-12 text-white text-center">
+      <section id="donate" className="bg-green py-12 text-white text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Help Us Move It Forward
@@ -274,18 +278,18 @@ export default function FestivalPage() {
             Interested in promoting our event or donating?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton color="bYellow">Sponsors</FestivalButton>
-            <FestivalButton color="bYellow">2025 Press</FestivalButton>
-            <FestivalButton color="bYellow">Donate</FestivalButton>
+            <FestivalButton color="skyblue">Sponsors</FestivalButton>
+            <FestivalButton color="skyblue">2025 Press</FestivalButton>
+            <FestivalButton color="skyblue">Donate</FestivalButton>
           </div>
         </div>
       </section>
       {/* --- END #8 SECTION --- */}
 
       {/* --- SECTION #9: Getting Here & FAQ --- */}
-      <section className="container mx-auto px-4 py-12">
+      <section id="faq" className="container mx-auto px-4 py-12">
         <div className="text-center">
-          <div className="flex items-center justify-center gap-3 mb-4 text-bBlue">
+          <div className="flex items-center justify-center gap-3 mb-4 text-green">
             <HelpCircle size={32} />
             <h2 className="text-3xl font-heading font-bold text-charcoal">
               Getting Here & FAQ
@@ -304,7 +308,7 @@ export default function FestivalPage() {
       {/* --- END #9 SECTION --- */}
 
       {/* --- SECTION #10: Festival History & Photos --- */}
-      <section className="bg-light-gray py-12">
+      <section id="history" className="bg-light-brown py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold text-charcoal mb-4">
             Festival History & Photos

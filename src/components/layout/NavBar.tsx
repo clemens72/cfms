@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
           href={link.href}
           className={`
             text-lg font-body font-medium transition duration-200 
-            // Default text is bYellow, hover is bright white for contrast
-            text-bYellow hover:text-white
+            // Default text is green, hover is bright white for contrast
+            text-green hover:text-orange p-2
             ${isMobile 
-                ? 'py-2 px-3 block rounded-lg hover:bg-white/10' // Text remains bYellow, hover background is subtle white
+                ? 'py-2 px-3 block rounded-lg hover:bg-white/10'
                 : ''}
           `}
           onClick={isMobile ? toggleMenu : undefined}
@@ -46,13 +46,13 @@ const Navbar: React.FC = () => {
   const ToggleIcon: LucideIcon = isOpen ? X : Menu;
 
   return (
-    // Set background to solid bBlue and use a stronger shadow
-    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-light-gray">
+    // Set background to solid green and use a stronger shadow
+    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-light-brown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
-          {/* Logo/Brand (Now using bYellow text) */}
-          <a href="/" className="flex-shrink-0 font-heading text-2xl font-extrabold text-bYellow">
+          {/* Logo/Brand (Now using green text) */}
+          <a href="/" className="flex-shrink-0 font-heading text-2xl font-extrabold text-green">
             Columbus Folk Music Society
           </a>
 
@@ -66,9 +66,9 @@ const Navbar: React.FC = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-bYellow // Icon color is yellow
+              className="inline-flex items-center justify-center p-2 rounded-md text-green // Icon color is yellow
                          hover:text-white hover:bg-white/20 // Hover changes icon to white and adds a slight hover background
-                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-bYellow transition duration-150"
+                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green transition duration-150"
               aria-expanded={isOpen}
               aria-controls="mobile-menu"
             >
@@ -86,8 +86,8 @@ const Navbar: React.FC = () => {
           isOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        {/* Mobile menu panel now uses bBlue with a yellow border separator */}
-        <div className="px-2 pt-2 pb-3 space-y-1 bg-bBlue border-t border-bYellow/50">
+        {/* Mobile menu panel now uses green with a yellow border separator */}
+        <div className="px-2 pt-2 pb-3 space-y-1">
           <NavLinks isMobile={true} />
         </div>
       </div>

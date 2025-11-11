@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function Footer() {
   return (
-    <footer className="bg-muted py-12">
+    <footer className="bg-light-brown py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
@@ -15,13 +15,13 @@ export function Footer() {
                 height={40}
                 className="h-10 w-20 object-contain"
               />
-              <div className="font-serif">
-                <span className="font-bold text-xl text-primary">Columbus</span>
+              <div className="font-heading">
+                <span className="font-bold text-xl text-green">Columbus</span>
                 <br />
-                <span className="text-lg text-foreground/80">Folk Music Society</span>
+                <span className="text-lg text-brown">Folk Music Society</span>
               </div>
             </Link>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-charcoal/70 font-body">
               Preserving, promoting, and presenting folk music in central Ohio since 1985.
             </p>
             <div className="flex space-x-4">
@@ -29,30 +29,30 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-bold mb-4">Quick Links</h3>
+            <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/" className="text-brown hover:text-green transition-colors font-body">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/about" className="text-brown hover:text-green transition-colors font-body">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/events" className="text-brown hover:text-green transition-colors font-body">
                   Events
                 </Link>
               </li>
               <li>
-                <Link href="/festival" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/festival" className="text-brown hover:text-green transition-colors font-body">
                   Festival
                 </Link>
               </li>
               <li>
-                <Link href="/join-donate" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/join-donate" className="text-brown hover:text-green transition-colors font-body">
                   Join/Donate
                 </Link>
               </li>
@@ -60,30 +60,30 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-bold mb-4">More</h3>
+            <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">More</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/newsletter" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/newsletter" className="text-brown hover:text-green transition-colors font-body">
                   Newsletter
                 </Link>
               </li>
               <li>
-                <Link href="/outreach" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/outreach" className="text-brown hover:text-green transition-colors font-body">
                   Outreach
                 </Link>
               </li>
               <li>
-                <Link href="/links" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/links" className="text-brown hover:text-green transition-colors font-body">
                   Links
                 </Link>
               </li>
               <li>
-                <Link href="/about#contact" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/about#contact" className="text-brown hover:text-green transition-colors font-body">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/privacy-policy" className="text-brown hover:text-green transition-colors font-body">
                   Privacy Policy
                 </Link>
               </li>
@@ -91,18 +91,18 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-bold mb-4">Subscribe</h3>
-            <p className="text-sm text-muted-foreground mb-4">
+            <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">Subscribe</h3>
+            <p className="text-sm text-charcoal/70 mb-4 font-body">
               Stay updated with our newsletter for the latest events and news.
             </p>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center mt-4">
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-charcoal/70 font-body">
             © 2026 Columbus Folk Music Society. All rights reserved.
           </p>
-          <p className="text-sm text-muted-foreground mt-2 md:mt-0">
+          <p className="text-sm text-charcoal/70 mt-2 md:mt-0 font-body">
             A 501(c)(3) not-for-profit organization
           </p>
         </div>

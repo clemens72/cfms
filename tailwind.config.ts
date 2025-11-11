@@ -14,11 +14,13 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'bBlue': '#a08679',
-        'bYellow': '#62850a',
-        'charcoal': '#171717',
-        'light-gray': '#f5f4e1',
-        'coral-red': '#e95353',
+        'green': '#3f860a',
+        'orange': '#d24605',
+        'brown': '#a77010',
+        'charcoal': '#404040',
+        'light-orange': '#e68c47',
+        'light-brown': '#f6f5e2',
+        'skyblue': '#dbe9e3',
       },
       fontFamily: {
         'heading': ['var(--font-heading)', ...defaultTheme.fontFamily.sans],
