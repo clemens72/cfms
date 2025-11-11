@@ -1,6 +1,7 @@
 import { Users, Megaphone, HelpCircle, Calendar, Clock, MapPin, User } from 'lucide-react';
 import Image from 'next/image';
 import NavBar from './NavBar';
+import { Hero } from '@/components/layout/Hero';
 
 export default function FestivalPage() {
 
@@ -16,27 +17,11 @@ export default function FestivalPage() {
 
   return (
     <div className="min-h-screen bg-light-brown">
-      {/* Hero Section */}
-      <header className="relative py-24 md:py-32 bg-charcoal overflow-hidden shadow-xl">
-        {/* Background Image: Uses festival.jpg */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/festival.jpg')" }}
-          role="img"
-          aria-label="A shot of the 2025 Columbus Folk Music Festival."
-        >
-           <div className="absolute inset-0 bg-charcoal opacity-40"></div>
-        </div>
-        <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-light-orange tracking-tight mb-4 drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]"
-          >
-            Central Ohio Folk Festival
-          </h1>
-          <p className="text-xl md:text-2xl font-body text-white/90 mb-8 max-w-2xl drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)] mx-auto">
-            &quot;Two days of music, community, and tradition.&quot;
-          </p>
-        </div>
-      </header>
+      <Hero 
+        title="Central Ohio Folk Festival"
+        subtitle="Two days of music, community, and tradition"
+        imageURL="/festival.jpg"
+      />
 
       <NavBar />
 
