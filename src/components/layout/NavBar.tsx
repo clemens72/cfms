@@ -12,6 +12,8 @@ const navLinks: NavItem[] = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Festival', href: '/festival' },
+  { name: 'Outreach', href: '/outreach' },
+  { name: 'Newsletter', href: '/newsletter' },
   { name: 'Contact', href: '/contact' },
 ];
 

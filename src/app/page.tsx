@@ -6,16 +6,16 @@ export default function Homepage() {
     <div className="min-h-screen bg-light-brown">
 
       <Hero
-        title="Next Concert: Holler Choir"
-        subtitle="Saturday, November 22nd, 7pm"
+        title="Next Concert: The Montvales"
+        subtitle="Saturday, January 24th, 7pm"
         subtitle2="The Columbus Mennonite Church"
-        imageURL="/HollerChoir.jpg"
+        imageURL="/TheMontvales.png"
         buttonText="Info and Tickets"
         buttonLink="/events"
       />
 
       {/* What's New Section */}
-      <section id="whatsnew" className="bg-green py-16 text-white shadow-inner">
+      {/* <section id="whatsnew" className="bg-green py-16 text-white shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             Singer-Songwriter Competition
@@ -27,7 +27,7 @@ export default function Homepage() {
             LEARN MORE
           </button>
         </div>
-      </section>
+      </section> */}
 
       {/* Pages Section */}
       <section id="pages" className="container mx-auto px-4 py-16">

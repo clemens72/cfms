@@ -54,6 +54,12 @@ export default function AboutPage() {
                         <p className="font-body text-gray-700 leading-relaxed">
                             Our diversity is what makes our Society a strong, local touchstone. We welcome everyone with respect. In this way, we encourage the broadening of folk art knowledge, its performance, preservation and public awareness.
                         </p>
+                        <a
+                            href="/about/leadership"
+                            className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                        >
+                            Board Members and Leadership
+                        </a>
                     </div>
 
                     {/* Card 4: Diversity Statement */}
@@ -76,6 +82,12 @@ export default function AboutPage() {
                         <p className="font-body text-gray-700 leading-relaxed">
                             We also receive other foundation and local corporate support as well as work with various service groups in Central Ohio. This allows us to fulfill our mission of expanding awareness of and appreciation for the folk arts in Central Ohio.
                         </p>
+                        <a
+                            href="/CFMS_BYLAWS_REV6.1.24.pdf"
+                            className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                        >
+                            CFMS ByLaws
+                        </a>
                     </div>
 
                     {/* Card 6: How We Got Started */}
