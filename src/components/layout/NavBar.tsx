@@ -9,9 +9,10 @@ interface NavItem {
 }
 
 const navLinks: NavItem[] = [
-  { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
+  { name: 'Events', href: '/events' },
   { name: 'Festival', href: '/festival' },
+  { name: 'Members', href: '/members' },
   { name: 'Outreach', href: '/outreach' },
   { name: 'Newsletter', href: '/newsletter' },
   { name: 'Contact', href: '/contact' },
@@ -26,7 +27,7 @@ const Navbar: React.FC = () => {
 
   // Helper component for the navigation links
   const NavLinks: React.FC<{ isMobile?: boolean }> = ({ isMobile = false }) => (
-    <nav className={isMobile ? 'flex flex-col space-y-4' : 'hidden sm:flex sm:space-x-8'}>
+    <nav className={isMobile ? 'flex flex-col space-y-4' : 'hidden md:flex md:space-x-8'}>
       {navLinks.map((link) => (
         <a
           key={link.name}
@@ -53,7 +54,7 @@ const Navbar: React.FC = () => {
   return (
     // Set background to solid green and use a stronger shadow
     <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-light-brown">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
           {/* Logo/Brand (Now using green text) */}
@@ -65,19 +66,19 @@ const Navbar: React.FC = () => {
               height={60}
               className="h-12 w-12 object-contain transition-transform duration-200 group-hover:scale-105"
             />
-            <div className="hidden md:flex flex-col leading-tight">
+            <div className="hidden xl:flex flex-col leading-tight">
               <span className="font-heading text-xl font-bold text-green">Columbus Folk Music Society</span>
             </div>
-            <span className="md:hidden font-heading text-lg font-bold text-green">CFMS</span>
+            <span className="xl:hidden font-heading text-lg font-bold text-green">CFMS</span>
           </a>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <div className="hidden md:ml-6 md:flex md:space-x-8">
             <NavLinks />
           </div>
 
           {/* Mobile Menu Button (Hamburger/X Icon) */}
-          <div className="flex sm:hidden">
+          <div className="flex md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
@@ -97,7 +98,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu Panel */}
       <div
         id="mobile-menu"
-        className={`sm:hidden transition-all ease-in-out duration-300 overflow-hidden ${
+        className={`md:hidden transition-all ease-in-out duration-300 overflow-hidden ${
           isOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
