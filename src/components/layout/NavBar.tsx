@@ -13,8 +13,7 @@ const navLinks: NavItem[] = [
   { name: 'Events', href: '/events' },
   { name: 'Festival', href: '/festival' },
   { name: 'Members', href: '/members' },
-  { name: 'Outreach', href: '/outreach' },
-  { name: 'Newsletter', href: '/newsletter' },
+  { name: 'Links', href: '/links' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -34,7 +33,6 @@ const Navbar: React.FC = () => {
           href={link.href}
           className={`
             text-lg font-body font-medium transition duration-200 
-            // Default text is green, hover is bright white for contrast
             text-green hover:text-orange p-2
             ${isMobile 
                 ? 'py-2 px-3 block rounded-lg hover:bg-white/10'
@@ -82,8 +80,8 @@ const Navbar: React.FC = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-green // Icon color is yellow
-                         hover:text-white hover:bg-white/20 // Hover changes icon to white and adds a slight hover background
+              className="inline-flex items-center justify-center p-2 rounded-md text-green
+                         hover:text-white hover:bg-white/20
                          focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green transition duration-150"
               aria-expanded={isOpen}
               aria-controls="mobile-menu"
@@ -99,7 +97,7 @@ const Navbar: React.FC = () => {
       <div
         id="mobile-menu"
         className={`md:hidden transition-all ease-in-out duration-300 overflow-hidden ${
-          isOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
+          isOpen ? 'max-h-100 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
         {/* Mobile menu panel now uses green with a yellow border separator */}

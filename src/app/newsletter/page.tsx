@@ -28,7 +28,7 @@ export default function NewsletterPage() {
                         <p className="text-gray-700 mb-8 leading-relaxed">
                             You can also view past editions of our newsletter in the archive section.
                         </p>
-                        <div className="space-x-4">
+                        <div className="space-x-4 space-y-2">
                             <a
                                 href="/newsletter/DecJan2025.pdf"
                                 className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
@@ -41,12 +41,17 @@ export default function NewsletterPage() {
                             >
                                 Subscribe
                             </a>
-                            
                             <a
                                 href="/contact"
                                 className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                             >
                                 Suggestions
+                            </a>
+                            <a
+                                href="/members/newsletter"
+                                className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                            >
+                                Hardcopy Request
                             </a>
                         </div>
                     </div>

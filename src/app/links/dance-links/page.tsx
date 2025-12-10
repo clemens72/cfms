@@ -1,0 +1,60 @@
+export default function DanceLinksPage() {
+    return (
+        <div className="min-h-screen bg-light-brown">
+            <section className="container mx-auto px-4 py-16">
+                <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                    {/* Dance Organizations */}
+                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">
+                            Dance Organizations
+                        </h2>
+                        <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
+                            <li><a href='http://www.cincinnaticontradance.org/index.htm' className='text-green hover:text-brown transition-colors font-medium'>Cincinnati Contradance</a></li>
+                            <li><a href='http://www.neohiocontradance.org/index.html' className='text-green hover:text-brown transition-colors font-medium'>Northeast Ohio Contradance & Traditional Dance Community</a></li>
+                            <li><a href='http://www.recfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-medium'>Recreational Folk Dancers of Columbus</a></li>
+                        </ul>
+                    </div>
+
+                    {/* Individual Dance Sites */}
+                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">
+                            Individual Dance Sites
+                        </h2>
+                        <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
+                            <li><a href='http://www.firstuucolumbus.org/our-community/dancing-events' className='text-green hover:text-brown transition-colors font-medium'>All Soles Columbus Contra Dance</a></li>
+                            <li><a href='http://www.bigscioty.com/' className='text-green hover:text-brown transition-colors font-medium'>Big Scioty Barn Dance</a></li>
+                            <li><a href='http://columbusfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-medium'>Columbus Folk Dancers</a></li>
+                            <li><a href='http://www.bigscioty.com/english.html' className='text-green hover:text-brown transition-colors font-medium'>English Country Dancers of Columbus</a></li>
+                            <li><a href='http://www.rscdscincinnati.org/HnT/render.php?page=body.html' className='text-green hover:text-brown transition-colors font-medium'>Heather &apos;N&apos; Thistle</a></li>
+                            <li><a href='http://recfolkdancecolumbus.org/Hillel.html' className='text-green hover:text-brown transition-colors font-medium'>Hillel International Folk Dancers</a></li>
+                            <li><a href='http://www.robertsnider.com/BalkanNight/' className='text-green hover:text-brown transition-colors font-medium'>Balkan Night Dance Parties</a></li>
+                            <li>Irish Country Set Dancers of Columbus<br />C/O: Sharron Coplin (coplin.2@osu.edu) </li>
+                            <li><a href='http://www.welshcountrydancers.org/' className='text-green hover:text-brown transition-colors font-medium'>Welsh Country Dancers</a></li>
+                            <li><a href='https://www.theaterseatstore.com/blog/square-dancing-guide' className='text-green hover:text-brown transition-colors font-medium'>Square Dancing Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+
+            {/* --- Contact Section --- */}
+            <section className="bg-green py-16 text-white shadow-inner">
+                <div className="container mx-auto px-4 text-center">
+                    <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
+                        Suggestions?
+                    </h2>
+                    <p className="text-xl font-body mb-8 max-w-3xl mx-auto">
+                        See our contact page to let us know if there are other links you&apos;d like to see here.
+                    </p>
+                    <a
+                        href="/contact"
+                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                    >
+                        Contact Page
+                    </a>
+                </div>
+            </section>
+        </div>
+    );
+}

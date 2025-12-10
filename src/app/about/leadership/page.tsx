@@ -1,16 +1,15 @@
-import { Hero } from '@/components/layout/Hero';
-
 export default function LeadershipPage() {
     return (
         <div className="min-h-screen bg-light-brown">
-            <Hero
-                title="Columbus Folk Music Society"
-                subtitle="Leadership and Trustees of 2025-2026"
-                imageURL="/leadership.jpg"
-            />
 
-            {/* ABOUT US SECTION */}
             <section className="container mx-auto px-4 py-16">
+                <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
+                    Columbus Folk Music Society
+                </h1>
+                <p className="text-lg font-body text-gray-700 mb-12 text-center max-w-3xl mx-auto">
+                    Leadership and Trustees of 2025-2026
+                </p>
+                
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Card 1: Columbus Folk Music Society */}
                     <div className="bg-white text-center p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">

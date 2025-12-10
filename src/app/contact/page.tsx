@@ -3,11 +3,12 @@ import { Hero } from '@/components/layout/Hero';
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-light-brown">
-        <Hero
-            title="Contact Us"
-            subtitle="Get in touch with the Columbus Folk Music Society"
-        /> 
+
         <section className="container mx-auto px-4 py-16">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-12 text-green text-center">
+                    Contact Us
+                </h1>
+
             <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
                 <h2 className="text-3xl font-heading font-bold mb-6 text-charcoal">We&apos;d Love to Hear From You</h2>
                 <p className="font-body text-gray-700 mb-4 leading-relaxed">

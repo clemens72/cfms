@@ -62,7 +62,7 @@ export default function Homepage() {
                 href="/festival" 
                 className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
-                Learn More
+                Festival Homepage
               </a>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Homepage() {
                 href="/newsletter" 
                 className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
-                Subscribe
+                View/Subscribe
               </a>
             </div>
           </div>
