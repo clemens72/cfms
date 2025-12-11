@@ -30,13 +30,13 @@ export default function FestivalPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text, Buttons, Icons */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-4">
               Central Ohio Folk Festival
             </h2>
-            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-2xl text-gray-700 mb-8 leading-relaxed">
               Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
             </p>
-            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-2xl text-gray-700 mb-8 leading-relaxed">
               In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
             </p>
 
@@ -64,11 +64,13 @@ export default function FestivalPage() {
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div
-            className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-cover bg-center border-4 border-green"
-            style={{ backgroundImage: "url('/festival/Shindell.jpeg')" }}
-          >
-          </div>
+          <Image
+            src="/festival/COFF2026-Collage.jpg"
+            alt="Central Ohio Folk Festival"
+            width={600}
+            height={400}
+            className="object-cover rounded-xl shadow-2xl border-4 border-green"         
+          />
         </div>
       </section>
       {/* --- END #2 SECTION --- */}
@@ -103,7 +105,7 @@ export default function FestivalPage() {
             <p className="font-body text-gray-700 mb-8 leading-relaxed">
               The Central Ohio Folk Festival is made possible by the dedicated work of volunteers. Join our vibrant community of volunteers, and be part of making the festival a success!
             </p>
-            <FestivalButton color="green" href="#">
+            <FestivalButton color="green" href="/festival/volunteer">
               BECOME A VOLUNTEER
             </FestivalButton>
           </div>
@@ -264,7 +266,7 @@ export default function FestivalPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton color="skyblue">Sponsors</FestivalButton>
-            <FestivalButton color="skyblue">2025 Press</FestivalButton>
+            <FestivalButton color="skyblue" href="/festival/press">2026 Press</FestivalButton>
             <FestivalButton color="skyblue">Donate</FestivalButton>
           </div>
         </div>
@@ -284,7 +286,7 @@ export default function FestivalPage() {
             Check out festival fast facts, maps and frequently asked questions.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton>Fast Facts</FestivalButton>
+            <FestivalButton href="/festival/FastFacts_COFF.REV11.1.25FINAL.pdf">Fast Facts</FestivalButton>
             <FestivalButton>Maps</FestivalButton>
             <FestivalButton>FAQ</FestivalButton>
           </div>
