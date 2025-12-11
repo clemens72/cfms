@@ -43,7 +43,7 @@ export default function FestivalPage() {
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
               <FestivalButton>Get Tickets</FestivalButton>
-              <FestivalButton href="/festival/headliner">2026 Headliner</FestivalButton>
+              <FestivalButton href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf">2026 Headliner</FestivalButton>
               <FestivalButton>2026 Lineup</FestivalButton>
               <FestivalButton>2026 Schedule</FestivalButton>
             </div>
