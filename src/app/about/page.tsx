@@ -6,7 +6,7 @@ export default function AboutPage() {
             <Hero
                 title="About Us"
                 subtitle="Learn more about the Columbus Folk Music Society"
-                imageURL="/about-us.jpg"
+                imageURL="/cfms-park-woodcut.png"
                 buttonText='Join or Renew Membership'
                 buttonLink='/join'
             />

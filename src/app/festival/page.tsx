@@ -20,7 +20,7 @@ export default function FestivalPage() {
       <Hero 
         title="Central Ohio Folk Festival"
         subtitle="Two days of music, community, and tradition"
-        imageURL="/festival.jpg"
+        imageURL="/festival/festival.jpg"
       />
 
       <NavBar />
@@ -52,13 +52,13 @@ export default function FestivalPage() {
             <div className="flex items-center gap-4 border-t border-green/30 pt-4">
               <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
               <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
-                <Image src="/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
+                <Image src="/festival/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
               </a>
               <a href="#" aria-label="Spotify Playlist" className="transition transform hover:scale-110">
-                <Image src="/spotify.png" alt="YouTube Music" width={100} height={32} />
+                <Image src="/festival/spotify.png" alt="YouTube Music" width={100} height={32} />
               </a>
               <a href="#" aria-label="Amazon Music Playlist" className="transition transform hover:scale-110">
-                <Image src="/amazonmusic.png" alt="YouTube Music" width={60} height={16} />
+                <Image src="/festival/amazonmusic.png" alt="YouTube Music" width={60} height={16} />
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function FestivalPage() {
           {/* Right Column: Photo Placeholder */}
           <div
             className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-cover bg-center border-4 border-green"
-            style={{ backgroundImage: "url('/Shindell.jpeg')" }}
+            style={{ backgroundImage: "url('/festival/Shindell.jpeg')" }}
           >
           </div>
         </div>
@@ -316,7 +316,7 @@ export default function FestivalPage() {
             {/* These are placeholder sponsor divs. In a real app, you would use <img> tags here. 
             <div className="w-24 h-12 bg-white rounded flex items-center justify-center text-xs text-charcoal font-bold"></div>*/}
             <div className="">
-              <Image src="/sponsors.jpg" alt="Sponsors" width={2000} height={800} />
+              <Image src="/festival/sponsors.jpg" alt="Sponsors" width={2000} height={800} />
             </div>
           </div>
         </div>

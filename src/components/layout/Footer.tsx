@@ -52,8 +52,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/join-donate" className="text-brown hover:text-green transition-colors font-body">
-                  Join/Donate
+                <Link href="/members" className="text-brown hover:text-green transition-colors font-body">
+                  Members
                 </Link>
               </li>
             </ul>
@@ -78,23 +78,18 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about#contact" className="text-brown hover:text-green transition-colors font-body">
+                <Link href="/contact" className="text-brown hover:text-green transition-colors font-body">
                   Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy-policy" className="text-brown hover:text-green transition-colors font-body">
-                  Privacy Policy
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">Subscribe</h3>
-            <p className="text-sm text-charcoal/70 mb-4 font-body">
-              Stay updated with our newsletter for the latest events and news.
-            </p>
+            <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">Donate</h3>
+            <Link href="/members/donate" className="text-brown hover:text-green transition-colors font-body">
+                  Donate Here
+                </Link>
           </div>
         </div>
 

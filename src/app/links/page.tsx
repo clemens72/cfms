@@ -30,6 +30,8 @@ export default function LinksPage() {
                     <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">                        
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">More Information</h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
+                            <li><a href='/newsletter' className='text-green hover:text-brown transition-colors font-medium'>A Different Strummer: Newsletter</a></li>
+                            <li><a href='/outreach' className='text-green hover:text-brown transition-colors font-medium'>Educational Outreach</a></li>
                             <li><a href='/outreach/kirby' className='text-green hover:text-brown transition-colors font-medium'>Kirby Scholarship</a></li>
                             <li><a href='/links/folk-orgs' className='text-green hover:text-brown transition-colors font-medium'>Folk Organizations</a></li>
                             <li><a href='/links/bands-performers' className='text-green hover:text-brown transition-colors font-medium'>Bands and Performers</a></li>

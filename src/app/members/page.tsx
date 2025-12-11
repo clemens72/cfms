@@ -1,17 +1,13 @@
-import { Hero } from '@/components/layout/Hero';
-
 export default function MembersPage() {
     return (
         <div className="min-h-screen bg-light-brown">
-            <Hero
-                title="Become a Member"
-                subtitle="Join the Columbus Folk Music Society Today"
-                imageURL="/members-hero.jpg"
-                buttonText="Join Today"
-                buttonLink="/members/join"
-            />
+
             {/* MEMBERSHIP BENEFITS SECTION */}
             <section className="container mx-auto px-4 py-16">
+                <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
+                    CFMS Members
+                </h1>
+
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4 text-green">
                         <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
@@ -21,6 +17,12 @@ export default function MembersPage() {
                     <p className="font-body text-gray-700 max-w-4xl mx-auto">
                         You&apos;re in the loop with CFMS&apos; happenings and special events, receive our monthly newsletter, get discounts at our monthly Americana/Folk Concert Series, AND join a vibrant community of fellow folk music enthusiasts!  Band membership includes promotional benefits: band listing on our website & other promotional perks.
                     </p>
+                    <a
+                        href="/members/join"
+                        className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                    >
+                        Join Today
+                    </a>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* Benefit Card 1 */}

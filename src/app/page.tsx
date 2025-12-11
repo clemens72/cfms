@@ -9,7 +9,7 @@ export default function Homepage() {
         title="Next Concert: The Montvales"
         subtitle="Saturday, January 24th, 7pm"
         subtitle2="The Columbus Mennonite Church"
-        imageURL="/TheMontvales.png"
+        imageURL="/events/TheMontvales.png"
         buttonText="Info and Tickets"
         buttonLink="/events"
       />
@@ -47,7 +47,7 @@ export default function Homepage() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
               <Image 
-                src="/03duo.jpg" 
+                src="/festival/03duo.jpg" 
                 alt="Central Ohio Folk Festival" 
                 fill
                 className="object-cover"
@@ -71,7 +71,7 @@ export default function Homepage() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
               <Image 
-                src="/07youth.jpg" 
+                src="/outreach/07youth.jpg" 
                 alt="Educational Outreach" 
                 fill
                 className="object-cover"
@@ -95,7 +95,7 @@ export default function Homepage() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
               <Image 
-                src="/newsletter.jpeg" 
+                src="/newsletter/newsletter.jpeg" 
                 alt="Monthly Newsletter" 
                 fill
                 className="object-cover"
@@ -127,7 +127,7 @@ export default function Homepage() {
             The Columbus Folk Music Society gratefully acknowledges support from <a className="text-green hover:underline font-semibold" href="https://columbusfoundation.org/">The Columbus Foundation&apos;s Community Arts Fund</a> (with the assistance of the Ingram-White Castle Foundation), the <a className="text-green hover:underline font-semibold" href="https://oac.ohio.gov/">Ohio Arts Council</a>, and the <a className="text-green hover:underline font-semibold" href="https://www.gcac.org/">Greater Columbus Arts Council</a>.
           </p>
           <div className="mx-auto max-w-4xl">
-            <Image src="/mainsponsors.png" alt="Sponsors" width={800} height={600} />
+            <Image src="/sponsors.png" alt="Sponsors" width={800} height={600} />
           </div>
         </div>
       </section>

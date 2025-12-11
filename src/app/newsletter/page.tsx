@@ -6,7 +6,7 @@ export default function NewsletterPage() {
             <section className="container mx-auto px-4 py-16">
                 <div className="w-4/5 mx-auto mb-12">
                     <Image
-                        src="/newsletter.jpeg"
+                        src="/newsletter/newsletter.jpeg"
                         alt="Monthly Newsletter"
                         width={800}
                         height={400}
