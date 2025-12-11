@@ -72,6 +72,7 @@ export default function MembersPage() {
                             </p>
                             <a
                                 href="/members/half-sheet-cfms-membrshp-formrev12.3.22.pdf"
+                                target="_blank"
                                 className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                             >
                                 Print Form

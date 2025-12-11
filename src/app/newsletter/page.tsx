@@ -31,6 +31,7 @@ export default function NewsletterPage() {
                         <div className="space-x-4 space-y-2">
                             <a
                                 href="/newsletter/DecJan2025.pdf"
+                                target="_blank"
                                 className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                             >
                                 View Latest Newsletter
@@ -62,27 +63,27 @@ export default function NewsletterPage() {
                         </h3>
                         <ul className="list-none space-y-2 font-body text-gray-700">
                             <li>
-                                <a href="/newsletter/DecJan2025.pdf" className="text-green hover:text-brown transition-colors">
+                                <a href="/newsletter/DecJan2025.pdf" target="_blank" className="text-green hover:text-brown transition-colors">
                                     December 2025/January 2026
                                 </a>
                             </li>
                             <li>
-                                <a href="/newsletter/November2025.pdf" className="text-green hover:text-brown transition-colors">
+                                <a href="/newsletter/November2025.pdf" target="_blank" className="text-green hover:text-brown transition-colors">
                                     November 2025
                                 </a>
                             </li>
                             <li>
-                                <a href="/newsletter/October2025.pdf" className="text-green hover:text-brown transition-colors">
+                                <a href="/newsletter/October2025.pdf" target="_blank" className="text-green hover:text-brown transition-colors">
                                     October 2025
                                 </a>
                             </li>
                             <li>
-                                <a href="/newsletter/September2025.pdf" className="text-green hover:text-brown transition-colors">
+                                <a href="/newsletter/September2025.pdf" target="_blank" className="text-green hover:text-brown transition-colors">
                                     September 2025
                                 </a>
                             </li>
                             <li>
-                                <a href="/newsletter/JulAug2025.pdf" className="text-green hover:text-brown transition-colors">
+                                <a href="/newsletter/JulAug2025.pdf" target="_blank" className="text-green hover:text-brown transition-colors">
                                     July/August 2025
                                 </a>
                             </li>
