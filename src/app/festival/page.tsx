@@ -315,7 +315,7 @@ export default function FestivalPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton href="/festival/history">History</FestivalButton>
-            <FestivalButton href="/festival/press/photos">Links to Photos</FestivalButton>
+            <FestivalButton href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
           </div>
         </div>
       </section>
