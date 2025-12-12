@@ -44,8 +44,8 @@ export default function FestivalPage() {
             <div className="flex flex-wrap gap-3 mb-8">
               <FestivalButton>Get Tickets</FestivalButton>
               <FestivalButton href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf">2026 Headliner</FestivalButton>
-              <FestivalButton>2026 Lineup</FestivalButton>
-              <FestivalButton>2026 Schedule</FestivalButton>
+              <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
+              <FestivalButton href="/festival/schedule">2026 Schedule</FestivalButton>
             </div>
 
             {/* Playlist Links */}
@@ -84,7 +84,7 @@ export default function FestivalPage() {
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
           </p>
-          <FestivalButton color="skyblue" href="#">
+          <FestivalButton color="skyblue" href="/festival/new">
             CHECK IT OUT
           </FestivalButton>
         </div>
@@ -199,10 +199,10 @@ export default function FestivalPage() {
 
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
-              <FestivalButton>2026 Lineup</FestivalButton>
-              <FestivalButton>2025 Workshops</FestivalButton>
-              <FestivalButton>Other Activities</FestivalButton>
-              <FestivalButton>Vendors</FestivalButton>
+              <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
+              <FestivalButton href="/festival/workshops">2026 Workshops</FestivalButton>
+              <FestivalButton href="/festival/activities">Other Activities</FestivalButton>
+              <FestivalButton href="/festival/vendors">Vendors</FestivalButton>
             </div>
           </div>
 
@@ -265,9 +265,9 @@ export default function FestivalPage() {
             Interested in promoting our event or donating?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton color="skyblue">Sponsors</FestivalButton>
+            <FestivalButton color="skyblue" href="/festival/sponsors">Sponsors</FestivalButton>
             <FestivalButton color="skyblue" href="/festival/press">2026 Press</FestivalButton>
-            <FestivalButton color="skyblue">Donate</FestivalButton>
+            <FestivalButton color="skyblue" href="/members/donate">Donate</FestivalButton>
           </div>
         </div>
       </section>
@@ -287,8 +287,8 @@ export default function FestivalPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton href="/festival/FastFacts_COFF.REV11.1.25FINAL.pdf">Fast Facts</FestivalButton>
-            <FestivalButton>Maps</FestivalButton>
-            <FestivalButton>FAQ</FestivalButton>
+            <FestivalButton href="/festival/maps-printables">Maps</FestivalButton>
+            <FestivalButton href="/festival/faq">FAQ</FestivalButton>
           </div>
         </div>
       </section>
@@ -304,8 +304,8 @@ export default function FestivalPage() {
             Curious about the festival&apos;s history? Do you want to view recent or past festival photos? Click the tabs below.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton>History</FestivalButton>
-            <FestivalButton>Links to Photos</FestivalButton>
+            <FestivalButton href="/festival/history">History</FestivalButton>
+            <FestivalButton href="/festival/press/photos">Links to Photos</FestivalButton>
           </div>
         </div>
       </section>
