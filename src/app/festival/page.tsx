@@ -17,7 +17,7 @@ export default function FestivalPage() {
 
   return (
     <div className="min-h-screen bg-light-brown">
-      <Hero 
+      <Hero
         title="Central Ohio Folk Festival"
         subtitle="Two days of music, community, and tradition"
         imageURL="/festival/festival.jpg"
@@ -30,13 +30,13 @@ export default function FestivalPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text, Buttons, Icons */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-charcoal mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
               Central Ohio Folk Festival
             </h2>
-            <p className="font-body text-2xl text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
               Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
             </p>
-            <p className="font-body text-2xl text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
               In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
             </p>
 
@@ -44,8 +44,8 @@ export default function FestivalPage() {
             <div className="flex flex-wrap gap-3 mb-8">
               <FestivalButton>Get Tickets</FestivalButton>
               <FestivalButton href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf">2026 Headliner</FestivalButton>
-              <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
-              <FestivalButton href="/festival/schedule">2026 Schedule</FestivalButton>
+              <FestivalButton href="/festival/lineup">2025 Lineup</FestivalButton>
+              <FestivalButton href="/festival/schedule">2025 Schedule</FestivalButton>
             </div>
 
             {/* Playlist Links */}
@@ -69,7 +69,7 @@ export default function FestivalPage() {
             alt="Central Ohio Folk Festival"
             width={600}
             height={400}
-            className="object-cover rounded-xl shadow-2xl border-4 border-green"         
+            className="object-cover rounded-xl shadow-2xl border-4 border-green"
           />
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function FestivalPage() {
                 Volunteer
               </h2>
             </div>
-            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
               The Central Ohio Folk Festival is made possible by the dedicated work of volunteers. Join our vibrant community of volunteers, and be part of making the festival a success!
             </p>
             <FestivalButton color="green" href="/festival/volunteer">
@@ -111,9 +111,13 @@ export default function FestivalPage() {
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-green bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold md:order-last order-first">
-            <span className="p-4 text-center">Volunteer Team Photo Placeholder (800x600)</span>
-          </div>
+          <Image
+            src="/festival/volunteers.jpg"
+            alt="Festival Volunteers"
+            width={800}
+            height={600}
+            className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl border-4 border-green md:order-last order-first"
+          />
         </div>
       </section>
       {/* --- END #4 SECTION --- */}
@@ -174,7 +178,7 @@ export default function FestivalPage() {
                   $10 pre-registration (18 and over)<br />
                   $15 onsite (18 and over)<br />
                   17 and under: Free<br />
-                  Staurday night headliner: preferred seating + $10<br />
+                  Saturday night headliner: preferred seating + $10<br />
                   &nbsp;&nbsp;Ticketing opens in early 2026<br />
                   &nbsp;&nbsp;All admission tickets cover BOTH days!
                 </p>
@@ -193,7 +197,7 @@ export default function FestivalPage() {
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
               Other Festival Happenings
             </h2>
-            <p className="font-body text-gray-700 mb-8 leading-relaxed">
+            <p className="text-xl font-body text-gray-700 mb-8 leading-relaxed">
               Explore everything the Central Ohio Folk Festival has to offer: our stage lineups, workshops, kids&apos; and youth activites, and more.
             </p>
 
@@ -208,7 +212,13 @@ export default function FestivalPage() {
 
           {/* Right Column: Photo Placeholder */}
           <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-green bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
-            <span className="p-4 text-center">Workshop/Activity Photo Placeholder (800x600)</span>
+            <Image
+              src="/festival/activities/drumcircle.jpg"
+              alt="Festival Workshops"
+              width={800}
+              height={600}
+              className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl border-4 border-green md:order-last order-first"
+            />
           </div>
         </div>
       </section>
@@ -223,7 +233,7 @@ export default function FestivalPage() {
               Inquiries / Apply
             </h2>
           </div>
-          <p className="font-body text-gray-700 max-w-4xl mx-auto">
+          <p className="text-xl font-body text-gray-700 max-w-4xl mx-auto">
             Visit our performer, workshop and singer-songwriter contest pages to find deadlines and other useful information when applying.
           </p>
         </div>
@@ -287,7 +297,7 @@ export default function FestivalPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton href="/festival/FastFacts_COFF.REV11.1.25FINAL.pdf">Fast Facts</FestivalButton>
-            <FestivalButton href="/festival/maps-printables">Maps</FestivalButton>
+            <FestivalButton href="/festival/maps-printables">Maps & Printables</FestivalButton>
             <FestivalButton href="/festival/faq">FAQ</FestivalButton>
           </div>
         </div>
