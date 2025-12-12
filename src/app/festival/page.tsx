@@ -43,10 +43,10 @@ export default function FestivalPage() {
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
               <span
-                        className="text-sm inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
-                    >
-                        Get Tickets (Coming Soon)
-                    </span>
+                className="text-sm inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
+              >
+                Get Tickets (Coming Soon)
+              </span>
               <a
                 href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf"
                 target="_blank"
@@ -152,7 +152,11 @@ export default function FestivalPage() {
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
-                <p className="font-body text-sm leading-relaxed">June 6th & 7th, 2026<br />Saturday and Sunday<br />ADD TO CALENDAR</p>
+                <p className="font-body text-sm leading-relaxed">
+                  June 6th & 7th, 2026<br />
+                  Saturday and Sunday<br />
+                  <a href="/festival/COFF2026.ics" className="text-green hover:text-orange">ADD TO CALENDAR</a>
+                </p>
               </div>
             </div>
             {/* Card 2 */}
