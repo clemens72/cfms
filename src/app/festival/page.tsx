@@ -6,9 +6,10 @@ import { Hero } from '@/components/layout/Hero';
 export default function FestivalPage() {
 
   // Helper component for uniform buttons
-  const FestivalButton = ({ children, color = 'green', href = '#' }: { children: React.ReactNode, color?: 'green' | 'coral-red' | 'skyblue', href?: string }) => (
+  const FestivalButton = ({ children, color = 'green', href = '#' }: { children: React.ReactNode, color?: 'green' | 'orange' | 'coral-red' | 'skyblue', href?: string }) => (
     <a href={href} className={`px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]
       ${color === 'green' ? 'bg-green hover:bg-green/90 text-white' : ''}
+      ${color === 'orange' ? 'bg-orange hover:bg-orange/90 text-white' : ''}
       ${color === 'coral-red' ? 'bg-coral-red hover:bg-coral-red/90 text-white' : ''}
       ${color === 'skyblue' ? 'bg-skyblue hover:bg-skyblue/90 text-charcoal' : ''}`.replace(/\s+/g, ' ')}>
       {children}
@@ -56,11 +57,11 @@ export default function FestivalPage() {
                 2026 Headliner
               </a>
               <FestivalButton href="/festival/lineup">2026 Lineup (TBA)</FestivalButton>
-              <FestivalButton href="/festival/schedule">2025 Schedule</FestivalButton>
+              <FestivalButton color="orange" href="/festival/schedule">2025 Schedule</FestivalButton>
             </div>
 
             {/* Playlist Links */}
-            <div className="flex items-center gap-4 border-t border-green/30 pt-4">
+            <div className="flex items-center gap-4pt-4">
               <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
               <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
                 <Image src="/festival/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
@@ -80,7 +81,7 @@ export default function FestivalPage() {
             alt="Central Ohio Folk Festival"
             width={600}
             height={400}
-            className="object-cover rounded-xl shadow-2xl border-4 border-green"
+            className="object-cover rounded-xl shadow-2xl"
           />
         </div>
       </section>
@@ -127,7 +128,7 @@ export default function FestivalPage() {
             alt="Festival Volunteers"
             width={800}
             height={600}
-            className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl border-4 border-green md:order-last order-first"
+            className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl md:order-last order-first"
           />
         </div>
       </section>
@@ -146,7 +147,7 @@ export default function FestivalPage() {
           </div>
           <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
             {/* Card 1 */}
-            <div className="bg-white rounded-xl p-6 border border-skyblue/30 shadow-lg flex gap-5 text-charcoal">
+            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
               <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
                 <Calendar className="text-skyblue" size={28} />
               </div>
@@ -160,7 +161,7 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
               <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
                 <Clock className="text-skyblue" size={28} />
               </div>
@@ -170,7 +171,7 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
               <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
                 <MapPin className="text-skyblue" size={28} />
               </div>
@@ -183,7 +184,7 @@ export default function FestivalPage() {
               </div>
             </div>
             {/* Card 4 */}
-            <div className="bg-white rounded-xl p-6 border border-brown/30 shadow-lg flex gap-5 text-charcoal">
+            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
               <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
                 <User className="text-skyblue" size={28} />
               </div>
@@ -226,13 +227,13 @@ export default function FestivalPage() {
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl border-4 border-green bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
             <Image
               src="/festival/activities/drumcircle.jpg"
               alt="Festival Workshops"
               width={800}
               height={600}
-              className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl border-4 border-green md:order-last order-first"
+              className="h-64 md:h-96 w-full rounded-xl object-cover shadow-2xl md:order-last order-first"
             />
           </div>
         </div>
@@ -254,7 +255,7 @@ export default function FestivalPage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
+          <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists & Performers</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton>2026 Performer/Presenter Apply</FestivalButton>
@@ -263,14 +264,14 @@ export default function FestivalPage() {
               <FestivalButton href="/festival/performers/songwritercontest">2026 Singer-Songwriter Contest</FestivalButton>
             </div>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
+          <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton href="/contact">Food Truck Inquiries</FestivalButton>
               <FestivalButton>Vendor Applications</FestivalButton>
             </div>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
+          <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
             <div className="flex flex-wrap gap-2">
               <FestivalButton href="/contact">Other Questions</FestivalButton>
@@ -329,7 +330,14 @@ export default function FestivalPage() {
             Curious about the festival&apos;s history? Do you want to view recent or past festival photos? Click the tabs below.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton href="/festival/history">History</FestivalButton>
+            <a
+                href="/festival/history/Brief_COFF_BDC_HistoryREV11.3.25FINAL.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
+              >
+                History
+              </a>
             <FestivalButton href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
           </div>
         </div>

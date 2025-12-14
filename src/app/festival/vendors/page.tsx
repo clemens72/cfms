@@ -13,7 +13,7 @@ export default function ActivitiesPage() {
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 
                         <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
                             Artisan Vendors
@@ -41,7 +41,7 @@ export default function ActivitiesPage() {
                             className="object-cover rounded-xl shadow-lg"
                         />
                     </div>
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
                             Food Vendors
                         </h2>

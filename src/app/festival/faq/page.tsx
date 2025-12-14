@@ -14,7 +14,7 @@ export default function FAQPage() {
             <section className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto space-y-8">
                     {/* TICKETS Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 TICKETS
@@ -89,7 +89,7 @@ export default function FAQPage() {
                     </div>
 
                     {/* VENUE / PARKING Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 VENUE / PARKING
@@ -165,7 +165,7 @@ export default function FAQPage() {
                     </div>
 
                     {/* MAPS/SCHEDULES Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 MAPS / SCHEDULES
@@ -225,7 +225,7 @@ export default function FAQPage() {
                     </div>
 
                     {/* WHAT TO BRING Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 WHAT TO BRING
@@ -284,7 +284,7 @@ export default function FAQPage() {
                     </div>
 
                     {/* OTHER AMENITIES Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 OTHER AMENITIES
@@ -352,9 +352,8 @@ export default function FAQPage() {
                     </div>
 
                     {/* MORE QUESTIONS Section */}
-                    <div className="bg-white p-8 rounded-xl shadow-lg border-l-4 border-green">
+                    <div className="bg-white p-8 rounded-xl shadow-lg">
                         <div className="flex items-center gap-3 mb-6">
-                            <span className="text-3xl">❓</span>
                             <h2 className="text-3xl font-heading font-bold text-green">
                                 More Questions?
                             </h2>
