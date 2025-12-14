@@ -259,21 +259,21 @@ export default function FestivalPage() {
             <div className="flex flex-wrap gap-2">
               <FestivalButton>2026 Performer/Presenter Apply</FestivalButton>
               <FestivalButton>Performing Questions</FestivalButton>
-              <FestivalButton>Agent Inquiries</FestivalButton>
-              <FestivalButton>2026 Singer-Songwriter Contest</FestivalButton>
+              <FestivalButton href="/contact">Agent Inquiries</FestivalButton>
+              <FestivalButton href="/festival/performers/songwritercontest">2026 Singer-Songwriter Contest</FestivalButton>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
             <div className="flex flex-wrap gap-2">
-              <FestivalButton>Food Truck Inquiries</FestivalButton>
+              <FestivalButton href="/contact">Food Truck Inquiries</FestivalButton>
               <FestivalButton>Vendor Applications</FestivalButton>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg border-t-4 border-green">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
             <div className="flex flex-wrap gap-2">
-              <FestivalButton>Other Questions</FestivalButton>
+              <FestivalButton href="/contact">Other Questions</FestivalButton>
             </div>
           </div>
         </div>
@@ -292,7 +292,7 @@ export default function FestivalPage() {
           <div className="flex flex-wrap justify-center gap-3">
             <FestivalButton color="skyblue" href="/festival/sponsors">Sponsors</FestivalButton>
             <FestivalButton color="skyblue" href="/festival/press">2026 Press</FestivalButton>
-            <FestivalButton color="skyblue" href="/members/donate">Donate</FestivalButton>
+            <FestivalButton color="skyblue" href="/donate">Donate</FestivalButton>
           </div>
         </div>
       </section>

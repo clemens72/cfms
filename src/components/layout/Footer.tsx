@@ -87,7 +87,7 @@ export function Footer() {
 
           <div>
             <h3 className="font-heading text-lg font-bold mb-4 text-charcoal">Donate</h3>
-            <Link href="/members/donate" className="text-brown hover:text-green transition-colors font-body">
+            <Link href="/donate" className="text-brown hover:text-green transition-colors font-body">
                   Donate Here
                 </Link>
           </div>

@@ -55,7 +55,7 @@ export default function MembersPage() {
                                     View/Subscribe
                                 </a>
                                 <a
-                                    href="/members/newsletter"
+                                    href="/newsletter/request"
                                     className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                                 >
                                     Request Hardcopy
