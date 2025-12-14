@@ -28,17 +28,22 @@ export default function JoinPage() {
                             <input type="email" id="email" name="email" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
                         </div>
                         <div>
-                            <label htmlFor="address" className="block text-sm font-medium text-charcoal">Address</label>
-                            <input type="text" id="address" name="address" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
-                        </div>
-                        <div>
-                            <label htmlFor="membershipType" className="block text-sm font-medium text-charcoal">Membership Type</label>
-                            <select id="membershipType" name="membershipType" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required>
-                                <option value="individual">Individual - $25</option>
-                                <option value="family">Family - $40</option>
-                                <option value="band">Band - $50</option>
-                                <option value="supporting">Supporting - $100</option>
-                                <option value="sustaining">Sustaining - $250</option>
+                            <label htmlFor="membershipLevel" className="block text-sm font-medium text-charcoal">Membership Level *</label>
+                            <select 
+                                id="membershipLevel" 
+                                name="membershipLevel" 
+                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" 
+                                required
+                            >
+                                <option value="">Select a membership level</option>
+                                <option value="individual">Individual ($20)</option>
+                                <option value="household">Household ($25)</option>
+                                <option value="band">Band ($25)</option>
+                                <option value="goodfriend">Good Friend ($50)</option>
+                                <option value="sponsor">Sponsor ($100)</option>
+                                <option value="patron">Patron ($200)</option>
+                                <option value="silver">Silver ($250)</option>
+                                <option value="gold">Gold [Life Member] ($500)</option>
                             </select>
                         </div>
                         <div>

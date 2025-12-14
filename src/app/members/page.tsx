@@ -19,9 +19,16 @@ export default function MembersPage() {
                     </p>
                     <a
                         href="/members/join"
-                        className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                        className="inline-block mt-4 px-6 py-3 mr-4 my-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Join Today
+                    </a>
+                    
+                    <a
+                        href="/donate"
+                        className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                    >
+                        Donate
                     </a>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
