@@ -25,7 +25,7 @@ export default function MapsPrintablesPage() {
                 </div>
                 <div className="max-w-5xl mx-auto space-y-8 bg-white p-8 rounded-lg shadow-lg">
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        Downloads will be available soon. Please check back later for updates.
+                        Downloads will be available approximately one month before festival. 
                     </p>
                 </div>
             </section>

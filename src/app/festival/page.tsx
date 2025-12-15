@@ -19,7 +19,8 @@ export default function FestivalPage() {
     <div className="min-h-screen bg-bg-brown">
       <Hero
         title="Central Ohio Folk Festival"
-        subtitle="Two days of music, community, and tradition"
+        subtitle="Roots acoustic music at its best!"
+        subtitle2='A two day celebration of music and community'
         imageURL="/festival/festival.jpg"
       />
 
@@ -31,7 +32,7 @@ export default function FestivalPage() {
           {/* Left Column: Text, Buttons, Icons */}
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
-              Central Ohio Folk Festival
+              Annual Central Ohio Folk Festival
             </h2>
             <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
               Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
@@ -141,7 +142,7 @@ export default function FestivalPage() {
               Festival Details
             </h2>
             <p className="text-xl font-body max-w-4xl mx-auto text-charcoal">
-              The festival runs rain or shine! Bicentennial Park offers ample green space and paved walkways. Bring blankets or low chairs. Food, non-alcoholic drinks, and artisan vendors will be on-site throughout the weekend. We are committed to accessibility for everyone.
+              The festival attracts more than 12,000 over the two days from Central Ohio and beyond, yet retains an attractive smaller community vibe.  Bank Run Metro Park offers plenty of parking (including handicapped), ample green space, and paved paths traversing the grounds. With the exception of the main outdoor stage, all stages are inside tents, with seating provided. Feel free to bring blankets and lawn chairs. The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
@@ -190,12 +191,12 @@ export default function FestivalPage() {
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
                 <p className="font-body text-sm leading-relaxed">
-                  $10 pre-registration (18 and over)<br />
-                  $15 onsite (18 and over)<br />
-                  17 and under: Free<br />
-                  Saturday night headliner: preferred seating + $10<br />
-                  &nbsp;&nbsp;Ticketing opens in early 2026<br />
-                  &nbsp;&nbsp;All admission tickets cover BOTH days!
+                  $10 pre-registration (18+)  /  Pre-registration comes with perks (see FAQ details)<br />
+                  $15 onsite (18+)  / Under 18 free<br />
+                  Saturday night headliner:  preferred seating + $10<br />
+                  Admission tickets cover BOTH days!<br />
+                  Festival free entry window:  Sat & Sun - 10:30-11:30am<br />
+                  Ticket sales open in early 2026 at [LINK to GET TICKETS PAGE]
                 </p>
               </div>
             </div>
@@ -255,25 +256,25 @@ export default function FestivalPage() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-xl shadow-lg">
-            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists & Performers</h3>
+            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists / Performers / Presenters</h3>
             <div className="flex flex-wrap gap-2">
-              <FestivalButton>2026 Performer/Presenter Apply</FestivalButton>
-              <FestivalButton>Performing Questions</FestivalButton>
-              <FestivalButton href="/contact">Agent Inquiries</FestivalButton>
+              <FestivalButton>2027 Performer/Presenter Apply</FestivalButton>
+              <FestivalButton href="mailto:festival_booking@columbusfolkmusicsociety.org">Performing Questions</FestivalButton>
+              <FestivalButton href="mailto:festival_booking@columbusfolkmusicsociety.org">Agent Inquiries</FestivalButton>
               <FestivalButton href="/festival/performers/songwritercontest">2026 Singer-Songwriter Contest</FestivalButton>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
             <div className="flex flex-wrap gap-2">
-              <FestivalButton href="/contact">Food Truck Inquiries</FestivalButton>
-              <FestivalButton>Vendor Applications</FestivalButton>
+              <FestivalButton href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org">Food Truck Inquiries</FestivalButton>
+              <FestivalButton href="mailto:festivalvendorinquiry@columbusfolkmusicsociety.org">Artisan Vendor Applications</FestivalButton>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
             <div className="flex flex-wrap gap-2">
-              <FestivalButton href="/contact">Other Questions</FestivalButton>
+              <FestivalButton href="mailto:infofestival@columbusfolkmusicosociety.org">Other Questions</FestivalButton>
             </div>
           </div>
         </div>

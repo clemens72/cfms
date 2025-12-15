@@ -104,6 +104,10 @@ export default function VolunteerPage() {
                                         <span>Registration/Front Entrance</span>
                                     </label>
                                     <label className="flex items-start gap-2 font-body text-gray-700">
+                                        <input type="checkbox" name="areas" value="welcome-tent" className="mt-1" />
+                                        <span>Welcome/Info Tent</span>
+                                    </label>
+                                    <label className="flex items-start gap-2 font-body text-gray-700">
                                         <input type="checkbox" name="areas" value="festival-store" className="mt-1" />
                                         <span>Festival Store</span>
                                     </label>
@@ -125,7 +129,7 @@ export default function VolunteerPage() {
                                     </label>
                                     <label className="flex items-start gap-2 font-body text-gray-700">
                                         <input type="checkbox" name="areas" value="box-drum" className="mt-1" />
-                                        <span>Youth Box Drum Making</span>
+                                        <span>Youth Box Drum Making / other Youth Crafts</span>
                                     </label>
                                     <label className="flex items-start gap-2 font-body text-gray-700">
                                         <input type="checkbox" name="areas" value="beer-concessions" className="mt-1" />

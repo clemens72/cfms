@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export default function SchedulePage() {
+export default function WorkshopsPage() {
     return (
         <div className="min-h-screen bg-bg-brown">
 
-            <section className="container mx-auto px-4 py-16">
-                <div className="grid md:grid-cols-3 gap-8">
+            <section className="container mx-auto px-4">
+                <div className="grid md:grid-cols-3 gap-8 pt-16 pb-8">
                     <div className="mb-12 text-center space-x-4 space-y-2 max-w-3xl mx-auto">
                         <h3 className="text-2xl font-heading font-bold mb-4 text-charcoal">
                             Complete Workshop Listing:
@@ -56,16 +56,61 @@ export default function SchedulePage() {
                         </a>
                     </div>
                 </div>
+            </section>
 
-                <div className="max-w-7xl mx-auto space-y-8 p-8">
-                    <div className="relative w-full">
+            <section className="container mx-auto px-4">
+                <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+
+                        <h1 className="text-2xl md:text-3xl font-heading font-bold mb-4 text-center text-green">
+                            FESTIVAL WORKSHOPS
+                        </h1>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            The festival seeks to make the folk arts easily accessible to the public and to increase awareness and appreciation for the folk arts, especially music, storytelling and dance. It is also a teaching festival that offers a 30 workshops with something for everyone.
+                        </p>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            Workshops are 50 minutes long. There are three workshop tents and workshops are held every hour in each of those tents all during the day both Saturday and Sunday. Workshop presenters are either established teachers or festival artists who also have done workshops or are comfortable sharing what they know.
+                        </p>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            Anyone on the grounds can attend the workshops. If you are an experienced musician, curious about music in general, new to music, or trying out an instrument for the first time, there are workshops for all of that.
+                        </p>
+                    </div>
+                    <div className="relative h-64 md:h-auto">
                         <Image
-                            src="/festival/workshops/COFF_Workshop_TEMPLATEFor2026_4web.jpg"
-                            alt="COFF Workshop Template for 2026"
-                            width={1700}
-                            height={2200}
-                            className="w-full h-auto rounded-lg shadow-lg"
+                            src="/festival/activities/workshop2.jpg"
+                            alt="Kids' crafts activities"
+                            fill
+                            className="object-cover rounded-xl shadow-lg"
                         />
+                    </div>
+                    <div className="relative h-64 md:h-auto">
+                        <Image
+                            src="/festival/activities/workshop.jpg"
+                            alt="Kids' crafts activities"
+                            fill
+                            className="object-cover rounded-xl shadow-lg"
+                        />
+                    </div>
+                    
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            <b>Some workshops are tailored to the very beginner</b> with some loaner instruments available.
+                        </p>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            <b>Other workshops are tailored to Advanced Beginner, Intermediate, and Advanced</b> players and can cover a variety of instruments: guitar, fiddle, banjo, mandolin, dulcimer and more.
+                        </p>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            <b>There are thematic workshops</b> covering songwriting, arranging, how to play in a bluegrass jam, and more.
+                        </p>
+                        <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
+                            <b>For a listing of ALL workshops,</b> levels, descriptions, and presenters, click on the Complete Workshop Listing Tab. Please note that the previous year&apos;s workshop listing is posted until the 2026 workshop listing becomes available in early spring.
+                        </p>
+                        <blockquote className="mt-6 p-6 bg-gradient-to-r from-green/10 to-transparent border-l-4 border-green rounded-r-lg">
+                            <p className="text-lg font-body italic text-gray-700">
+                                &quot;The workshops were very informative and interactive.&quot;
+                            </p>
+                            <footer className="text-sm font-body text-gray-600 mt-2">— Festival attendee</footer>
+                        </blockquote>
                     </div>
                 </div>
             </section>

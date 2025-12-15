@@ -13,8 +13,9 @@ const navLinks: NavItem[] = [
     { name: "Details", href: '/festival#details' },
     { name: "Activities", href: '/festival#activities' },
     { name: "Inquiries/Apply", href: '/festival#inquiries' },
+    { name: "Press & Sponsors", href: '/festival#donate' },
     { name: "Donate", href: '/festival#donate' },
-    { name: "FAQ", href: '/festival#faq' },
+    { name: "FAQ & Maps", href: '/festival#faq' },
     { name: "History", href: '/festival#history' },
 ];
 
@@ -52,12 +53,12 @@ const Navbar: React.FC = () => {
 
     return (
         <header className="w-full">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
                     {/* Logo/Brand (Now using green text) */}
-                    <h3 className="flex flex-shrink-0 font-heading text-2xl font-extrabold text-brown">
-                        Jump to:
+                    <h3 className="flex flex-shrink-0 font-heading text-lg sm:text-xl md:text-2xl font-extrabold text-brown">
+                        Festival quick links:                        
                     </h3>
 
                     {/* Desktop Navigation Links */}

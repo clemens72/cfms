@@ -25,7 +25,7 @@ export default function ActivitiesPage() {
                             <li>Box frame drum making (12 & up)</li>
                             <li>Parade with festival mascot Darby Duck</li>
                             <li>Coloring station</li>
-                            <li>Participation in festival drum circles</li>
+                            <li>Participation in festival drum circles (separate location)</li>
                             <li>And more!</li>
                         </ul>
                         <p className="text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed">
