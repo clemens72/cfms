@@ -14,22 +14,31 @@ export default function PerformersPage() {
                     <p className="font-body text-gray-700 max-w-4xl mx-auto">
                         Interested in performing at the Central Ohio Folk Festival? Find all the information you need below.
                     </p>
+                    <p className="font-body text-gray-700 max-w-4xl mx-auto">
+                        THIS PAGE IS INCOMPLETE -Eric
+                    </p>
                 </div>
                 <div className="max-w-4xl mx-auto">
-                    <h3 className="text-2xl font-heading font-semibold mb-4 text-center text-brown mt-10">Performer Application</h3>
+                    <h3 className="text-2xl font-heading font-semibold mb-4 text-center text-brown mt-10">Performer Applications</h3>
+                    <h2>Application Deadlines</h2>
                     <p className="font-body text-xl mb-4 leading-relaxed">
-                        The Central Ohio Folk Festival is currently accepting performer applications for the 2026 festival, which will be held on June 6th, 2026 at the Clintonville Woman&apos;s Club in Columbus, Ohio. We are looking for talented folk, acoustic, and Americana musicians to join us for this exciting event.
+                        Kirby Main Stage & Showcase Stages: Oct 15<br />
+                        Singer-Songwriter Competition: Nov 30<br />
+                        Bailey Acoustic Stage: Dec 15<br />
+                        Workshops: Dec 15
                     </p>
-                    <p className="font-body text-xl mb-8 leading-relaxed">
-                        To apply, please fill out the performer application form available <a href="/festival/performers/application" className="text-green hover:underline">here</a>. The deadline for applications is March 1st, 2026. Selected performers will be notified by March 15th, 2026.
-                    </p>
-                    <h3 className="text-2xl font-heading font-semibold mb-4 text-center text-brown mt-10">Singer-Songwriter Competition</h3>
-                    <p className="font-body text-xl mb-4 leading-relaxed">
-                        We are excited to announce the first ever Singer-Songwriter Competition at the Central Ohio Folk Festival! This competition is open to all amateur singer-songwriters and provides a platform to showcase original songwriting talent.
-                    </p>
-                    <p className="font-body text-xl mb-8 leading-relaxed">
-                        For more information about the competition, including eligibility criteria and submission guidelines, please visit the <a href="/festival/performers/songwritercontest" className="text-green hover:underline">Singer-Songwriter Competition page</a>. The deadline to submit entries is November 30th, 2025.
-                    </p>
+                    <h2>Guidelines for Submission</h2>
+                    <ul className="list-disc list-inside mb-8">
+                        <li className="font-body text-xl mb-2 leading-relaxed">Please submit an application as the contact/representative for your band. The contact person would also get payment for disbursement to band members.</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">Please submit only ONE application for the stage category of your choice (stage descriptions below).</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">You may ALSO submit a separate workshop application even if you submit a stage application.</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">Please provide band description (stages) or workshop description (workshops) as you want it to appear in all programming materials should you be selected.</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">Please select ALL available time blocks you can be available (more availability is better).</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">All stages have dedicated sound engineers. You will be required to submit a stage plot if you are selected.</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">You will receive a copy of your submitted form. Please understand that submission of the form does not guarantee you will be selected.</li>
+                        <li className="font-body text-xl mb-2 leading-relaxed">Notification of selection normally occurs 30-45 days after application deadline has closed. The deadline for a Kirby Main / Showcase stage application is Oct 15. The deadline for a Bailey Acoustic Stage application is Dec 15.</li>
+                    </ul>
+                    <h3 className="text-2xl font-heading font-semibold mb-4 text-center text-brown mt-10">Festival stages / What we screen for</h3>
                 </div>
             </section>
         </div>
