@@ -61,7 +61,7 @@ export default function FestivalPage() {
             </div>
 
             {/* Playlist Links */}
-            <div className="flex items-center gap-4pt-4">
+            <div className="flex items-center space-x-4">
               <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
               <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
                 <Image src="/festival/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
@@ -149,6 +149,11 @@ export default function FestivalPage() {
               <p className="text-xl font-body text-charcoal leading-relaxed pr-12">
                 The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
               </p>
+              <span
+                className="text-md inline-block px-8 py-4 mt-8 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
+              >
+                Get Tickets (Available Early 2026)
+              </span>
             </div>
 
             {/* Right Column: Cards */}
@@ -203,7 +208,7 @@ export default function FestivalPage() {
                     Saturday night headliner:  preferred seating + $10<br />
                     Admission tickets cover BOTH days!<br />
                     Festival free entry window:  Sat & Sun - 10:30-11:30am<br />
-                    Ticket sales open in early 2026 at [LINK to GET TICKETS PAGE]
+                    Ticket sales open in early 2026
                   </p>
                 </div>
               </div>
