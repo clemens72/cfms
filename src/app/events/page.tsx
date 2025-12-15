@@ -120,8 +120,8 @@ export default function EventsPage() {
                         </div>
 
                         <div className="p-6">
-                            <h3 className="text-2xl font-heading font-semibold mb-3 text-black">The Columbus Folk Music Society gratefully acknowledges support from the Greater Columbus Arts Council  www.gcac.org for its Americana/Folk Concert Series.</h3>
-                            <p className="font-body text-black mb-4 mt-10 leading-relaxed">
+                            <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Columbus Folk Music Society gratefully acknowledges support from the Greater Columbus Arts Council  www.gcac.org for its Americana/Folk Concert Series.</h3>
+                            <p className="font-body text-charcoal mb-4 mt-10 leading-relaxed">
                                 <span className="font-semibold">Championing Art / Advancing Culture / Celebrating Expression /<br />
                                     Fostering Talent / Promoting Community / Advocating Collaboration</span>
                             </p>

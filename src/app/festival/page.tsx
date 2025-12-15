@@ -88,7 +88,7 @@ export default function FestivalPage() {
       {/* --- END #2 SECTION --- */}
 
       {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
-      <section id="whatsnew" className="bg-light-brown py-16 text-black shadow-inner">
+      <section id="whatsnew" className="bg-light-brown py-16 text-charcoal shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             What&apos;s New for 2026
@@ -135,12 +135,12 @@ export default function FestivalPage() {
       {/* --- END #4 SECTION --- */}
 
       {/* --- SECTION #5: Festival Details (Full Width) --- */}
-      <section id="details" className="bg-light-brown py-20 text-black">
+      <section id="details" className="bg-light-brown py-20 text-charcoal">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left Column: Main Text */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-heading font-bold text-black mb-8">
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-8">
                 Festival Details
               </h2>
               <p className="text-xl font-body text-charcoal leading-relaxed pr-12 mb-8">
@@ -156,7 +156,7 @@ export default function FestivalPage() {
               {/* Card 1 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
                 <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <Calendar className="text-black" size={28} />
+                  <Calendar className="text-charcoal" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
@@ -170,7 +170,7 @@ export default function FestivalPage() {
               {/* Card 2 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
                 <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <Clock className="text-black" size={28} />
+                  <Clock className="text-charcoal" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
@@ -180,7 +180,7 @@ export default function FestivalPage() {
               {/* Card 3 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
                 <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <MapPin className="text-black" size={28} />
+                  <MapPin className="text-charcoal" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
@@ -193,7 +193,7 @@ export default function FestivalPage() {
               {/* Card 4 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
                 <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <User className="text-black" size={28} />
+                  <User className="text-charcoal" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
@@ -290,7 +290,7 @@ export default function FestivalPage() {
       {/* --- END #7 SECTION --- */}
 
       {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
-      <section id="donate" className="bg-light-brown py-12 text-black text-center">
+      <section id="donate" className="bg-light-brown py-12 text-charcoal text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Help Us Move It Forward
