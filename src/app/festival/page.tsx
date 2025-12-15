@@ -137,67 +137,75 @@ export default function FestivalPage() {
       {/* --- SECTION #5: Festival Details (Full Width) --- */}
       <section id="details" className="bg-light-brown py-20 text-black">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-black mb-4">
-              Festival Details
-            </h2>
-            <p className="text-xl font-body max-w-4xl mx-auto text-charcoal">
-              The festival attracts more than 12,000 over the two days from Central Ohio and beyond, yet retains an attractive smaller community vibe.  Bank Run Metro Park offers plenty of parking (including handicapped), ample green space, and paved paths traversing the grounds. With the exception of the main outdoor stage, all stages are inside tents, with seating provided. Feel free to bring blankets and lawn chairs. The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
-            {/* Card 1 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                <Calendar className="text-black" size={28} />
-              </div>
-              <div>
-                <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
-                <p className="font-body text-sm leading-relaxed">
-                  June 6th & 7th, 2026<br />
-                  Saturday and Sunday<br />
-                  <a href="/festival/COFF2026.ics" className="text-green hover:text-blue">ADD TO CALENDAR</a>
-                </p>
-              </div>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Left Column: Main Text */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-black mb-8">
+                Festival Details
+              </h2>
+              <p className="text-xl font-body text-charcoal leading-relaxed pr-12 mb-8">
+                The festival attracts more than 12,000 over the two days from Central Ohio and beyond, yet retains an attractive smaller community vibe.  Bank Run Metro Park offers plenty of parking (including handicapped), ample green space, and paved paths traversing the grounds. With the exception of the main outdoor stage, all stages are inside tents, with seating provided. Feel free to bring blankets and lawn chairs.
+              </p>
+              <p className="text-xl font-body text-charcoal leading-relaxed pr-12">
+                The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
+              </p>
             </div>
-            {/* Card 2 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                <Clock className="text-black" size={28} />
+
+            {/* Right Column: Cards */}
+            <div className="space-y-4">
+              {/* Card 1 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                  <Calendar className="text-black" size={28} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
+                  <p className="font-body text-sm leading-relaxed">
+                    June 6th & 7th, 2026<br />
+                    Saturday and Sunday<br />
+                    <a href="/festival/COFF2026.ics" className="text-green hover:text-blue">ADD TO CALENDAR</a>
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
-                <p className="font-body text-sm leading-relaxed">Saturday: 10:30am - 10pm<br />Sunday: 10:30am - 5:30pm</p>
+              {/* Card 2 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                  <Clock className="text-black" size={28} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
+                  <p className="font-body text-sm leading-relaxed">Saturday: 10:30am - 10pm<br />Sunday: 10:30am - 5:30pm</p>
+                </div>
               </div>
-            </div>
-            {/* Card 3 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                <MapPin className="text-black" size={28} />
+              {/* Card 3 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                  <MapPin className="text-black" size={28} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
+                  <p className="font-body text-sm leading-relaxed">
+                    Bank Run Metro Park<br />
+                    Address to follow <i>(still under construction)</i><br />
+                    Lockbourne, Ohio</p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
-                <p className="font-body text-sm leading-relaxed">
-                  Bank Run Metro Park<br />
-                  Address to follow <i>(still under construction)</i><br />
-                  Lockbourne, Ohio</p>
-              </div>
-            </div>
-            {/* Card 4 */}
-            <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                <User className="text-black" size={28} />
-              </div>
-              <div>
-                <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
-                <p className="font-body text-sm leading-relaxed">
-                  $10 pre-registration (18+)  /  Pre-registration comes with perks (see FAQ details)<br />
-                  $15 onsite (18+)  / Under 18 free<br />
-                  Saturday night headliner:  preferred seating + $10<br />
-                  Admission tickets cover BOTH days!<br />
-                  Festival free entry window:  Sat & Sun - 10:30-11:30am<br />
-                  Ticket sales open in early 2026 at [LINK to GET TICKETS PAGE]
-                </p>
+              {/* Card 4 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                  <User className="text-black" size={28} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
+                  <p className="font-body text-sm leading-relaxed">
+                    $10 pre-registration (18+)  /  Pre-registration comes with perks (see FAQ details)<br />
+                    $15 onsite (18+)  / Under 18 free<br />
+                    Saturday night headliner:  preferred seating + $10<br />
+                    Admission tickets cover BOTH days!<br />
+                    Festival free entry window:  Sat & Sun - 10:30-11:30am<br />
+                    Ticket sales open in early 2026 at [LINK to GET TICKETS PAGE]
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -331,13 +339,13 @@ export default function FestivalPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a
-                href="/festival/history/Brief_COFF_BDC_HistoryREV11.3.25FINAL.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
-              >
-                History
-              </a>
+              href="/festival/history/Brief_COFF_BDC_HistoryREV11.3.25FINAL.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
+            >
+              History
+            </a>
             <FestivalButton href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
           </div>
         </div>
