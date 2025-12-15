@@ -63,14 +63,11 @@ export default function FestivalPage() {
             {/* Playlist Links */}
             <div className="flex items-center space-x-4">
               <span className="text-sm font-heading font-semibold text-charcoal">Official Playlists:</span>
-              <a href="#" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
+              <a href="https://youtube.com/playlist?list=PLnwi3Z6JxH9wmdjMnqag-20g3hjlh1-c2&si=WEVKiA00beJTyCio" aria-label="YouTube Playlist" className="transition transform hover:scale-110">
                 <Image src="/festival/youtubemusic.png" alt="YouTube Music" width={120} height={32} />
               </a>
-              <a href="#" aria-label="Spotify Playlist" className="transition transform hover:scale-110">
+              <a href="https://open.spotify.com/playlist/1ennkJ9mweBT9cuyYskZ0Z?si=e3fd0394616b4a12" aria-label="Spotify Playlist" className="transition transform hover:scale-110">
                 <Image src="/festival/spotify.png" alt="YouTube Music" width={100} height={32} />
-              </a>
-              <a href="#" aria-label="Amazon Music Playlist" className="transition transform hover:scale-110">
-                <Image src="/festival/amazonmusic.png" alt="YouTube Music" width={60} height={16} />
               </a>
             </div>
           </div>

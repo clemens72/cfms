@@ -78,7 +78,7 @@ export default function Homepage() {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Educational Outreach</h3>
+              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Outreach</h3>
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
                 Bringing folk music to schools and communities through workshops, performances, and educational programs.
               </p>
