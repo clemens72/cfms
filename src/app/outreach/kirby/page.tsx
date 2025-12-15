@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function KirbyPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             {/* MEMBERSHIP BENEFITS SECTION */}
             <section className="container mx-auto px-4 py-16">
@@ -10,7 +10,7 @@ export default function KirbyPage() {
                     Bob Kirby Scholarship Memorial Fund
                 </h1>
                 <div className="text-center mb-10">
-                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-orange">
+                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-brown">
                         APPLICATION & COVER LETTER
                     </h2>
                     <a
@@ -30,7 +30,7 @@ export default function KirbyPage() {
                 </div>
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Benefit Card 1 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">About the Program</h3>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
@@ -60,7 +60,7 @@ export default function KirbyPage() {
                         </div>
                     </div>
                     {/* Benefit Card 3 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Application Requirements</h3>
                             <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
@@ -75,7 +75,7 @@ export default function KirbyPage() {
                         </div>
                     </div>
                     {/* Benefit Card 4 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Scholarship Award</h3>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
@@ -101,7 +101,7 @@ export default function KirbyPage() {
             {/* --- Additional Links Section --- */}
             <section className="bg-light-green">
                 <div className="container mx-auto px-4 gap-6 max-w-7xl text-center">
-                    <h2 className="text-xl md:text-2xl font-heading font-bold text-orange col-span-3">
+                    <h2 className="text-xl md:text-2xl font-heading font-bold text-brown col-span-3">
                         Past Kirby Scholarship Winners
                     </h2>
                     <a

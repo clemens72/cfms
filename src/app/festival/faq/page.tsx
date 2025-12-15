@@ -1,9 +1,9 @@
 export default function FAQPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             {/* Header Section */}
             <section className="bg-gradient-to-b from-dark-brown to-medium-brown py-12">
-                <div className="container mx-auto px-4 text-center text-orange">
+                <div className="container mx-auto px-4 text-center text-green">
                     <h1 className="text-4xl md:text-5xl font-heading font-bold mb-3">
                         Frequently Asked Questions
                     </h1>

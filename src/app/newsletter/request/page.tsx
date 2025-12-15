@@ -1,6 +1,6 @@
 export default function NewsletterHardcopyPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="text-center mb-10">
@@ -28,17 +28,29 @@ export default function NewsletterHardcopyPage() {
                             <input type="email" id="email" name="email" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
                         </div>
                         <div>
-                            <label htmlFor="address" className="block text-sm font-medium text-charcoal">Mailing Address</label>
+                            <label htmlFor="address" className="block text-sm font-medium text-charcoal">Address</label>
                             <input type="text" id="address" name="address" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
                         </div>
-                        <div>
-                            <button type="submit" className="bg-green text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors duration-200">
-                                Submit Request
-                            </button>
+                        <div className="grid grid-cols-3">
+                            <div>
+                                <label htmlFor="city" className="block text-sm font-medium text-charcoal">City</label>
+                                <input type="text" id="address" name="city" className="mt-1 block w-2/3 border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
+                            </div>
+                            <div>
+                                <label htmlFor="state" className="block text-sm font-medium text-charcoal">State</label>
+                                <input type="text" id="address" name="state" className="mt-1 block w-2/3 border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
+                            </div>
+                            <div>
+                                <label htmlFor="zip" className="block text-sm font-medium text-charcoal">Zip</label>
+                                <input type="text" id="address" name="zip" className="mt-1 block w-2/3 border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
+                            </div>
                         </div>
+                        <button type="submit" className="bg-green text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition-colors duration-200">
+                            Submit Request
+                        </button>
                     </form>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 }

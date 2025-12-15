@@ -1,6 +1,6 @@
 export default function InstructorsPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
                     Instructors
@@ -14,7 +14,7 @@ export default function InstructorsPage() {
 
                     <div className="space-y-8">
                         
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Andy Beyer
                             </h3>
@@ -27,7 +27,7 @@ export default function InstructorsPage() {
                             </p>
                         </div>
 
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Barry Chern
                             </h3>
@@ -40,7 +40,7 @@ export default function InstructorsPage() {
                             </p>
                         </div>
 
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Deborah Colon
                             </h3>
@@ -53,7 +53,7 @@ export default function InstructorsPage() {
                             </p>
                         </div>
 
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Thomas Davis
                             </h3>
@@ -65,7 +65,7 @@ export default function InstructorsPage() {
                             </p>
                         </div>
 
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Jeff Denty
                             </h3>
@@ -78,7 +78,7 @@ export default function InstructorsPage() {
                         </div>
 
                         {/* Sample Instructor Listing 
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Andy Beyer
                             </h3>
@@ -110,7 +110,7 @@ export default function InstructorsPage() {
 
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Suggestions?
@@ -120,7 +120,7 @@ export default function InstructorsPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

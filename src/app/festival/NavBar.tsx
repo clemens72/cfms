@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                     href={link.href}
                     className={`
             text-lg font-body font-medium transition duration-200 
-            text-brown hover:text-orange p-2
+            text-brown hover:text-brown/90 p-2
             ${isMobile
                             ? 'py-2 px-3 block rounded-lg hover:bg-white/10'
                             : ''}

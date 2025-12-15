@@ -1,6 +1,6 @@
 export default function VolunteerPage() {
   return (
-    <div className="min-h-screen bg-light-brown">
+    <div className="min-h-screen bg-bg-brown">
 
         <section className="container mx-auto px-4 py-16">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-12 text-green text-center">
@@ -20,7 +20,7 @@ export default function VolunteerPage() {
                     {/* Name */}
                     <div>
                         <label htmlFor="name" className="block font-body font-semibold text-gray-700 mb-2">
-                            Name <span className="text-orange">*</span>
+                            Name <span className="text-brown">*</span>
                         </label>
                         <input
                             type="text"
@@ -34,7 +34,7 @@ export default function VolunteerPage() {
                     {/* Cell/Mobile Phone */}
                     <div>
                         <label htmlFor="phone" className="block font-body font-semibold text-gray-700 mb-2">
-                            Cell/Mobile Phone <span className="text-orange">*</span>
+                            Cell/Mobile Phone <span className="text-brown">*</span>
                         </label>
                         <input
                             type="tel"
@@ -48,7 +48,7 @@ export default function VolunteerPage() {
                     {/* Email */}
                     <div>
                         <label htmlFor="email" className="block font-body font-semibold text-gray-700 mb-2">
-                            Email <span className="text-orange">*</span>
+                            Email <span className="text-brown">*</span>
                         </label>
                         <input
                             type="email"

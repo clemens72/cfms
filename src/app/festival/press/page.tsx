@@ -1,6 +1,6 @@
 export default function PressPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="mb-12 text-center space-x-4 space-y-4 max-w-3xl mx-auto">
@@ -61,20 +61,20 @@ export default function PressPage() {
                         Festival goers can experience engaging jam tents and participate in community song and drum circles. For musicians and the curious, there are 30 workshops covering a myriad of topics and instruments, including beginner workshops. For families, there is a wide array of kids&apos; crafts, performances and storytelling, and the popular Instrument Petting Zoo.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        The <b>Saturday night headliner</b> concert features the <b>Tray Wellington Band</b>. Tray has been honored with some of the most prestigious accolades in acoustic music,  including the 2024 Steve Martin Banjo Prize and <b>2019 IBMA Momentum Instrumentalist of the Year.</b>  He has earned recognition from The New York Times, Wall Street Journal, Billboard and NPR, which have highlighted his innovative contributions to contemporary roots music. These accolades underscore Tray&apos;s reputation as one of the most exciting, forward-thinking, and influential banjo players of his generation. Listen at: <a href="https://traywellington.com/music/" className="text-green hover:text-orange">traywellington.com/music/.</a>
+                        The <b>Saturday night headliner</b> concert features the <b>Tray Wellington Band</b>. Tray has been honored with some of the most prestigious accolades in acoustic music,  including the 2024 Steve Martin Banjo Prize and <b>2019 IBMA Momentum Instrumentalist of the Year.</b>  He has earned recognition from The New York Times, Wall Street Journal, Billboard and NPR, which have highlighted his innovative contributions to contemporary roots music. These accolades underscore Tray&apos;s reputation as one of the most exciting, forward-thinking, and influential banjo players of his generation. Listen at: <a href="https://traywellington.com/music/" className="text-green hover:text-brown">traywellington.com/music/.</a>
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         At the new space, attendees can enjoy a vaulted ceiling pavilion with a capacity for 300 picnickers, a large outdoor stage, and lots of open green space dotted with old, majestic trees. Food trucks will be onsite as well as Nocterra craft beer for those who enjoy locally made brews.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        There is a <b>modest entrance fee.</b> Tickets are ONLY $10 pre-event for 18 and over and $15 onsite. Admission for 17 and under is free. The ticket covers BOTH days and includes lawn seating for the Saturday headliner (preferred seating for Saturday evening is $10 additional). Ticket sales open in early 2026 and can be purchased at: <a href="https://columbusfolkmusicsociety.org/festival.html" className="text-green hover:text-orange">columbusfolkmusicsociety.org/festival.html</a> where more details will be shared in the months ahead.  
+                        There is a <b>modest entrance fee.</b> Tickets are ONLY $10 pre-event for 18 and over and $15 onsite. Admission for 17 and under is free. The ticket covers BOTH days and includes lawn seating for the Saturday headliner (preferred seating for Saturday evening is $10 additional). Ticket sales open in early 2026 and can be purchased at: <a href="https://columbusfolkmusicsociety.org/festival.html" className="text-green hover:text-brown">columbusfolkmusicsociety.org/festival.html</a> where more details will be shared in the months ahead.  
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        CONTACT: <a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-orange">infofestival@columbusfolkmusicsociety.org</a><br />
-                        Link to Press Kit/Photos: <a href="https://columbusfolkmusicsociety.org/press-release.html" className="text-green hover:text-orange">columbusfolkmusicsociety.org/press-release.html</a>
+                        CONTACT: <a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown">infofestival@columbusfolkmusicsociety.org</a><br />
+                        Link to Press Kit/Photos: <a href="https://columbusfolkmusicsociety.org/press-release.html" className="text-green hover:text-brown">columbusfolkmusicsociety.org/press-release.html</a>
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         ###

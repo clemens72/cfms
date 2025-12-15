@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           href={link.href}
           className={`
             text-lg font-body font-medium transition duration-200 
-            text-green hover:text-orange p-2
+            text-green hover:text-green/80 p-2
             ${isMobile 
                 ? 'py-2 px-3 block rounded-lg hover:bg-white/10'
                 : ''}
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
 
   return (
     // Set background to solid green and use a stronger shadow
-    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-light-brown">
+    <header className="fixed top-0 left-0 w-full z-30 shadow-xl bg-bg-brown">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           

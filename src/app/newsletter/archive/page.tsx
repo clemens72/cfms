@@ -1,10 +1,10 @@
 export default function NewsletterArchivePage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4 text-green">
-                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-orange">
+                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-brown">
                             Columbus Folk Music Society
                         </h2>
                     </div>
@@ -17,7 +17,7 @@ export default function NewsletterArchivePage() {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Example Newsletter Item */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">December-January 2025 Edition</h3>
                             <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
@@ -33,7 +33,7 @@ export default function NewsletterArchivePage() {
                         </div>
                     </div>
                     
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">December-January 2025 Edition</h3>
                             <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">

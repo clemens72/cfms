@@ -1,6 +1,6 @@
 export default function SongwriterContestFormPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="text-center mb-10">

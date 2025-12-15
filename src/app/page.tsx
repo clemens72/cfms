@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Homepage() {
   return (
-    <div className="min-h-screen bg-light-brown">
+    <div className="min-h-screen bg-bg-brown">
 
       <Hero
         title="Next Concert: The Montvales"
@@ -44,8 +44,8 @@ export default function Homepage() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Card 1: Festival */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="relative h-48">
               <Image 
                 src="/festival/03duo.jpg" 
                 alt="Central Ohio Folk Festival" 
@@ -68,8 +68,8 @@ export default function Homepage() {
           </div>
 
           {/* Card 2: Outreach */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="relative h-48">
               <Image 
                 src="/outreach/07youth.jpg" 
                 alt="Educational Outreach" 
@@ -92,8 +92,8 @@ export default function Homepage() {
           </div>
 
           {/* Card 3: Newsletter */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="relative h-48">
               <Image 
                 src="/newsletter/newsletter.jpeg" 
                 alt="Monthly Newsletter" 
@@ -118,7 +118,7 @@ export default function Homepage() {
       </section>
 
       {/* --- SECTION #10: Festival History & Photos --- */}
-      <section id="history" className="bg-light-brown py-12">
+      <section id="history" className="bg-bg-brown py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold text-charcoal mb-4">
             Thanks for your support!

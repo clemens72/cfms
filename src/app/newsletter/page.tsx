@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function NewsletterPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <div className="w-4/5 mx-auto mb-12">
                     <Image
@@ -67,7 +67,7 @@ export default function NewsletterPage() {
                         </div>
                     </div>
                     {/* Right Column: Archive */}
-                    <div className="bg-white text-center p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white text-center p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h3 className="text-2xl font-heading font-bold mb-4 text-charcoal">
                             Newsletter Archive
                         </h3>

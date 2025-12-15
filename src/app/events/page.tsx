@@ -3,7 +3,7 @@ import { Hero } from '@/components/layout/Hero';
 
 export default function EventsPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <Hero
                 title="Upcoming Events"
                 subtitle="Join Us for Live Folk Music Performances"
@@ -39,7 +39,7 @@ export default function EventsPage() {
                         </h2>
                     </div>
                     <div className="mt-8">
-                        <p className="text-xl md:text-2xl font-heading font-bold text-orange max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-xl md:text-2xl font-heading font-bold text-brown max-w-3xl mx-auto leading-relaxed">
                             NEXT CONCERT:
                         </p>
                     </div>
@@ -64,7 +64,7 @@ export default function EventsPage() {
                                 </a>
                             </div>
                             {/* Right: YouTube Video */}
-                            <div className="relative h-64 md:h-full min-h-[300px] bg-gradient-to-br from-green/20 to-orange/20">
+                            <div className="relative h-64 md:h-full min-h-[300px]">
                                 <iframe
                                     className="absolute inset-0 w-full h-full"
                                     src="https://www.youtube.com/embed/RS62sL4bgOQ"
@@ -84,7 +84,7 @@ export default function EventsPage() {
                         </h2>
                     </div>
                     <div className="mt-8">
-                        <p className="text-xl md:text-2xl font-heading font-bold text-orange max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-xl md:text-2xl font-heading font-bold text-brown max-w-3xl mx-auto leading-relaxed">
                             NOTE:  UNLESS OTHERWISE NOTED BELOW,
                         </p>
                         <p>
@@ -98,7 +98,7 @@ export default function EventsPage() {
                         </p>
                     </div>
                     <div className="flex mt-12 items-center justify-center gap-3 mb-4">
-                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-orange">
+                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-brown">
                             Line-Up TBA! Stay tuned...
                         </h2>
                     </div>
@@ -106,7 +106,7 @@ export default function EventsPage() {
             </section>
 
             {/* --- GCAC Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-white shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <div className="grid md:grid-cols-2 gap-6 items-center">
                         <div className="relative w-full h-auto flex items-center justify-center p-6">
@@ -131,7 +131,7 @@ export default function EventsPage() {
             </section>
 
             {/* --- Festival Fundraisers --- */}
-            <section className="container mx-auto px-4 py-16 bg-light-brown">
+            <section className="container mx-auto px-4 py-16 bg-bg-brown">
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4 text-green">
                         <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
@@ -139,7 +139,7 @@ export default function EventsPage() {
                         </h2>
                     </div>
                     <div>
-                        <p className="text-xl md:text-2xl font-heading font-bold text-orange max-w-3xl mx-auto mb-6 leading-relaxed">
+                        <p className="text-xl md:text-2xl font-heading font-bold text-brown max-w-3xl mx-auto mb-6 leading-relaxed">
                             Concerts benefit the 2026 Central Ohio Folk Festival
                         </p>
                         <p className="font-body text-gray-700 max-w-3xl mx-auto mb-6 leading-relaxed">
@@ -171,7 +171,7 @@ export default function EventsPage() {
                                     Tickets
                                 </a> */}
                             </div>
-                            <div className="relative h-64 md:h-full min-h-[300px] bg-gradient-to-br from-green/20 to-orange/20">
+                            <div className="relative h-64 md:h-full min-h-[300px]">
                                 <Image
                                     src="/events/heartimage.png"
                                     alt="Folk Concert"
@@ -207,7 +207,7 @@ export default function EventsPage() {
                                     Tickets
                                 </a>
                             </div>
-                            <div className="relative h-64 md:h-full min-h-[300px] bg-gradient-to-br from-green/20 to-orange/20">
+                            <div className="relative h-64 md:h-full min-h-[300px]">
                                 <Image
                                     src="/events/thedirtywindows.png"
                                     alt="Folk Concert"
@@ -222,7 +222,7 @@ export default function EventsPage() {
             </section>
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Need to contact us?
@@ -232,7 +232,7 @@ export default function EventsPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

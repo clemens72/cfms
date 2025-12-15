@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function ActivitiesPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">

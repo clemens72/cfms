@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PressPhotosPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="mb-12 text-center space-x-4 max-w-3xl mx-auto"></div>

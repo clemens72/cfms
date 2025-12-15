@@ -2,7 +2,7 @@ import { Hero } from '@/components/layout/Hero';
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-light-brown">
+    <div className="min-h-screen bg-bg-brown">
 
         <section className="container mx-auto px-4 py-16">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-12 text-green text-center">

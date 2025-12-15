@@ -9,7 +9,7 @@ interface HeroProps {
 
 export function Hero({ title, subtitle, subtitle2, imageURL, buttonText, buttonLink}: HeroProps) {
     return (
-        <section className="relative py-24 md:py-32 bg-light-orange overflow-hidden shadow-xl">
+        <section className="relative py-24 md:py-32 overflow-hidden shadow-xl">
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url('${imageURL}')` }}
@@ -28,7 +28,7 @@ export function Hero({ title, subtitle, subtitle2, imageURL, buttonText, buttonL
                 {buttonText && buttonLink && (
                     <a
                         href={buttonLink}
-                        className="inline-block bg-green hover:bg-orange text-white font-body font-semibold py-3 px-6 rounded-lg text-lg transition-colors duration-300 drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]"
+                        className="inline-block bg-green hover:bg-green/90 text-white font-body font-semibold py-3 px-6 rounded-lg text-lg transition-colors duration-300 drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]"
                     >
                         {buttonText}
                     </a>

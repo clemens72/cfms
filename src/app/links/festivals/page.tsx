@@ -1,6 +1,6 @@
 export default function FolkFestivalsPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
                     Folk Festivals and Events Links
@@ -17,14 +17,14 @@ export default function FolkFestivalsPage() {
                         <p className="font-body text-gray-700 mb-6 leading-relaxed">
                             Most of the listings below are within one day&apos;s drive (500 miles) of Columbus. Primarily, we list Folk type events at Folk venues or by Folk organizations.
                         </p>
-                        <p className="font-body text-orange font-semibold mb-6">
+                        <p className="font-body text-brown font-semibold mb-6">
                             <b>NOTE:</b> <i>Dates may not be current; please visit their websites.</i>
                         </p>
                     </div>
 
                     <div className="space-y-8">
                         {/* Festival Listing */}
-                        <div className="pl-6 border-l-4 border-green hover:border-orange transition-colors duration-300">
+                        <div className="pl-6 border-l-4 border-green hover:border-brown transition-colors duration-300">
                             <h3 className="text-xl font-heading font-bold text-charcoal mb-2">
                                 Nelsonville Music Festival
                             </h3>
@@ -57,7 +57,7 @@ export default function FolkFestivalsPage() {
 
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Suggestions?
@@ -67,7 +67,7 @@ export default function FolkFestivalsPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

@@ -1,10 +1,10 @@
 export default function BandsPerformersPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* CFMS MEMBER BANDS */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">
                             CFMS Members Bands
                         </h2>
@@ -40,7 +40,7 @@ export default function BandsPerformersPage() {
                     </div>
 
                     {/* BANDS, PERFORMERS */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">
                             Bands, Performers
                         </h2>
@@ -74,7 +74,7 @@ export default function BandsPerformersPage() {
             
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Suggestions?
@@ -84,7 +84,7 @@ export default function BandsPerformersPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

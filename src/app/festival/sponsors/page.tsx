@@ -1,6 +1,6 @@
 export default function SponsorsPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="mb-12 text-center space-x-4 max-w-3xl mx-auto">
@@ -61,7 +61,7 @@ export default function SponsorsPage() {
                         <b>We aim to make the festival accessible to as many people as possible.</b> The festival has a very modest entrance fee that covers both days: ($10 pre-event / $15 on site for adults 18 and over). It is a two-day event and offers an evening headliner act, in addition to all the other activities.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        Sponsorships are available at various levels. Please click the <a href="/festival/sponsors/SponsorInfoSheet_COFF.TEMPLATE.VERS10.1.2025FINAL.pdf" target="_blank" rel="noopener noreferrer" className="text-green hover:text-orange">“Corporate Advertising / Sponsor Info”</a> link here or above for a listing of levels and benefits.
+                        Sponsorships are available at various levels. Please click the <a href="/festival/sponsors/SponsorInfoSheet_COFF.TEMPLATE.VERS10.1.2025FINAL.pdf" target="_blank" rel="noopener noreferrer" className="text-green hover:text-brown">“Corporate Advertising / Sponsor Info”</a> link here or above for a listing of levels and benefits.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         Corporate sponsorship offers a variety of benefits: increased visibility for your corporate name, alliance with the preservation & advancement of the folk arts, and the fostering of youth engagement to ensure this heritage is passed on.
@@ -70,7 +70,7 @@ export default function SponsorsPage() {
                         By becoming a sponsor, you will be helping our organization continue to offer a successful festival and bring <i>&apos;the music of the people&apos;</i> to our community.  We thank you in advance!
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        <b>Questions?</b> Contact: <a href="mailto:festivalsponsor@columbusfolkmusicsociety.org" className="text-green hover:text-orange">festivalsponsor@columbusfolkmusicsociety.org</a>
+                        <b>Questions?</b> Contact: <a href="mailto:festivalsponsor@columbusfolkmusicsociety.org" className="text-green hover:text-brown">festivalsponsor@columbusfolkmusicsociety.org</a>
                     </p>
                 </div>
             </section>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DonatePage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
@@ -12,7 +12,7 @@ export default function DonatePage() {
                     Your support helps us continue to bring folk music to our community through concerts, festivals, educational programs, and more. Every contribution, big or small, makes a difference!
                 </p>
                 <div className="flex justify-center">
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal text-center">Donate via PayPal</h2>
                         <div className="flex justify-center">
                             <form action="https://www.paypal.com/donate" method="post" target="_top">

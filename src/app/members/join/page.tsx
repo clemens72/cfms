@@ -19,7 +19,7 @@ export default function JoinPage() {
     };
 
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <section className="container mx-auto px-4 py-16">
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4 text-green">

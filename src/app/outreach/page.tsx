@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function OutreachPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -29,8 +29,8 @@ export default function OutreachPage() {
                     {/* Right Column: Photos */}
                     <div className="grid grid-cols-3 gap-6">
                         {/* Card 1: Festival */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-                            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="relative h-48">
                                 <Image
                                     src="/outreach/outreach1.png"
                                     alt="Central Ohio Folk Festival"
@@ -46,8 +46,8 @@ export default function OutreachPage() {
                         </div>
 
                         {/* Card 2: Outreach */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-                            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="relative h-48">
                                 <Image
                                     src="/outreach/outreach2.png"
                                     alt="Educational Outreach"
@@ -63,8 +63,8 @@ export default function OutreachPage() {
                         </div>
 
                         {/* Card 3: Newsletter */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
-                            <div className="relative h-48 bg-gradient-to-br from-green/20 to-orange/20">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="relative h-48">
                                 <Image
                                     src="/outreach/outreach3.png"
                                     alt="Monthly Newsletter"

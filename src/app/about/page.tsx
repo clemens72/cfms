@@ -2,20 +2,20 @@ import { Hero } from '@/components/layout/Hero';
 
 export default function AboutPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             <Hero
                 title="About Us"
                 subtitle="Learn more about the Columbus Folk Music Society"
                 imageURL="/cfms-park-woodcut.png"
                 buttonText='Join or Renew Membership'
-                buttonLink='/join'
+                buttonLink='/members'
             />
 
             {/* ABOUT US SECTION */}
             <section className="container mx-auto px-4 py-16">
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Card 1: Columbus Folk Music Society */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Columbus Folk Music Society</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             The Columbus Folk Music Society (CFMS) is a nonprofit society committed to promoting traditional and contemporary folk music, dance and storytelling. We are a membership organization that provides:
@@ -30,7 +30,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 2: Our Mission */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Our Mission</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             The Columbus Folk Music Society, Inc. is organized to operate exclusively as a not-for-profit corporation for educational, cultural and charitable purposes.
@@ -46,7 +46,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 3: Who Are We? */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Who Are We?</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             Our members come from all walks of life - we are accountants, tradespeople, teachers, photographers, lawyers and members of all ages. We are folk musicians, singer/songwriters, dancers, storytellers, poets, historians, performers and listeners.
@@ -63,7 +63,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 4: Diversity Statement */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Diversity Statement</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             The Columbus Folk Music Society celebrates and values music and other folk arts presented by the people of our Central Ohio community. We are committed to promote an array of programs and opportunities that reflect and include the diverse and creative differences present in the Central Ohio area. In this regard, the CFMS is committed to continued improvement.
@@ -71,7 +71,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 5: 501(c)(3) Organization */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">A 26 U.S.C. 501(c)(3) Organization</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             Incorporated in the State of Ohio, the Columbus Folk Music Society, Inc. also has a 501 (c) 3 nonprofit status and is listed with the IRS for tax deductible charitable contributions.
@@ -91,7 +91,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 6: How We Got Started */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">How We Got Started</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             Formed in 1991 and dedicated to preserving and advancing the folk arts, the Columbus Folk Music Society started with a core group of folk lovers who wanted to share their love and knowledge of the folk arts.
@@ -105,7 +105,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 7: CFMS Today */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">CFMS Today</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             Many new talents have been discovered through open mics and agent contacts. We have expanded involvement in regional venues, outreach by our members, and present ever growing new opportunities to hear local, regional, national, and international talent.
@@ -113,7 +113,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 8: Central Ohio Folk Festival */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Central Ohio Folk Festival</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             The Central Ohio Folk Festival (COFF) was founded in 1997 by the CFMS to make folk arts accessible to a much larger public. The festival continues to grow, attracting over 11,000 participants over the two day event. We partner with the Metro Parks in order to provide an outdoor location -- &apos;a harmony of nature and music&apos;, which is open to the community.
@@ -121,7 +121,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 9: Membership - Full Width */}
-                    <div className="md:col-span-2 bg-white p-6 rounded-xl shadow-lg border-t-4 border-brown hover:shadow-xl transition-shadow duration-300">
+                    <div className="md:col-span-2 bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Membership Has Its Privileges</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             Membership in the Columbus Folk Music Society ensures you&apos;re in the loop with all CFMS offerings, local folk activities, special and fundraising events. You&apos;ll receive the monthly CFMS newsletter, &quot;A Different Strummer,&quot; to keep you informed. Local and regional folk activities are also listed on the CFMS website so you can plan your calendar accordingly. With your membership, you&apos;ll enjoy discounts at the monthly coffeehouse (concert series) and you&apos;ll be the first to know about concerts and other special events throughout the year.
@@ -146,7 +146,7 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
 
                     {/* Card 1: CFMS' Americana/Folk Concert Series  */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">CFMS&apos; Americana/Folk Concert Series</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             Monthly Americana/Folk Concert Series (excluding May and December)<br /><br />
@@ -155,7 +155,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 2: Annual Central Ohio Folk Festival */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Annual Central Ohio Folk Festival</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             Held the 1st full weekend in May at Highbanks Metro Park. It is open to the public and features a multitude of activities for all ages:  3 performing stages; 30+ music workshops (with something for everyone); Sat evening Headliner concert featuring international touring artist; kids music & crafts; youth activities and dedicated jam tents. There are no fixed fees for the festival - <b>attendees&apos; generous support by free-will donations help make all of it possible.</b><br /><br />
@@ -164,7 +164,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 3: Summer Picnics Multiple Open Jam Opportunities  */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Summer Picnics, Multiple Open Jam Opportunities</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             See the Google calendar on the Events tab <a href="/events" className='text-green hover:underline font-semibold'>here.</a>
@@ -172,7 +172,7 @@ export default function AboutPage() {
                     </div>
 
                     {/* Card 4: Annual Fundraising Events */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Annual Fundraising Events</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
                             Festival benefit concerts, community support events, and local fundraisers for community causes.
@@ -182,7 +182,7 @@ export default function AboutPage() {
             </section>
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Need to contact us?
@@ -192,7 +192,7 @@ export default function AboutPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

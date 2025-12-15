@@ -1,6 +1,6 @@
 export default function MembersPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             {/* MEMBERSHIP BENEFITS SECTION */}
             <section className="container mx-auto px-4 py-16">
@@ -33,7 +33,7 @@ export default function MembersPage() {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* Benefit Card 1 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Membership Renewals due December 31</h3>
                             <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
@@ -48,7 +48,7 @@ export default function MembersPage() {
                         </div>
                     </div>
                     {/* Benefit Card 2 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Monthly Newsletter Hardcopy</h3>
                             <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
@@ -71,7 +71,7 @@ export default function MembersPage() {
                         </div>
                     </div>
                     {/* Benefit Card 3 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Cash or Check Form</h3>
                             <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">

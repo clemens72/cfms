@@ -1,6 +1,6 @@
 export default function LinksPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
             
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
@@ -12,7 +12,7 @@ export default function LinksPage() {
 
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Music & Arts */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Music and Arts</h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
                             <li><a href='http://www.folkalley.com/' className='text-green hover:text-brown transition-colors font-medium'>Folk Alley</a></li>
@@ -27,7 +27,7 @@ export default function LinksPage() {
                     </div>
 
                     {/* Card 2: More Information */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">                        
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">                        
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">More Information</h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
                             <li><a href='/newsletter' className='text-green hover:text-brown transition-colors font-medium'>A Different Strummer: Newsletter</a></li>
@@ -42,7 +42,7 @@ export default function LinksPage() {
                     </div>
 
                     {/* CFMS Events and Jam Calendars */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Events and Jams Calendars</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             The <b>CFMS Events Calendar</b> includes CFMS-sponsored concerts, festival, and other events that are open to the public. Come enjoy the experience from the audience! These make for a great outing: alone, with friends, or with your special someone.<br />
@@ -61,7 +61,7 @@ export default function LinksPage() {
                     </div>
 
                     {/* Card 4: Photos - Central Ohio Folk Festivals */}
-                    <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Photos - Central Ohio Folk Festivals</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             The Central Ohio Folk Music Society has been hosting the Central Ohio Folk Festival for over four decades. Here are some photos from past festivals showcasing the vibrant community and memorable performances.
@@ -77,7 +77,7 @@ export default function LinksPage() {
             </section>
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Suggestions?
@@ -87,7 +87,7 @@ export default function LinksPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>

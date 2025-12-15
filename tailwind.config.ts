@@ -14,13 +14,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'green': '#3f860a',
-        'orange': '#d24605',
+        //'green': '#3f860a',
         'brown': '#a77010',
         'charcoal': '#404040',
-        'light-orange': '#e68c47',
-        'light-brown': '#f6f5e2',
-        'skyblue': '#dbe9e3',
+        //'light-brown': '#f6f5e2',
+
+        //Diane's Changes
+        'bg-brown': '#FFFBE3',
+        'light-brown': '#E7D8C9',
+        'green': '#005B49',
+        'blue': '#00A1A2',
       },
       fontFamily: {
         'heading': ['var(--font-heading)', ...defaultTheme.fontFamily.sans],

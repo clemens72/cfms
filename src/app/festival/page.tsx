@@ -6,18 +6,17 @@ import { Hero } from '@/components/layout/Hero';
 export default function FestivalPage() {
 
   // Helper component for uniform buttons
-  const FestivalButton = ({ children, color = 'green', href = '#' }: { children: React.ReactNode, color?: 'green' | 'orange' | 'coral-red' | 'skyblue', href?: string }) => (
+  const FestivalButton = ({ children, color = 'green', href = '#' }: { children: React.ReactNode, color?: 'green' | 'blue' | 'coral-red', href?: string }) => (
     <a href={href} className={`px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]
       ${color === 'green' ? 'bg-green hover:bg-green/90 text-white' : ''}
-      ${color === 'orange' ? 'bg-orange hover:bg-orange/90 text-white' : ''}
-      ${color === 'coral-red' ? 'bg-coral-red hover:bg-coral-red/90 text-white' : ''}
-      ${color === 'skyblue' ? 'bg-skyblue hover:bg-skyblue/90 text-charcoal' : ''}`.replace(/\s+/g, ' ')}>
+      ${color === 'blue' ? 'bg-blue hover:bg-blue/90 text-white' : ''}
+      ${color === 'coral-red' ? 'bg-coral-red hover:bg-coral-red/90 text-white' : ''}`.replace(/\s+/g, ' ')}>
       {children}
     </a>
   );
 
   return (
-    <div className="min-h-screen bg-light-brown">
+    <div className="min-h-screen bg-bg-brown">
       <Hero
         title="Central Ohio Folk Festival"
         subtitle="Two days of music, community, and tradition"
@@ -57,7 +56,7 @@ export default function FestivalPage() {
                 2026 Headliner
               </a>
               <FestivalButton href="/festival/lineup">2026 Lineup (TBA)</FestivalButton>
-              <FestivalButton color="orange" href="/festival/schedule">2025 Schedule</FestivalButton>
+              <FestivalButton color="blue" href="/festival/schedule">2025 Schedule</FestivalButton>
             </div>
 
             {/* Playlist Links */}
@@ -88,7 +87,7 @@ export default function FestivalPage() {
       {/* --- END #2 SECTION --- */}
 
       {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
-      <section id="whatsnew" className="bg-green py-16 text-white shadow-inner">
+      <section id="whatsnew" className="bg-light-brown py-16 text-black shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             What&apos;s New for 2026
@@ -96,7 +95,7 @@ export default function FestivalPage() {
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
           </p>
-          <FestivalButton color="skyblue" href="/festival/new">
+          <FestivalButton color="green" href="/festival/new">
             CHECK IT OUT
           </FestivalButton>
         </div>
@@ -135,35 +134,35 @@ export default function FestivalPage() {
       {/* --- END #4 SECTION --- */}
 
       {/* --- SECTION #5: Festival Details (Full Width) --- */}
-      <section id="details" className="bg-brown py-20 text-white">
+      <section id="details" className="bg-light-brown py-20 text-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-skyblue mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-black mb-4">
               Festival Details
             </h2>
-            <p className="text-xl font-body max-w-4xl mx-auto text-skyblue/80">
+            <p className="text-xl font-body max-w-4xl mx-auto text-charcoal">
               The festival runs rain or shine! Bicentennial Park offers ample green space and paved walkways. Bring blankets or low chairs. Food, non-alcoholic drinks, and artisan vendors will be on-site throughout the weekend. We are committed to accessibility for everyone.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
             {/* Card 1 */}
             <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
-                <Calendar className="text-skyblue" size={28} />
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                <Calendar className="text-black" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
                 <p className="font-body text-sm leading-relaxed">
                   June 6th & 7th, 2026<br />
                   Saturday and Sunday<br />
-                  <a href="/festival/COFF2026.ics" className="text-green hover:text-orange">ADD TO CALENDAR</a>
+                  <a href="/festival/COFF2026.ics" className="text-green hover:text-blue">ADD TO CALENDAR</a>
                 </p>
               </div>
             </div>
             {/* Card 2 */}
             <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
-                <Clock className="text-skyblue" size={28} />
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                <Clock className="text-black" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
@@ -172,8 +171,8 @@ export default function FestivalPage() {
             </div>
             {/* Card 3 */}
             <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
-                <MapPin className="text-skyblue" size={28} />
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                <MapPin className="text-black" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
@@ -185,8 +184,8 @@ export default function FestivalPage() {
             </div>
             {/* Card 4 */}
             <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-brown flex items-center justify-center">
-                <User className="text-skyblue" size={28} />
+              <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
+                <User className="text-black" size={28} />
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
@@ -227,7 +226,7 @@ export default function FestivalPage() {
           </div>
 
           {/* Right Column: Photo Placeholder */}
-          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-light-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
+          <div className="h-64 md:h-96 w-full rounded-xl overflow-hidden shadow-2xl bg-bg-brown flex items-center justify-center text-charcoal/50 text-xl font-heading font-bold">
             <Image
               src="/festival/activities/drumcircle.jpg"
               alt="Festival Workshops"
@@ -282,7 +281,7 @@ export default function FestivalPage() {
       {/* --- END #7 SECTION --- */}
 
       {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
-      <section id="donate" className="bg-green py-12 text-white text-center">
+      <section id="donate" className="bg-light-brown py-12 text-black text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Help Us Move It Forward
@@ -291,9 +290,9 @@ export default function FestivalPage() {
             Interested in promoting our event or donating?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton color="skyblue" href="/festival/sponsors">Sponsors</FestivalButton>
-            <FestivalButton color="skyblue" href="/festival/press">2026 Press</FestivalButton>
-            <FestivalButton color="skyblue" href="/donate">Donate</FestivalButton>
+            <FestivalButton color="green" href="/festival/sponsors">Sponsors</FestivalButton>
+            <FestivalButton color="green" href="/festival/press">2026 Press</FestivalButton>
+            <FestivalButton color="green" href="/donate">Donate</FestivalButton>
           </div>
         </div>
       </section>

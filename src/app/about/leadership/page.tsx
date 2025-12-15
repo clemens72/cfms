@@ -1,6 +1,6 @@
 export default function LeadershipPage() {
     return (
-        <div className="min-h-screen bg-light-brown">
+        <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
@@ -12,7 +12,7 @@ export default function LeadershipPage() {
                 
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Card 1: Columbus Folk Music Society */}
-                    <div className="bg-white text-center p-6 rounded-xl shadow-lg border-t-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white text-center p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Board Members</h2>
                         <p>
                             <b>President: </b>Jan Flory<br />
@@ -24,7 +24,7 @@ export default function LeadershipPage() {
                     </div>
 
                     {/* Card 2: Our Mission */}
-                    <div className="bg-white text-center p-6 rounded-xl shadow-lg border-t-4 border-orange hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white text-center p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Trustees</h2>
                         <ul className="font-body text-gray-700 mt-3 space-y-1">
                             <li>Jane VanAuken</li>
@@ -42,7 +42,7 @@ export default function LeadershipPage() {
             </section>
 
             {/* --- Contact Section --- */}
-            <section className="bg-green py-16 text-white shadow-inner">
+            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Need to contact us?
@@ -52,7 +52,7 @@ export default function LeadershipPage() {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block px-6 py-3 bg-orange text-white font-body font-semibold rounded-lg hover:bg-orange/90 transition duration-200"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Contact Page
                     </a>
