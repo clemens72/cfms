@@ -15,6 +15,7 @@ const navLinks: NavItem[] = [
   { name: 'Members', href: '/members' },
   { name: 'Links', href: '/links' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Donate', href: '/donate' },
 ];
 
 

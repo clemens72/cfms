@@ -8,15 +8,12 @@ interface NavItem {
 }
 
 const navLinks: NavItem[] = [
-    { name: "What's New", href: '/festival#whatsnew' },
     { name: "Volunteer", href: '/festival#volunteer' },
     { name: "Details", href: '/festival#details' },
     { name: "Activities", href: '/festival#activities' },
     { name: "Inquiries/Apply", href: '/festival#inquiries' },
-    { name: "Press & Sponsors", href: '/festival#donate' },
-    { name: "Donate", href: '/festival#donate' },
-    { name: "FAQ & Maps", href: '/festival#faq' },
-    { name: "History", href: '/festival#history' },
+    { name: "Press/Sponsors", href: '/festival#donate' },
+    { name: "FAQ/Maps", href: '/festival#faq' },
 ];
 
 
@@ -53,7 +50,7 @@ const Navbar: React.FC = () => {
 
     return (
         <header className="w-full">
-            <div className="max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
                     {/* Logo/Brand (Now using green text) */}
