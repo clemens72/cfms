@@ -46,7 +46,7 @@ export default function EventsPage() {
                 </div>
                 <div className="space-y-8 max-w-5xl mx-auto mb-10">
                     {/* Example Event Card */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden border-l-4 border-green hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="grid md:grid-cols-2 gap-6 items-center">
                             {/* Left: Details */}
                             <div className="p-6">
