@@ -20,7 +20,7 @@ export default function FestivalPage() {
       <Hero
         title="Central Ohio Folk Festival"
         subtitle="Roots acoustic music at its best!"
-        subtitle2='A two day celebration of music and community'
+        subtitle2='Join us for our annual celebration of folk music.'
         imageURL="/festival/festival.jpg"
       />
 
@@ -93,7 +93,7 @@ export default function FestivalPage() {
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
           </p>
-          <FestivalButton color="green" href="/festival/new">
+          <FestivalButton color="blue" href="/festival/new">
             CHECK IT OUT
           </FestivalButton>
         </div>
@@ -165,7 +165,7 @@ export default function FestivalPage() {
                   <p className="font-body text-sm leading-relaxed">
                     June 6th & 7th, 2026<br />
                     Saturday and Sunday<br />
-                    <a href="/festival/COFF2026.ics" className="text-green hover:text-blue">ADD TO CALENDAR</a>
+                    <a href="/festival/COFF2026.ics" className="text-green hover:text-blue font-bold">ADD TO CALENDAR</a>
                   </p>
                 </div>
               </div>
@@ -300,9 +300,9 @@ export default function FestivalPage() {
             Interested in promoting our event or donating?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton color="green" href="/festival/sponsors">Sponsors</FestivalButton>
-            <FestivalButton color="green" href="/festival/press">2026 Press</FestivalButton>
-            <FestivalButton color="green" href="/donate">Donate</FestivalButton>
+            <FestivalButton color="blue" href="/festival/sponsors">Sponsors</FestivalButton>
+            <FestivalButton color="blue" href="/festival/press">2026 Press</FestivalButton>
+            <FestivalButton color="blue" href="/donate">Donate</FestivalButton>
           </div>
         </div>
       </section>
@@ -343,11 +343,11 @@ export default function FestivalPage() {
               href="/festival/history/Brief_COFF_BDC_HistoryREV11.3.25FINAL.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
+              className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-blue hover:bg-blue/90 text-white"
             >
               History
             </a>
-            <FestivalButton href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
+            <FestivalButton color="blue" href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
           </div>
         </div>
       </section>

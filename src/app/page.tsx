@@ -10,7 +10,7 @@ export default function Homepage() {
         subtitle="Saturday, January 24th, 7pm"
         subtitle2="The Columbus Mennonite Church"
         imageURL="/events/TheMontvales.png"
-        buttonText="Info and Tickets"
+        buttonText="More Info"
         buttonLink="/events"
       />
 
@@ -38,7 +38,7 @@ export default function Homepage() {
             </h2>
           </div>
           <p className="font-body text-gray-700 max-w-4xl mx-auto">
-            Discover how the Columbus Folk Music Society preserves and promotes folk music traditions.
+            We are a non-profit membership organization committed to bringing more joy to the world through folk music, events, connections and song. Discover more about us!
           </p>
         </div>
 
@@ -46,9 +46,9 @@ export default function Homepage() {
           {/* Card 1: Festival */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48">
-              <Image 
-                src="/festival/03duo.jpg" 
-                alt="Central Ohio Folk Festival" 
+              <Image
+                src="/festival/03duo.jpg"
+                alt="Central Ohio Folk Festival"
                 fill
                 className="object-cover"
               />
@@ -58,8 +58,8 @@ export default function Homepage() {
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
                 Two days of music, workshops, and community. Join us for our annual celebration of folk music traditions.
               </p>
-              <a 
-                href="/festival" 
+              <a
+                href="/festival"
                 className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
                 Festival Homepage
@@ -70,9 +70,9 @@ export default function Homepage() {
           {/* Card 2: Outreach */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48">
-              <Image 
-                src="/outreach/07youth.jpg" 
-                alt="Educational Outreach" 
+              <Image
+                src="/outreach/07youth.jpg"
+                alt="Educational Outreach"
                 fill
                 className="object-cover"
               />
@@ -80,10 +80,10 @@ export default function Homepage() {
             <div className="p-6">
               <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Outreach</h3>
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
-                Bringing folk music to schools and communities through workshops, performances, and educational programs.
+                Bringing folk music to the community through various events.
               </p>
-              <a 
-                href="/outreach" 
+              <a
+                href="/outreach"
                 className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
                 Learn More
@@ -91,29 +91,56 @@ export default function Homepage() {
             </div>
           </div>
 
-          {/* Card 3: Newsletter */}
+          {/* Card 3: Events */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48">
-              <Image 
-                src="/newsletter/newsletter.jpeg" 
-                alt="Monthly Newsletter" 
+              <Image
+                src="/events/StillhouseJunkies.jpg"
+                alt="Monthly Newsletter"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Monthly Newsletter</h3>
+              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Monthly Concert Series</h3>
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
-                Stay updated with the latest events, performances, and folk music news from central Ohio and beyond.
+                Our monthly concert series (excluding June and December) sponsored by the Greater Columbus Arts Council.
               </p>
-              <a 
-                href="/newsletter" 
+              <a
+                href="/events"
                 className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
                 View/Subscribe
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-light-brown py-16 text-charcoal shadow-inner">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
+            Monthly Newsletter
+          </h2>
+          <p className="text-xl font-body mb-8">
+            Stay updated with the latest events, performances, and folk music news from central Ohio and beyond.
+          </p>
+          <p className="font-body text-lg mb-6">
+            Sign up for our newsletter to receive monthly updates directly to your inbox!
+          </p>
+          <form className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full sm:w-auto flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green"
+            />
+            <button
+              type="submit"
+              className="w-full sm:w-auto px-6 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+            >
+              Subscribe
+            </button>
+          </form>
         </div>
       </section>
 

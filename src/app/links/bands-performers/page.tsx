@@ -12,27 +12,27 @@ export default function BandsPerformersPage() {
                             <li>
                                 <b>Bill Cohen</b>, Performer<br />
                                 614-263-3851, billcohen@columbus.rr.com<br />
-                                <a href='https://www.facebook.com/billcohensings/' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='https://www.facebook.com/billcohensings/' className='text-green hover:text-brown transition-colors font-bold'>
                                     https://www.facebook.com/billcohensings/
                                 </a>
                             </li>
                             <li>
                                 <b>Folquinox</b>, Band<br />
-                                <a href='https://www.folquinox.com/' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='https://www.folquinox.com/' className='text-green hover:text-brown transition-colors font-bold'>
                                     https://www.folquinox.com/
                                 </a>
                             </li>
                             <li>
                                 <b>Katy Oberle</b>, folk/pop/singer-songwriter<br />
                                 katyoberle@gmail.com<br />
-                                <a href='https://katyoberle.com' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='https://katyoberle.com' className='text-green hover:text-brown transition-colors font-bold'>
                                     https://katyoberle.com
                                 </a>
                             </li>
                             <li>
                                 <b>Marshall Verbsky</b>, singer-songwriter<br />
                                 marshallverbsky@gmail.com<br />
-                                <a href='https://www.facebook.com/marshallverbs' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='https://www.facebook.com/marshallverbs' className='text-green hover:text-brown transition-colors font-bold'>
                                     https://www.facebook.com/marshallverbs
                                 </a>
                             </li>
@@ -48,21 +48,21 @@ export default function BandsPerformersPage() {
                             <li>
                                 <b>Halfway Home Band</b>, Americana/folk<br />
                                 Mike@Halfway-home.com<br />
-                                <a href='http://www.halfway-home.com' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='http://www.halfway-home.com' className='text-green hover:text-brown transition-colors font-bold'>
                                     http://www.halfway-home.com
                                 </a>
                             </li>
                             <li>
                                 <b>Bohemian Highway Band</b>, folk<br />
                                 Beki Test, 614-538-084, good2bbek@yahoo.com<br />
-                                <a href='http://www.bohemianhighwayfolk.com' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='http://www.bohemianhighwayfolk.com' className='text-green hover:text-brown transition-colors font-bold'>
                                     www.bohemianhighwayfolk.com
                                 </a>
                             </li>
                             <li>
                                 <b>Clintonville Grass</b>, bluegrass<br />
                                 Carl Yaffey, 614-268-6353, cyaffey@gmail.com<br />
-                                <a href='http://clintonvillegrass.com/' className='text-green hover:text-brown transition-colors font-medium'>
+                                <a href='http://clintonvillegrass.com/' className='text-green hover:text-brown transition-colors font-bold'>
                                     Clintonvillegrass.com
                                 </a>
                             </li>

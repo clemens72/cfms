@@ -16,29 +16,31 @@ export default function ContactPage() {
                 </p>
                 <h3 className="text-2xl font-heading font-semibold mb-4 text-charcoal mt-10">Contact Information</h3>
                 <ul className="font-body text-gray-700 mb-8 leading-relaxed space-y-2">
-                    <li>For <b>Americana/Folk Concert Series bookings: </b><a href="mailto:coffeehousebooking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-medium">coffeehousebooking@columbusfolkmusicsociety.org</a>
+                    <li>For <b>Americana/Folk Concert Series bookings: </b><a href="mailto:coffeehousebooking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">coffeehousebooking@columbusfolkmusicsociety.org</a>
                     </li>
-                    <li>For <b>Festival bookings: </b><a href="mailto:festival_booking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-medium">festival_booking@columbusfolkmusicsociety.org</a>
+                    <li>For <b>Festival bookings: </b><a href="/festival/performers" className="text-green hover:text-brown transition-colors font-bold">2027 Performer/Presenter Apply</a>
                     </li>
-                    <li>For <b>Festival info: </b><a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-medium">infofestival@columbusfolkmusicsociety.org</a>
+                    <li>For <b>Festival info: </b><a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">infofestival@columbusfolkmusicsociety.org</a>
                     </li>
-                    <li>For <b>Festival Food Truck inquiries: </b><a href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-medium">festivalfoodtruckinquiry@columbusfolkmusicsociety.org</a>
-                    </li>
-                    <li>For <b>all other inquiries: </b><a href="mailto:info@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-medium">info@columbusfolkmusicsociety.org</a>
+                    <li>For <b>all other inquiries: </b><a href="mailto:info@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">info@columbusfolkmusicsociety.org</a>
                     </li>
                     <li>To contact CFMS via <b>phone</b>, leave a voicemail message at 614-470-3963.</li>
                     <li>To send <strong>postal mail:</strong> Box 20735, Columbus, Ohio 43220.</li>
                 </ul>
                 <div className="mb-8">
                     <a href="/members/join" className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Join as a Member</a>
-                    <a href="/members/donate" className="inline-block px-4 py-2 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Donate</a><br />
+                    <a href="#" className="inline-block px-4 py-2 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Volunteer</a>
+                    <a href="/members/donate" className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Donate</a><br />
                     <p className='mt-8'>
                         <i>Note: membership amounts may be tax deductible.</i><br />
                         <b>Any CFMS board member can give you more information about the CFMS and joining our society.</b><br />
-                        <a href="/about/leadership" className="text-green hover:text-brown transition-colors font-medium">CFMS Leadership List</a>
+                        <a href="/about/leadership" className="text-green hover:text-brown transition-colors font-bold">CFMS Leadership List</a>
                     </p>
                 </div>
                 <h3 className="text-2xl font-heading font-semibold mb-4 text-charcoal mt-10">Contact Form</h3>
+                <p className="font-body text-gray-700 mb-4 leading-relaxed">
+                    For any other questions please contact us using the form below:
+                </p>
                 <form className="space-y-6">
                     <div>
                         <label htmlFor="name" className="block text-sm font-medium text-charcoal">Name</label>

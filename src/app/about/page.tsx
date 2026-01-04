@@ -6,7 +6,7 @@ export default function AboutPage() {
             <Hero
                 title="About Us"
                 subtitle="Learn more about the Columbus Folk Music Society"
-                imageURL="/cfms-park-woodcut.png"
+                imageURL="/about/about-header.jpg"
                 buttonText='Join or Renew Membership'
                 buttonLink='/members'
             />
@@ -147,19 +147,21 @@ export default function AboutPage() {
 
                     {/* Card 1: CFMS' Americana/Folk Concert Series  */}
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">CFMS&apos; Americana/Folk Concert Series</h2>
+                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal"><a href="/events" className="text-green hover:text-brown">CFMS&apos; Americana/Folk Concert Series</a></h2>
                         <p className="font-body text-gray-700 leading-relaxed">
-                            Monthly Americana/Folk Concert Series (excluding May and December)<br /><br />
+                            Monthly Americana/Folk Concert Series (excluding June and December)<br /><br />
                             A 10-concert series, occurring at a number of different venues. The majority of concerts occur the last Saturday of the month and are held at the Columbus Mennonite Church space, 35 Oakland Park Avenue, Columbus, OH. Pre-performance jam session, open stage (pre sign-up) followed by a featured performer. It also provides a social and creative setting for discussing folk history, stories, music, and the latest current events in the folk world. Snacks / beverages available. The other concerts occur in other parts of the city as noted on our Events page.
                         </p>
                     </div>
 
                     {/* Card 2: Annual Central Ohio Folk Festival */}
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Annual Central Ohio Folk Festival</h2>
+                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal"><a href="/festival" className="text-green hover:text-brown">Annual Central Ohio Folk Festival</a></h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
-                            Held the 1st full weekend in May at Highbanks Metro Park. It is open to the public and features a multitude of activities for all ages:  3 performing stages; 30+ music workshops (with something for everyone); Sat evening Headliner concert featuring international touring artist; kids music & crafts; youth activities and dedicated jam tents. There are no fixed fees for the festival - <b>attendees&apos; generous support by free-will donations help make all of it possible.</b><br /><br />
-                            Daytime concerts feature regional & local favorites as well as new artists. Community Sing opportunities; drum circles both Sat and Sun; and for the kids - an &apos;Instrument Petting Zoo&apos; and other hands-on activities and sing-a-longs. Food service & Festival Store.
+                            Held the <b>1st full weekend in June at Bank Run Metro Park in Lockbourne, Ohio.</b> It is open to the public and features a multitude of activities for all ages:<br/>
+                            4 performing stages; 30+ music workshops (with something for everyone);<br/>Sat evening Headliner concert featuring national/international touring artist; kids music & crafts; youth activities; community song; and dedicated jam tents.<br/><br/>
+                            Daytime concerts feature national and regional touring artists as well as local performers. There are scheduled drum circles each day, food service, a festival store, and for the kids — an Instrument Petting Zoo and many hands-on activities.<br /><br />
+                            <b>The festival has a very modest admission fee: $10 pre-event and $15 on site, with under 18 FREE. The admission fee covers BOTH days.</b>
                         </p>
                     </div>
 
@@ -188,7 +190,7 @@ export default function AboutPage() {
                         Need to contact us?
                     </h2>
                     <p className="text-xl font-body mb-8 max-w-3xl mx-auto">
-                        See our contact page for a form as well as some frequestly asked questions.
+                        Use our contact page to reach out about performing, volunteering, membership or if you have other questions...
                     </p>
                     <a
                         href="/contact"

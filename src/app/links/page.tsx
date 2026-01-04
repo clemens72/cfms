@@ -15,14 +15,14 @@ export default function LinksPage() {
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Music and Arts</h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
-                            <li><a href='http://www.folkalley.com/' className='text-green hover:text-brown transition-colors font-medium'>Folk Alley</a></li>
-                            <li><a href='http://www.folklib.net/' className='text-green hover:text-brown transition-colors font-medium'>Folklib</a></li>
-                            <li><a href='https://www.columbusmakesart.com/' className='text-green hover:text-brown transition-colors font-medium'>Columbus Makes Art</a></li>
-                            <li><a href='https://folk.org/' className='text-green hover:text-brown transition-colors font-medium'>Arts in Ohio</a></li>
-                            <li><a href='https://www.farmfolk.org/' className='text-green hover:text-brown transition-colors font-medium'>Folk Alliance Region Midwest</a></li>
-                            <li><a href='https://folk.org/' className='text-green hover:text-brown transition-colors font-medium'>Folk Alliance International</a></li>
-                            <li><a href='https://creekdontrise.com/' className='text-green hover:text-brown transition-colors font-medium'>CreekDontRise.com (Folk and Acoustic Instrument Resource)</a></li>
-                            <li><a href='https://ohiofestivals.net/ohio-festivals/' className='text-green hover:text-brown transition-colors font-medium'>ohiofestivals.net/ohio-festivals</a></li>
+                            <li><a href='http://www.folkalley.com/' className='text-green hover:text-brown transition-colors font-bold'>Folk Alley</a></li>
+                            <li><a href='http://www.folklib.net/' className='text-green hover:text-brown transition-colors font-bold'>Folklib</a></li>
+                            <li><a href='https://www.columbusmakesart.com/' className='text-green hover:text-brown transition-colors font-bold'>Columbus Makes Art</a></li>
+                            <li><a href='https://folk.org/' className='text-green hover:text-brown transition-colors font-bold'>Arts in Ohio</a></li>
+                            <li><a href='https://www.farmfolk.org/' className='text-green hover:text-brown transition-colors font-bold'>Folk Alliance Region Midwest</a></li>
+                            <li><a href='https://folk.org/' className='text-green hover:text-brown transition-colors font-bold'>Folk Alliance International</a></li>
+                            <li><a href='https://creekdontrise.com/' className='text-green hover:text-brown transition-colors font-bold'>CreekDontRise.com (Folk and Acoustic Instrument Resource)</a></li>
+                            <li><a href='https://ohiofestivals.net/ohio-festivals/' className='text-green hover:text-brown transition-colors font-bold'>ohiofestivals.net/ohio-festivals</a></li>
                         </ul>
                     </div>
 
@@ -30,14 +30,14 @@ export default function LinksPage() {
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">                        
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">More Information</h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
-                            <li><a href='/newsletter' className='text-green hover:text-brown transition-colors font-medium'>A Different Strummer: Newsletter</a></li>
-                            <li><a href='/outreach' className='text-green hover:text-brown transition-colors font-medium'>Outreach</a></li>
-                            <li><a href='/outreach/kirby' className='text-green hover:text-brown transition-colors font-medium'>Kirby Scholarship</a></li>
-                            <li><a href='/links/folk-orgs' className='text-green hover:text-brown transition-colors font-medium'>Folk Organizations</a></li>
-                            <li><a href='/links/bands-performers' className='text-green hover:text-brown transition-colors font-medium'>Bands and Performers</a></li>
-                            <li><a href='/links/dance-links' className='text-green hover:text-brown transition-colors font-medium'>Dance Links</a></li>
-                            <li><a href='/links/festivals' className='text-green hover:text-brown transition-colors font-medium'>Festivals, Camps, Schools</a></li>
-                            <li><a href='/links/instructors' className='text-green hover:text-brown transition-colors font-medium'>Instructors</a></li>
+                            <li><a href='/newsletter' className='text-green hover:text-brown transition-colors font-bold'>A Different Strummer: Newsletter</a></li>
+                            <li><a href='/outreach' className='text-green hover:text-brown transition-colors font-bold'>Outreach</a></li>
+                            <li><a href='/outreach/kirby' className='text-green hover:text-brown transition-colors font-bold'>Kirby Scholarship</a></li>
+                            <li><a href='/links/folk-orgs' className='text-green hover:text-brown transition-colors font-bold'>Folk Organizations</a></li>
+                            <li><a href='/links/bands-performers' className='text-green hover:text-brown transition-colors font-bold'>Bands and Performers</a></li>
+                            <li><a href='/links/dance-links' className='text-green hover:text-brown transition-colors font-bold'>Dance Links</a></li>
+                            <li><a href='/links/festivals' className='text-green hover:text-brown transition-colors font-bold'>Festivals, Camps, Schools</a></li>
+                            <li><a href='/links/instructors' className='text-green hover:text-brown transition-colors font-bold'>Instructors</a></li>
                         </ul>
                     </div>
 
@@ -46,17 +46,17 @@ export default function LinksPage() {
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Events and Jams Calendars</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
                             The <b>CFMS Events Calendar</b> includes CFMS-sponsored concerts, festival, and other events that are open to the public. Come enjoy the experience from the audience! These make for a great outing: alone, with friends, or with your special someone.<br />
-                            Events on this calendar are explained in detail on the <a href="/events" className='text-green'>Events</a> page of this site.
+                            Events on this calendar are explained in detail on the <a href="/events" className='text-green hover:text-brown font-bold'>Events</a> page of this site.
                         </p>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
-                            The <b>Events & Jams Calendar</b> consists of events where anyone is welcome to bring their folk instrument and join in an informal jam session with a group … or just watch the fun and listen. These are a great place to practice your instrument with a group, and a friendly step out of the basement for those who normally play alone or are trying to build their music-making skills.<br />
+                            The <b>Jams Calendar</b> consists of events where anyone is welcome to bring their folk instrument and join in an informal jam session with a group … or just watch the fun and listen. These are a great place to practice your instrument with a group, and a friendly step out of the basement for those who normally play alone or are trying to build their music-making skills.<br />
                             <i>All folk instrument players are welcome, regardless of skill or experience!</i>
                         </p>
                         <a
                             href="/events/jam-sessions"
                             className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                         >
-                            Events & Jams Calendar
+                            Jams Calendar
                         </a>
                     </div>
 
@@ -64,7 +64,7 @@ export default function LinksPage() {
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Photos - Central Ohio Folk Festivals</h2>
                         <p className="font-body text-gray-700 leading-relaxed mb-3">
-                            The Central Ohio Folk Music Society has been hosting the Central Ohio Folk Festival for over four decades. Here are some photos from past festivals showcasing the vibrant community and memorable performances.
+                            The Columbus Folk Music Society has been producing the annual festival since 1997.  Here are some photos from more recent years showcasing the vibrant community and memorable performances.
                         </p>
                         <a
                             href="https://www.flickr.com/photos/36521981794@N01/albums/with/72157681241428114"

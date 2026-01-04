@@ -21,8 +21,8 @@ export default function OutreachPage() {
                             Links to some of our other outreach programs are listed below. Please click to find out more about them!
                         </p>
                         <p className="text-gray-700 mb-8 leading-relaxed">
-                            <a href="/outreach/kirby" className="text-green hover:text-brown transition-colors">Bob Kirby Scholarship Program</a><br />
-                            <a href="/weekly-jam" className="text-green hover:text-brown transition-colors">Weekly Community Jam</a>
+                            <a href="/outreach/kirby" className="text-green hover:text-brown font-bold transition-colors">Bob Kirby Scholarship Program</a><br />
+                            <a href="/weekly-jam" className="text-green hover:text-brown font-bold transition-colors">Weekly Community Jam</a>
                         </p>
                     </div>
 

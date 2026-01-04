@@ -79,7 +79,7 @@ export default function KirbyPage() {
                         <div className="p-6">
                             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Scholarship Award</h3>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                The award is announced and received at the Central Ohio Folk Festival in May.
+                                The award is announced and received at the Central Ohio Folk Festival in June.
                             </p>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
                                 An application form and cover letter explaining the program can be found at the link above.
@@ -105,7 +105,7 @@ export default function KirbyPage() {
                         Past Kirby Scholarship Winners
                     </h2>
                     <a
-                        href="/outreach/kirby-scholarship-winnersrev2024.pdf"
+                        href="/outreach/kirby-scholarship-winnersrev2025.pdf"
                         target="_blank"
                         className="inline-block mt-4 px-6 py-3 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >

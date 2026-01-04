@@ -45,7 +45,7 @@ export default function SongwriterContestPage() {
                         <li>Files may not exceed 10MB.</li>
                         <li>Please submit your recorded songs in MP3 format only.</li>
                         <li>Please submit your lyric sheets in PDF format only.</li>
-                        <li>While CFMS does not endorse or warrant third party services, you may find this website, or others like it, helpful in converting files to the required format: <a href="https://www.online-convert.com" className="text-green hover:text-brown">https://www.online-convert.com</a></li>
+                        <li>While CFMS does not endorse or warrant third party services, you may find this website, or others like it, helpful in converting files to the required format: <a href="https://www.online-convert.com" className="text-green hover:text-brown font-bold">https://www.online-convert.com</a></li>
                         <li>Lyrics should be family friendly.</li>
                         <li>Performers who do not play an instrument may have one instrument accompanist.</li>
                         <li>No electronic beats or looping are permitted.</li>
@@ -56,7 +56,7 @@ export default function SongwriterContestPage() {
                         DEADLINE TO SUBMIT YOUR INFORMATION FORM AND ATTACHMENTS IS MIDNIGHT EST NOVEMBER 30TH. NO EXCEPTIONS.
                     </p>
                     <p className="font-body text-xl mb-4 leading-relaxed">
-                        You will receive an email acknowledging receipt of your submission. If you do not receive a receipt of your submission entry or if you have any questions or concerns about your submission, contact the competition organizer at <a href="mailto:songcontest@columbusfolkmusicsociety.org" className="text-green hover:text-brown">songcontest@columbusfolkmusicsociety.org.</a>
+                        You will receive an email acknowledging receipt of your submission. If you do not receive a receipt of your submission entry or if you have any questions or concerns about your submission, contact the competition organizer at <a href="mailto:songcontest@columbusfolkmusicsociety.org" className="text-green hover:text-brown font-bold">songcontest@columbusfolkmusicsociety.org.</a>
                     </p>
                     <p className="font-body text-xl mb-8 leading-relaxed">
                         <i>We look forward to hearing your songs. Good luck with your entries!</i>

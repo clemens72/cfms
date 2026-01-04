@@ -10,7 +10,7 @@ export default function SongwriterContestFormPage() {
                         </h2>
                     </div>
                     <p className="font-body text-gray-700 max-w-4xl mx-auto">
-                        <b>For more info on the Songwriter Contest, click <a href="/festival/performers/songwritercontest" className="text-green hover:underline">here</a>.</b>
+                        <b>For more info on the Songwriter Contest, click <a href="/festival/performers/songwritercontest" className="text-green hover:underline font-bold">here</a>.</b>
                     </p>
                 </div>
                 <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">

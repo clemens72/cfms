@@ -15,7 +15,7 @@ export default function MembersPage() {
                         </h2>
                     </div>
                     <p className="font-body text-gray-700 max-w-4xl mx-auto">
-                        You&apos;re in the loop with CFMS&apos; happenings and special events, receive our monthly newsletter, get discounts at our monthly Americana/Folk Concert Series, AND join a vibrant community of fellow folk music enthusiasts!  Band membership includes promotional benefits: band listing on our website & other promotional perks.
+                        You&apos;re in the loop with CFMS&apos; happenings and special events, receive our monthly newsletter, get discounts at our monthly Americana/Folk Concert Series, AND join a vibrant community of fellow folk music enthusiasts!  Band membership includes some promotional perks.
                     </p>
                     <a
                         href="/members/join"

@@ -7,7 +7,7 @@ export default function EventsPage() {
             <Hero
                 title="Upcoming Events"
                 subtitle="Join Us for Live Folk Music Performances"
-                imageURL="/events/folk-banner.png"
+                imageURL="/events/StillhouseJunkies.jpg"
                 buttonText="Jam & Events Calendar"
                 buttonLink="/jam-sessions"
             />
@@ -60,7 +60,7 @@ export default function EventsPage() {
                                     href="/events/the-montvales"
                                     className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                                 >
-                                    More Info & Tickets
+                                    More Info
                                 </a>
                             </div>
                             {/* Right: YouTube Video */}
@@ -93,7 +93,7 @@ export default function EventsPage() {
                         <p>
                             For all Mennonite Church concerts, the schedule is:  6PM Open Jam / 7PM Open Mic / 7:45PM Community Sing / 8PM FEATURED PERFORMER.
                         </p>
-                        <p>
+                        <p className="font-bold">
                             Door donation is $15 general public; $10 CFMS members & students; and under 12 free. To sign up for the OPEN MIC, contact Bill Cohen (email or call 614-263-3851).
                         </p>
                     </div>
@@ -120,7 +120,7 @@ export default function EventsPage() {
                         </div>
 
                         <div className="p-6">
-                            <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Columbus Folk Music Society gratefully acknowledges support from the Greater Columbus Arts Council  www.gcac.org for its Americana/Folk Concert Series.</h3>
+                            <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Columbus Folk Music Society gratefully acknowledges support from the <a href="www.gcac.org" className="text-green hover:text-brown hover:underline font-bold">Greater Columbus Arts Council (GCAC)</a> for its Americana/Folk Concert Series.</h3>
                             <p className="font-body text-charcoal mb-4 mt-10 leading-relaxed">
                                 <span className="font-semibold">Championing Art / Advancing Culture / Celebrating Expression /<br />
                                     Fostering Talent / Promoting Community / Advocating Collaboration</span>
@@ -228,7 +228,7 @@ export default function EventsPage() {
                         Need to contact us?
                     </h2>
                     <p className="text-xl font-body mb-8 max-w-3xl mx-auto">
-                        Use our contact form to reach out about adding an event or booking a performance.
+                        Use our contact page to reach out about performing, volunteering, membership or if you have other questions...
                     </p>
                     <a
                         href="/contact"

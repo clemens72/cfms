@@ -9,9 +9,9 @@ export default function DanceLinksPage() {
                             Dance Organizations
                         </h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
-                            <li><a href='http://www.cincinnaticontradance.org/index.htm' className='text-green hover:text-brown transition-colors font-medium'>Cincinnati Contradance</a></li>
-                            <li><a href='http://www.neohiocontradance.org/index.html' className='text-green hover:text-brown transition-colors font-medium'>Northeast Ohio Contradance & Traditional Dance Community</a></li>
-                            <li><a href='http://www.recfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-medium'>Recreational Folk Dancers of Columbus</a></li>
+                            <li><a href='http://www.cincinnaticontradance.org/index.htm' className='text-green hover:text-brown transition-colors font-bold'>Cincinnati Contradance</a></li>
+                            <li><a href='http://www.neohiocontradance.org/index.html' className='text-green hover:text-brown transition-colors font-bold'>Northeast Ohio Contradance & Traditional Dance Community</a></li>
+                            <li><a href='http://www.recfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-bold'>Recreational Folk Dancers of Columbus</a></li>
                         </ul>
                     </div>
 
@@ -21,16 +21,16 @@ export default function DanceLinksPage() {
                             Individual Dance Sites
                         </h2>
                         <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
-                            <li><a href='http://www.firstuucolumbus.org/our-community/dancing-events' className='text-green hover:text-brown transition-colors font-medium'>All Soles Columbus Contra Dance</a></li>
-                            <li><a href='http://www.bigscioty.com/' className='text-green hover:text-brown transition-colors font-medium'>Big Scioty Barn Dance</a></li>
-                            <li><a href='http://columbusfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-medium'>Columbus Folk Dancers</a></li>
-                            <li><a href='http://www.bigscioty.com/english.html' className='text-green hover:text-brown transition-colors font-medium'>English Country Dancers of Columbus</a></li>
-                            <li><a href='http://www.rscdscincinnati.org/HnT/render.php?page=body.html' className='text-green hover:text-brown transition-colors font-medium'>Heather &apos;N&apos; Thistle</a></li>
-                            <li><a href='http://recfolkdancecolumbus.org/Hillel.html' className='text-green hover:text-brown transition-colors font-medium'>Hillel International Folk Dancers</a></li>
-                            <li><a href='http://www.robertsnider.com/BalkanNight/' className='text-green hover:text-brown transition-colors font-medium'>Balkan Night Dance Parties</a></li>
+                            <li><a href='http://www.firstuucolumbus.org/our-community/dancing-events' className='text-green hover:text-brown transition-colors font-bold'>All Soles Columbus Contra Dance</a></li>
+                            <li><a href='http://www.bigscioty.com/' className='text-green hover:text-brown transition-colors font-bold'>Big Scioty Barn Dance</a></li>
+                            <li><a href='http://columbusfolkdancers.webs.com/Home.html' className='text-green hover:text-brown transition-colors font-bold'>Columbus Folk Dancers</a></li>
+                            <li><a href='http://www.bigscioty.com/english.html' className='text-green hover:text-brown transition-colors font-bold'>English Country Dancers of Columbus</a></li>
+                            <li><a href='http://www.rscdscincinnati.org/HnT/render.php?page=body.html' className='text-green hover:text-brown transition-colors font-bold'>Heather &apos;N&apos; Thistle</a></li>
+                            <li><a href='http://recfolkdancecolumbus.org/Hillel.html' className='text-green hover:text-brown transition-colors font-bold'>Hillel International Folk Dancers</a></li>
+                            <li><a href='http://www.robertsnider.com/BalkanNight/' className='text-green hover:text-brown transition-colors font-bold'>Balkan Night Dance Parties</a></li>
                             <li>Irish Country Set Dancers of Columbus<br />C/O: Sharron Coplin (coplin.2@osu.edu) </li>
-                            <li><a href='http://www.welshcountrydancers.org/' className='text-green hover:text-brown transition-colors font-medium'>Welsh Country Dancers</a></li>
-                            <li><a href='https://www.theaterseatstore.com/blog/square-dancing-guide' className='text-green hover:text-brown transition-colors font-medium'>Square Dancing Guide</a></li>
+                            <li><a href='http://www.welshcountrydancers.org/' className='text-green hover:text-brown transition-colors font-bold'>Welsh Country Dancers</a></li>
+                            <li><a href='https://www.theaterseatstore.com/blog/square-dancing-guide' className='text-green hover:text-brown transition-colors font-bold'>Square Dancing Guide</a></li>
                         </ul>
                     </div>
                 </div>

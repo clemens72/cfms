@@ -13,7 +13,7 @@ export default function DonatePage() {
                 </p>
                 <div className="flex justify-center">
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal text-center">Donate via PayPal</h2>
+                        <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal text-center">Donate via PayPal, Venmo, Debit or Credit Card:</h2>
                         <div className="flex justify-center">
                             <form action="https://www.paypal.com/donate" method="post" target="_top">
                                 <input type="hidden" name="hosted_button_id" value="CBAQS93ZNTCNG" />
