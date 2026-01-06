@@ -117,7 +117,7 @@ export default function Homepage() {
         </div>
       </section>
 
-      <section className="bg-light-brown py-16 text-charcoal shadow-inner">
+      <section className="bg-blue py-16 text-light-brown shadow-inner">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
             Monthly Newsletter

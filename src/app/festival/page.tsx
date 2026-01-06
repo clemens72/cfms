@@ -20,7 +20,7 @@ export default function FestivalPage() {
       <Hero
         title="Central Ohio Folk Festival"
         subtitle="Roots acoustic music at its best!"
-        subtitle2='Join us for our annual celebration of folk music.'
+        subtitle2='An annual celebration of music and community'
         imageURL="/festival/festival.jpg"
       />
 
@@ -85,7 +85,7 @@ export default function FestivalPage() {
       {/* --- END #2 SECTION --- */}
 
       {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
-      <section id="whatsnew" className="bg-light-brown py-16 text-charcoal shadow-inner">
+      <section id="whatsnew" className="bg-blue py-16 text-light-brown shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             What&apos;s New for 2026
@@ -93,7 +93,7 @@ export default function FestivalPage() {
           <p className="text-xl font-body mb-8 max-w-3xl">
             A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
           </p>
-          <FestivalButton color="blue" href="/festival/new">
+          <FestivalButton color="green" href="/festival/new">
             CHECK IT OUT
           </FestivalButton>
         </div>
@@ -132,18 +132,18 @@ export default function FestivalPage() {
       {/* --- END #4 SECTION --- */}
 
       {/* --- SECTION #5: Festival Details (Full Width) --- */}
-      <section id="details" className="bg-light-brown py-20 text-charcoal">
+      <section id="details" className="bg-blue py-20 text-white shadow-inner">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left Column: Main Text */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-8">
+              <h2 className="text-3xl md:text-4xl font-heading font-bold mb-8">
                 Festival Details
               </h2>
-              <p className="text-xl font-body text-charcoal leading-relaxed pr-12 mb-8">
+              <p className="text-xl font-body leading-relaxed pr-12 mb-8">
                 The festival attracts more than 12,000 over the two days from Central Ohio and beyond, yet retains an attractive smaller community vibe.  Bank Run Metro Park offers plenty of parking (including handicapped), ample green space, and paved paths traversing the grounds. With the exception of the main outdoor stage, all stages are inside tents, with seating provided. Feel free to bring blankets and lawn chairs.
               </p>
-              <p className="text-xl font-body text-charcoal leading-relaxed pr-12">
+              <p className="text-xl font-body leading-relaxed pr-12">
                 The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
               </p>
               <span
@@ -291,7 +291,7 @@ export default function FestivalPage() {
       {/* --- END #7 SECTION --- */}
 
       {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
-      <section id="donate" className="bg-light-brown py-12 text-charcoal text-center">
+      <section id="donate" className="bg-blue py-12 text-light-brown text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Help Us Move It Forward
@@ -300,9 +300,9 @@ export default function FestivalPage() {
             Interested in promoting our event or donating?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton color="blue" href="/festival/sponsors">Sponsors</FestivalButton>
-            <FestivalButton color="blue" href="/festival/press">2026 Press</FestivalButton>
-            <FestivalButton color="blue" href="/donate">Donate</FestivalButton>
+            <FestivalButton color="green" href="/festival/sponsors">Sponsors</FestivalButton>
+            <FestivalButton color="green" href="/festival/press">2026 Press</FestivalButton>
+            <FestivalButton color="green" href="/donate">Donate</FestivalButton>
           </div>
         </div>
       </section>
@@ -330,12 +330,12 @@ export default function FestivalPage() {
       {/* --- END #9 SECTION --- */}
 
       {/* --- SECTION #10: Festival History & Photos --- */}
-      <section id="history" className="bg-light-brown py-12">
+      <section id="history" className="bg-blue text-light-brown py-12">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-heading font-bold text-charcoal mb-4">
+          <h2 className="text-3xl font-heading font-bold mb-4">
             Festival History & Photos
           </h2>
-          <p className="font-body text-lg mb-6 text-gray-700">
+          <p className="font-body text-lg mb-6">
             Curious about the festival&apos;s history? Do you want to view recent or past festival photos? Click the tabs below.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
@@ -343,11 +343,11 @@ export default function FestivalPage() {
               href="/festival/history/Brief_COFF_BDC_HistoryREV11.3.25FINAL.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-blue hover:bg-blue/90 text-white"
+              className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
             >
               History
             </a>
-            <FestivalButton color="blue" href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
+            <FestivalButton color="green" href="https://www.flickr.com/photos/36521981794@N01/albums/">Links to Photos</FestivalButton>
           </div>
         </div>
       </section>
