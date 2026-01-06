@@ -56,7 +56,7 @@ export default function Homepage() {
             <div className="p-6">
               <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Central Ohio Folk Festival</h3>
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
-                Two days of music, workshops, and community. Join us for our annual celebration of folk music traditions.
+                Two days of music, workshops, and community. Join us for our annual celebration of folk music.
               </p>
               <a
                 href="/festival"
@@ -102,7 +102,7 @@ export default function Homepage() {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Monthly Concert Series</h3>
+              <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Americana/Folk Concert Series</h3>
               <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
                 Our monthly concert series (excluding June and December) sponsored by the Greater Columbus Arts Council.
               </p>
@@ -117,7 +117,7 @@ export default function Homepage() {
         </div>
       </section>
 
-      <section className="bg-blue py-16 text-light-brown shadow-inner">
+      <section className="bg-blue py-16 text-white shadow-inner">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
             Monthly Newsletter

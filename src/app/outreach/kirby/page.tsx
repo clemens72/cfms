@@ -88,10 +88,10 @@ export default function KirbyPage() {
                                 If you know someone who might be interested, please pass on the information!
                             </p>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                Questions concerning the Kirby Scholarship can be directed to info@columbusfolkmusicsociety.org.
+                                Questions concerning the Kirby Scholarship can be directed to <a href="mailto:info@columbusfolkmusicsociety.org" className="font-bold text-green hover:underline">info@columbusfolkmusicsociety.org</a>.
                             </p>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                If you are interested in making a donation to the memorial fund, please contact CFMS Treasurer at: treasurer@columbusfolkmusicsociety.org.
+                                If you are interested in making a donation to the memorial fund, please contact CFMS Treasurer at: <a href="mailto:treasurer@columbusfolkmusicsociety.org" className="font-bold text-green hover:underline">treasurer@columbusfolkmusicsociety.org</a>.
                             </p>
                         </div>
                     </div>

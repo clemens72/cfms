@@ -85,7 +85,7 @@ export default function FestivalPage() {
       {/* --- END #2 SECTION --- */}
 
       {/* --- SECTION #3: What's New for 2026 (Full Width) --- */}
-      <section id="whatsnew" className="bg-blue py-16 text-light-brown shadow-inner">
+      <section id="whatsnew" className="bg-blue py-16 text-white shadow-inner">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
             What&apos;s New for 2026
@@ -267,23 +267,32 @@ export default function FestivalPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists / Performers / Presenters</h3>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-col gap-4">
               <FestivalButton href="/festival/performers">2027 Performer/Presenter Apply</FestivalButton>
-              <p className='mt-6'>Performing Questions or Agent Inquiries? Email: <a href="mailto:festival_booking@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold'>festival_booking@columbusfolkmusicsociety.org</a></p>
+              <div className="mt-2">
+                <p className="text-sm font-body text-gray-700 mb-2">Performing Questions or Agent Inquiries?</p>
+                <p className="text-sm font-body">Email: <a href="mailto:festival_booking@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold break-all'>festival_booking@columbusfolkmusicsociety.org</a></p>
+              </div>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
-            <div className="flex flex-wrap gap-2">
-              For food truck inquiries, email:<br /><a href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold'>festivalfoodtruckinquiry@columbusfolkmusicsociety.org</a><br />
-              For Artisan Vendor Applications, email:<br /><a href="mailto:festivalvendorinquiry@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold'>festivalvendorinquiry@columbusfolkmusicsociety.org</a>
+            <div className="flex flex-col gap-4">
+              <div>
+                <p className="text-sm font-body text-gray-700 mb-2">For food truck inquiries:</p>
+                <a href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>festivalfoodtruckinquiry@columbusfolkmusicsociety.org</a>
+              </div>
+              <div>
+                <p className="text-sm font-body text-gray-700 mb-2">For Artisan Vendor Applications:</p>
+                <a href="mailto:festivalvendorinquiry@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>festivalvendorinquiry@columbusfolkmusicsociety.org</a>
+              </div>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
-            <div className="flex flex-wrap gap-2">
-              For any other questions, please email us at:<br />
-              <a href="mailto:infofestival@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold'>infofestival@columbusfolkmusicosociety.org</a>
+            <div className="flex flex-col gap-2">
+              <p className="text-sm font-body text-gray-700 mb-2">For any other questions, please email us at:</p>
+              <a href="mailto:infofestival@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>infofestival@columbusfolkmusicsociety.org</a>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-charcoal/70 font-body">
-              Preserving, promoting, and presenting folk music in central Ohio since 1985.
+              Preserving, promoting, and presenting folk music in central Ohio since 1991.
             </p>
             <div className="flex space-x-4">
             </div>
