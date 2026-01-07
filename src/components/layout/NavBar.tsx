@@ -66,10 +66,10 @@ const Navbar: React.FC = () => {
               className="h-12 w-12 object-contain transition-transform duration-200 group-hover:scale-105"
             />
             <div className="hidden md:flex flex-col leading-tight">
-              <span className="font-heading text-xl font-bold text-green">Columbus Folk Music Society</span>
+              <span className="font-heading text-lg font-bold text-green">Columbus Folk Music Society</span>
             </div>
             <div className="flex md:hidden flex-col leading-tight">
-              <span className="font-heading text-lg font-bold text-green">Columbus Folk Music Society</span>
+              <span className="font-heading text-md font-bold text-green">Columbus Folk Music Society</span>
             </div>
           </a>
 
