@@ -6,7 +6,7 @@ import LineupCard from '@/components/LineupCard';
 type Tab = 'all' | 'kirby' | 'showcase' | 'bailey' | 'youthfolk';
 
 export default function LineupPage() {
-    const [activeTab, setActiveTab] = useState<Tab>('kirby');
+    const [activeTab, setActiveTab] = useState<Tab>('all');
 
     const tabs: { id: Tab; label: string }[] = [
         { id: 'all', label: 'All' },
@@ -23,7 +23,7 @@ export default function LineupPage() {
                             2026 Festival Lineup:
                         </h3>
                         <span
-                            className="inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
+                            className="inline-block px-4 py-2 mb-4 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
                         >
                             Download Full Lineup [PDF]
                         </span>

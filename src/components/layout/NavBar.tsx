@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
 
   // Helper component for the navigation links
   const NavLinks: React.FC<{ isMobile?: boolean }> = ({ isMobile = false }) => (
-    <nav className={isMobile ? 'flex flex-col space-y-4' : 'hidden md:flex md:space-x-8'}>
+    <nav className={isMobile ? 'flex flex-col space-y-4' : 'hidden lg:flex md:space-x-8'}>
       {navLinks.map((link) => (
         <a
           key={link.name}
@@ -65,19 +65,18 @@ const Navbar: React.FC = () => {
               height={60}
               className="h-12 w-12 object-contain transition-transform duration-200 group-hover:scale-105"
             />
-            <div className="hidden xl:flex flex-col leading-tight">
+            <div className="flex flex-col leading-tight">
               <span className="font-heading text-xl font-bold text-green">Columbus Folk Music Society</span>
             </div>
-            <span className="xl:hidden font-heading text-lg font-bold text-green">CFMS</span>
           </a>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden md:ml-6 md:flex md:space-x-8">
+          <div className="hidden lg:ml-6 md:flex md:space-x-8">
             <NavLinks />
           </div>
 
           {/* Mobile Menu Button (Hamburger/X Icon) */}
-          <div className="flex md:hidden">
+          <div className="flex lg:hidden">
             <button
               onClick={toggleMenu}
               type="button"
@@ -97,7 +96,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu Panel */}
       <div
         id="mobile-menu"
-        className={`md:hidden transition-all ease-in-out duration-300 overflow-hidden ${
+        className={`lg:hidden transition-all ease-in-out duration-300 overflow-hidden ${
           isOpen ? 'max-h-100 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
