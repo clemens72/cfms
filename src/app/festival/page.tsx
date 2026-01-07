@@ -300,7 +300,7 @@ export default function FestivalPage() {
       {/* --- END #7 SECTION --- */}
 
       {/* --- SECTION #8: Help Us Move It Forward (Sponsors/Donations) --- */}
-      <section id="donate" className="bg-blue py-12 text-light-brown text-center">
+      <section id="donate" className="bg-blue py-12 text-white text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Help Us Move It Forward
@@ -339,7 +339,7 @@ export default function FestivalPage() {
       {/* --- END #9 SECTION --- */}
 
       {/* --- SECTION #10: Festival History & Photos --- */}
-      <section id="history" className="bg-blue text-light-brown py-12">
+      <section id="history" className="bg-blue text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Festival History & Photos
