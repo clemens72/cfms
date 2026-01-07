@@ -44,7 +44,7 @@ export default function EventsPage() {
                         </p>
                     </div>
                 </div>
-                <div className="space-y-8 max-w-5xl mx-auto mb-10">
+                <div className="space-y-8 max-w-5xl mx-auto mb-16">
                     {/* Example Event Card */}
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="grid md:grid-cols-2 gap-6 items-center">
@@ -52,15 +52,15 @@ export default function EventsPage() {
                             <div className="p-6">
                                 <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Montvales</h3>
                                 <p className="font-body text-gray-600 mb-4 leading-relaxed">
-                                    <span className="font-semibold text-green">Saturday, January 24th, 7pm</span><br />
+                                    <span className="font-semibold text-green text-lg">Saturday, January 24th, 7pm</span><br />
                                     The Columbus Mennonite Church<br />
                                     35 Oakland Park Ave, Columbus OH
                                 </p>
                                 <a
-                                    href="/events/the-montvales"
+                                    href="https://themontvales.com/"
                                     className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                                 >
-                                    More Info
+                                    Artist Website
                                 </a>
                             </div>
                             {/* Right: YouTube Video */}
@@ -83,7 +83,7 @@ export default function EventsPage() {
                             2026 Series Line-Up
                         </h2>
                     </div>
-                    <div className="mt-8">
+                    <div className="mt-8 mb-10">
                         <p className="text-xl md:text-2xl font-heading font-bold text-brown max-w-3xl mx-auto leading-relaxed">
                             NOTE:  UNLESS OTHERWISE NOTED BELOW,
                         </p>
@@ -97,11 +97,70 @@ export default function EventsPage() {
                             Door donation is $15 general public; $10 CFMS members & students; and under 12 free. To sign up for the OPEN MIC, contact Bill Cohen (email or call 614-263-3851).
                         </p>
                     </div>
-                    <div className="flex mt-12 items-center justify-center gap-3 mb-4">
-                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-brown">
-                            Line-Up TBA! Stay tuned...
-                        </h2>
+
+
+                    <div className="space-y-8 max-w-5xl text-left mx-auto mb-10">
+                        {/* February Event Card */}
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="grid md:grid-cols-2 gap-6 items-center">
+                                {/* Left: Details */}
+                                <div className="p-6">
+                                    <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">Jordan Smart</h3>
+                                    <p className="font-body text-gray-600 mb-4 leading-relaxed">
+                                        <span className="font-semibold text-green text-lg">Saturday, February 28th, 7pm</span><br />
+                                        The Columbus Mennonite Church<br />
+                                        35 Oakland Park Ave, Columbus OH
+                                    </p>
+                                    <a
+                                        href="https://jordansmartmusic.com"
+                                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                                    >
+                                        Artist Website
+                                    </a>
+                                </div>
+                                {/* Right: Image */}
+                                <div className="relative h-64 md:h-full min-h-[300px]">
+                                    <Image
+                                        src="/events/JordanSmart.jpg"
+                                        alt="Jordan Smart"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* March Event Card */}
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="grid md:grid-cols-2 gap-6 items-center">
+                                {/* Left: Details */}
+                                <div className="p-6">
+                                    <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">Olivia Ellen Lloyd</h3>
+                                    <p className="font-body text-gray-600 mb-4 leading-relaxed">
+                                        <span className="font-semibold text-green text-lg">Saturday, March 29th, 2:30pm</span><br />
+                                        Natalie's Grandview<br />
+                                        945 King Ave, Columbus, OH 43212
+                                    </p>
+                                    <a
+                                        href="https://olivialloydmusic.com"
+                                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                                    >
+                                        Artist Website
+                                    </a>
+                                </div>
+                                {/* Right: Image */}
+                                <div className="relative h-64 md:h-full min-h-[300px]">
+                                    <Image
+                                        src="/events/OliviaLloyd.jpg"
+                                        alt="Olivia Ellen Lloyd"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </section>
 
