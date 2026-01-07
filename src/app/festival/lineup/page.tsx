@@ -47,7 +47,7 @@ export default function LineupPage() {
 
                 {/* Kirby */}
                 {activeTab === 'kirby' && (
-                    <div className="space-y-24 max-w-5xl mx-auto mb-10">
+                    <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
                             <h2 className="text-3xl font-heading font-bold text-green mb-4">Kirby Main & Showcase Stage</h2>
                             <p className="font-body text-gray-700 leading-relaxed mb-4">
@@ -232,7 +232,7 @@ export default function LineupPage() {
 
                 {/* Showcase */}
                 {activeTab === 'showcase' && (
-                    <div className="space-y-8 max-w-5xl mx-auto mb-10">
+                    <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <LineupCard
                             artistName="Artist Name"
                             genre="Genre (City, State)"
@@ -249,7 +249,7 @@ export default function LineupPage() {
 
                 {/* Bailey */}
                 {activeTab === 'showcase' && (
-                    <div className="space-y-8 max-w-5xl mx-auto mb-10">
+                    <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <LineupCard
                             artistName="Artist Name"
                             genre="Genre (City, State)"
@@ -266,7 +266,7 @@ export default function LineupPage() {
 
                 {/* Youthfolk */}
                 {activeTab === 'showcase' && (
-                    <div className="space-y-8 max-w-5xl mx-auto mb-10">
+                    <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <LineupCard
                             artistName="Artist Name"
                             genre="Genre (City, State)"
