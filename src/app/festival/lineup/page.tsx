@@ -6,7 +6,7 @@ import LineupCard from '@/components/LineupCard';
 type Tab = 'all' | 'kirby' | 'showcase' | 'bailey' | 'youthfolk';
 
 export default function LineupPage() {
-    const [activeTab, setActiveTab] = useState<Tab>('all');
+    const [activeTab, setActiveTab] = useState<Tab>('kirby');
 
     const tabs: { id: Tab; label: string }[] = [
         { id: 'kirby', label: 'Kirby Main & Showcase Stage' },
