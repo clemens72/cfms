@@ -48,15 +48,8 @@ export default function FestivalPage() {
               >
                 Get Tickets (Coming Soon)
               </span>
-              <a
-                href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-2 text-sm font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02] bg-green hover:bg-green/90 text-white"
-              >
-                2026 Headliner
-              </a>
-              <FestivalButton href="/festival/lineup">2026 Lineup (TBA)</FestivalButton>
+              <FestivalButton href="/festival/headliner">2026 Headliner</FestivalButton>
+              <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
               <FestivalButton color="blue" href="/festival/schedule">2025 Schedule</FestivalButton>
             </div>
 
@@ -229,7 +222,7 @@ export default function FestivalPage() {
 
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
-              <FestivalButton href="/festival/lineup">2026 Lineup (TBA)</FestivalButton>
+              <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
               <FestivalButton href="/festival/workshops">2026 Workshops</FestivalButton>
               <FestivalButton href="/festival/activities">Other Activities</FestivalButton>
               <FestivalButton href="/festival/vendors">Vendors</FestivalButton>
@@ -330,7 +323,7 @@ export default function FestivalPage() {
             Check out festival fast facts, maps and frequently asked questions.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <FestivalButton href="/festival/FastFacts_COFF.REV11.1.25FINAL.pdf">Fast Facts</FestivalButton>
+            <FestivalButton href="/festival/facts">Fast Facts</FestivalButton>
             <FestivalButton href="/festival/maps-printables">Maps & Printables</FestivalButton>
             <FestivalButton href="/festival/faq">FAQ</FestivalButton>
           </div>
