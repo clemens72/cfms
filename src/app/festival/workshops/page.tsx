@@ -66,10 +66,10 @@ export default function WorkshopsPage() {
                             FESTIVAL WORKSHOPS
                         </h1>
                         <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
-                            The festival seeks to make the folk arts easily accessible to the public and to increase awareness and appreciation for the folk arts, especially music, storytelling and dance. It is also a teaching festival that offers a 30 workshops with something for everyone.
+                            The festival&apos;s programming not only includes multiple performances, but also incorporates a teaching component. It offers 30 workshops covering a myriad of topics and instruments, including beginner workshops.
                         </p>
                         <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
-                            Workshops are 50 minutes long. There are three workshop tents and workshops are held every hour in each of those tents all during the day both Saturday and Sunday. Workshop presenters are either established teachers or festival artists who also have done workshops or are comfortable sharing what they know.
+                            Workshops are 50 minutes long. There are three workshop tents. Workshops are held on the hour in each tent all day on both Saturday and Sunday. Workshop presenters are either established teachers or festival artists who have done workshops or are comfortable sharing what they know.
                         </p>
                         <p className="text-lg md:text-xl font-body text-charcoal mb-4 leading-relaxed">
                             Anyone on the grounds can attend the workshops. If you are an experienced musician, curious about music in general, new to music, or trying out an instrument for the first time, there are workshops for all of that.

@@ -48,7 +48,7 @@ export default function ActivitiesPage() {
                     </div>
                     <div className="relative h-64 md:h-auto">
                         <Image
-                            src="/festival/activities/workshop.jpg"
+                            src="/festival/activities/jamtent2.jpg"
                             alt="Music workshops"
                             width={400}
                             height={200}
@@ -60,9 +60,9 @@ export default function ActivitiesPage() {
                             For all festival attendees
                         </h2>
                         <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
+                            <li><a href="/festival/workshops" className='text-green font-bold hover:text-brown hover:underline'>30 music workshops (multiple topics and levels)</a></li>
                             <li>Opening Sing-along and Closing Song Circle</li>
                             <li>Five ongoing open jam tents (bluegrass, old-time, folk, just song, Cbus Jammers&apos; tent welcoming the very beginner)</li>
-                            <li>30 music workshops (multiple topics and levels)</li>
                             <li>Participatory drum circles at close of each day</li>
                             <li>Festival store with souvenir apparel and more</li>
                         </ul>
@@ -72,6 +72,25 @@ export default function ActivitiesPage() {
                             </p>
                             <footer className="text-sm font-body text-gray-600 mt-2">— Festival attendee</footer>
                         </blockquote>
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-center h-full">
+                        <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
+                            Official Festival Store (all proceeds help the festival)
+                        </h2>
+                        <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
+                            <li>T-shirts & sweatshirts</li>
+                            <li>Branded Tritan BPA & BPS free plastic water bottles </li>
+                            <li>Festival ceramic mugs</li>
+                        </ul>
+                    </div>
+                    <div className="relative h-64 md:h-auto">
+                        <Image
+                            src="/festival/activities/vendors.jpg"
+                            alt="Vendors"
+                            width={400}
+                            height={200}
+                            className="w-full h-auto object-contain rounded-xl shadow-lg"
+                        />
                     </div>
                 </div>
             </section>
