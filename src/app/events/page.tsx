@@ -138,7 +138,7 @@ export default function EventsPage() {
                                     <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">Olivia Ellen Lloyd</h3>
                                     <p className="font-body text-gray-600 mb-4 leading-relaxed">
                                         <span className="font-semibold text-green text-lg">Saturday, March 29th, 2:30pm</span><br />
-                                        Natalie's Grandview<br />
+                                        Natalie&apos;s Grandview<br />
                                         945 King Ave, Columbus, OH 43212
                                     </p>
                                     <a
