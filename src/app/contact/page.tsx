@@ -15,7 +15,7 @@ export default function ContactPage() {
                     Whether you have questions about our events, want to learn more about membership, or are interested in volunteering, we&apos;re here to help. Please feel free to reach out to us using the contact information below or by filling out the contact form.
                 </p>
                 <h3 className="text-2xl font-heading font-semibold mb-4 text-charcoal mt-10">Contact Information</h3>
-                <ul className="font-body text-gray-700 mb-8 leading-relaxed space-y-2">
+                <ul className="font-body text-gray-700 mb-2 leading-relaxed space-y-2 break-all">
                     <li>For <b>Americana/Folk Concert Series bookings: </b><a href="mailto:coffeehousebooking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">coffeehousebooking@columbusfolkmusicsociety.org</a>
                     </li>
                     <li>For <b>Festival bookings: </b><a href="/festival/performers" className="text-green hover:text-brown transition-colors font-bold">2027 Performer/Presenter Apply</a>
@@ -28,9 +28,11 @@ export default function ContactPage() {
                     <li>To send <strong>postal mail:</strong> Box 20735, Columbus, Ohio 43220.</li>
                 </ul>
                 <div className="mb-8">
+                    <div className='space-y-4'>
                     <a href="/members/join" className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Join as a Member</a>
                     <a href="#" className="inline-block px-4 py-2 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Volunteer</a>
                     <a href="/members/donate" className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">Donate</a><br />
+                    </div>
                     <p className='mt-8'>
                         <i>Note: membership amounts may be tax deductible.</i><br />
                         <b>Any CFMS board member can give you more information about the CFMS and joining our society.</b><br />
