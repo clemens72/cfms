@@ -6,7 +6,9 @@ import { useState } from 'react';
 interface LineupCardProps {
     artistName: string;
     genre: string;
-    website: string;
+    subtitle?: string;
+    website?: string;
+    contact?: string;
     stage: string;
     dayTime: string;
     bio: string;
@@ -18,7 +20,9 @@ interface LineupCardProps {
 export default function LineupCard({
     artistName,
     genre,
+    subtitle,
     website,
+    contact,
     stage,
     dayTime,
     bio,
@@ -36,7 +40,21 @@ export default function LineupCard({
                     <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">{artistName}</h3>
                     <p className="font-body text-gray-600 mb-4 leading-relaxed">
                         <span className="font-semibold text-green">{genre}</span><br />
-                        WEBSITE: <a href={website} className='text-green hover:text-brown'>{website.replace('https://', '').replace('http://', '')}</a><br />
+                        {subtitle && (
+                            <>
+                                <span className="font-semibold text-brown">{subtitle}</span><br />
+                            </>
+                        )}
+                        {website && (
+                            <>
+                                WEBSITE: <a href={`https://${website}`} className='text-green hover:text-brown'>{website.replace('https://', '').replace('http://', '')}</a><br />
+                            </>
+                        )}
+                        {contact && (
+                            <>
+                                CONTACT: <a href={`mailto:${contact}`} className='text-green hover:text-brown'>{contact}</a><br />
+                            </>
+                        )}
                         STAGE: {stage}<br />
                         DAY / TIME: {dayTime}
                     </p>
