@@ -111,10 +111,10 @@ export default function JoinPage() {
                             <input type="text" id="state" name="state" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" />
                         </div>
 
-                        {/* Date of Birth */}
+                        {/* Birth Year */}
                         <div>
-                            <label htmlFor="dob" className="block text-sm font-medium text-charcoal">Date of Birth *</label>
-                            <input type="date" id="dob" name="dob" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
+                            <label htmlFor="dob" className="block text-sm font-medium text-charcoal">Birth Year</label>
+                            <input type="number" id="dob" name="dob" min="1900" max="2026" placeholder="YYYY" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 font-body" required />
                         </div>
 
                         {/* Phone */}
@@ -181,7 +181,7 @@ export default function JoinPage() {
                                         onChange={(e) => setNewsletterFormat(e.target.value)}
                                         className="h-4 w-4 text-green border-gray-300 focus:ring-green"
                                     />
-                                    <label htmlFor="hardcopy" className="ml-2 block text-sm text-charcoal">Hard Copy</label>
+                                    <label htmlFor="hardcopy" className="ml-2 block text-sm text-charcoal"><a href="/newsletter/request" className='font-bold text-green hover:text-brown hover:underline' target="_blank">Hard Copy ($15 extra)</a></label>
                                 </div>
                             </div>
                         </div>
