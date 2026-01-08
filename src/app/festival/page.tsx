@@ -22,6 +22,8 @@ export default function FestivalPage() {
         subtitle="Roots acoustic music at its best!"
         subtitle2='An annual celebration of music and community'
         imageURL="/festival/festival.jpg"
+        buttonText="2026 Lineup"
+        buttonLink="/festival/lineup"
       />
 
       <NavBar />
@@ -208,13 +210,13 @@ export default function FestivalPage() {
       </section>
       {/* --- END #5 SECTION --- */}
 
-      {/* --- SECTION #6: Other Festival Happenings (Split with Image) --- */}
+      {/* --- SECTION #6: All Festival Happenings (Split with Image) --- */}
       <section id="activities" className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text and Buttons */}
           <div className="md:order-last">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
-              Other Festival Happenings
+              All Festival Happenings
             </h2>
             <p className="text-xl font-body text-gray-700 mb-8 leading-relaxed">
               Explore everything the Central Ohio Folk Festival has to offer: our stage lineups, workshops, kids&apos; and youth activites, and more.
