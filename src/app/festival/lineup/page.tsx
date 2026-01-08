@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import LineupCard from '@/components/LineupCard';
+import Image from 'next/image';
 
 type Tab = 'all' | 'kirby' | 'showcase' | 'bailey' | 'youthfolk';
 
@@ -20,23 +21,21 @@ export default function LineupPage() {
                 <div className="grid md:grid-cols-2 mb-12 text-center space-x-4 max-w-3xl mx-auto">
                     <div>
                         <h3 className="text-2xl font-heading font-bold mb-4 text-charcoal">
-                            2026 Festival Lineup:
+                            2026 Festival Schedule:
                         </h3>
                         <span
                             className="inline-block px-4 py-2 mb-4 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
                         >
-                            Download Full Lineup [PDF]
+                            Download [PDF]
                         </span>
                     </div>
                     <div>
                         <h3 className="text-2xl font-heading font-bold mb-4 text-charcoal">
                             Youthfolk Tents
                         </h3>
-                        <span
-                            className="inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
-                        >
+                        <a href="/festival/lineup/youthfolk" className="inline-block px-4 py-2 mb-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green-700 transition-colors duration-300">
                             View Lineup
-                        </span>
+                        </a>
                     </div>
                 </div>
 
@@ -46,11 +45,10 @@ export default function LineupPage() {
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`px-6 py-3 font-body font-semibold transition-colors ${
-                                activeTab === tab.id
-                                    ? 'border-b-4 border-green-700 text-green-700'
-                                    : 'text-gray-600 hover:text-green-600'
-                            }`}
+                            className={`px-6 py-3 font-body font-semibold transition-colors ${activeTab === tab.id
+                                ? 'border-b-4 border-green-700 text-green-700'
+                                : 'text-gray-600 hover:text-green-600'
+                                }`}
                         >
                             {tab.label}
                         </button>
@@ -60,17 +58,49 @@ export default function LineupPage() {
                 {activeTab === 'all' && (
                     <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-                            <h2 className="text-3xl font-heading font-bold text-green mb-4">Kirby Main & Showcase Stage</h2>
-                            <p className="font-body text-gray-700 leading-relaxed mb-4">
-                                The <b>Kirby Main Stage</b> is a large outdoor stage with seating for approximately 175 provided. There is also lots of room to lay out a blanket or set up lawn chairs.
-                            </p>
-                            <p className="font-body text-gray-700 leading-relaxed">
-                                The <b>Showcase Stage</b> is inside a larger tent with ample seating provided. Often times touring performers are booked on both the Kirby & Showcase stages so if you miss them on one, you can catch them on another.
-                            </p>
+                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">KIRBY MAIN & SHOWCASE STAGES</h2>
+                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                                <div className="relative h-64 md:h-auto">
+                                    <Image
+                                        src="/festival/lineup/ShowcaseStage.jpg"
+                                        alt="Showcase Stage"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                        className="object-cover rounded-xl shadow-lg"
+                                    />
+                                </div>
+                                <div className="flex-1">
+                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
+                                        The <b>Kirby Main Stage</b> is a large outdoor stage with seating for approximately 175 provided. There is also lots of room to lay out a blanket or set up lawn chairs.
+                                    </p>
+                                    <p className="font-body text-gray-700 leading-relaxed">
+                                        The <b>Showcase Stage</b> is inside a larger tent with ample seating provided. Often times touring performers are booked on both the Kirby & Showcase stages so if you miss them on one, you can catch them on another.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">BAILEY ACOUSTIC STAGE</h2>
+                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                                <div className="relative h-64 md:h-auto">
+                                    <Image
+                                        src="/festival/lineup/BaileyStage.jpg"
+                                        alt="Bailey Stage"
+                                        fill
+                                        className="object-cover rounded-xl shadow-lg"
+                                    />
+                                </div>
+                                <div className="flex-1">
+                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
+                                        The <b>Bailey Acoustic stage</b> predominantly focuses on showcasing emerging or established native Ohio artists, artists who do predominantly covers, and younger teen or college-aged artists. It is a vibrant and popular tent showcasing many variations of Ohio based talent!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                         <LineupCard
-                            artistName="Annie & Rod Capps Quartet"
+                            artistName="ANNIE & ROD CAPPS QUARTET"
                             genre="Folk/Americana (Chelsea, MI)"
                             website="annieandrodcapps.com"
                             stage="Kirby Main Stage & Showcase Stage"
@@ -168,7 +198,8 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="MUSIC COLUMBUS presents SELECT ARTISTS"
+                            artistName="MUSIC COLUMBUS presents 2026 SELECT ARTISTS"
+                            subtitle='KENNEDY HALL and TALITHA BOYD'
                             genre="Singer-Songwriter/Americana (Columbus, OH)"
                             website="musiccolumbus.com"
                             stage="Showcase Stage"
@@ -245,17 +276,30 @@ export default function LineupPage() {
                 {activeTab === 'kirby' && (
                     <div className="space-y-16 max-w-5xl mx-auto mb-10">
                         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-                            <h2 className="text-3xl font-heading font-bold text-green mb-4">Kirby Main & Showcase Stage</h2>
-                            <p className="font-body text-gray-700 leading-relaxed mb-4">
-                                The <b>Kirby Main Stage</b> is a large outdoor stage with seating for approximately 175 provided. There is also lots of room to lay out a blanket or set up lawn chairs.
-                            </p>
-                            <p className="font-body text-gray-700 leading-relaxed">
-                                The <b>Showcase Stage</b> is inside a larger tent with ample seating provided. Often times touring performers are booked on both the Kirby & Showcase stages so if you miss them on one, you can catch them on another.
-                            </p>
+                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">KIRBY MAIN & SHOWCASE STAGES</h2>
+                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                                <div className="relative h-64 md:h-auto">
+                                    <Image
+                                        src="/festival/lineup/ShowcaseStage.jpg"
+                                        alt="Showcase Stage"
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                        className="object-cover rounded-xl shadow-lg"
+                                    />
+                                </div>
+                                <div className="flex-1">
+                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
+                                        The <b>Kirby Main Stage</b> is a large outdoor stage with seating for approximately 175 provided. There is also lots of room to lay out a blanket or set up lawn chairs.
+                                    </p>
+                                    <p className="font-body text-gray-700 leading-relaxed">
+                                        The <b>Showcase Stage</b> is inside a larger tent with ample seating provided. Often times touring performers are booked on both the Kirby & Showcase stages so if you miss them on one, you can catch them on another.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                         <LineupCard
-                            artistName="Annie & Rod Capps Quartet"
+                            artistName="ANNIE & ROD CAPPS QUARTET"
                             genre="Folk/Americana (Chelsea, MI)"
                             website="annieandrodcapps.com"
                             stage="Kirby Main Stage & Showcase Stage"
@@ -429,6 +473,26 @@ export default function LineupPage() {
                 {/* Bailey */}
                 {activeTab === 'bailey' && (
                     <div className="space-y-16 max-w-5xl mx-auto mb-10">
+
+                        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">BAILEY ACOUSTIC STAGE</h2>
+                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                                <div className="relative h-64 md:h-auto">
+                                    <Image
+                                        src="/festival/lineup/BaileyStage.jpg"
+                                        alt="Bailey Stage"
+                                        fill
+                                        className="object-cover rounded-xl shadow-lg"
+                                    />
+                                </div>
+                                <div className="flex-1">
+                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
+                                        The <b>Bailey Acoustic stage</b> predominantly focuses on showcasing emerging or established native Ohio artists, artists who do predominantly covers, and younger teen or college-aged artists. It is a vibrant and popular tent showcasing many variations of Ohio based talent!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                         <LineupCard
                             artistName="BRANDI SPARKS"
                             genre="Genre (City, State)"

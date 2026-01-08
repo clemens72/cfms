@@ -38,7 +38,7 @@ export default function WorkshopsPage() {
                             2025 Request Proposal:
                         </h3>
                         <a
-                            href="/festival/workshops/requestforproposalwkshpstemplate_rev11.15.2024-copy.docx"
+                            href="/festival/workshops/RequestForProposalWkshpsTEMPLATE_REV11.15.2025.docx"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
@@ -47,7 +47,7 @@ export default function WorkshopsPage() {
                         </a>
 
                         <a
-                            href="/festival/workshops/requestforproposalwkshpstemplate_rev11.15.2024-copy.pdf"
+                            href="/festival/workshops/RequestForProposalWkshpsTEMPLATE_REV11.15.2025.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
