@@ -57,47 +57,6 @@ export default function LineupPage() {
 
                 {activeTab === 'all' && (
                     <div className="space-y-16 max-w-5xl mx-auto mb-10">
-                        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">KIRBY MAIN & SHOWCASE STAGES</h2>
-                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
-                                <div className="relative h-64 md:h-auto">
-                                    <Image
-                                        src="/festival/lineup/ShowcaseStage.jpg"
-                                        alt="Showcase Stage"
-                                        fill
-                                        sizes="(max-width: 768px) 100vw, 50vw"
-                                        className="object-cover rounded-xl shadow-lg"
-                                    />
-                                </div>
-                                <div className="flex-1">
-                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
-                                        The <b>Kirby Main Stage</b> is a large outdoor stage with seating for approximately 175 provided. There is also lots of room to lay out a blanket or set up lawn chairs.
-                                    </p>
-                                    <p className="font-body text-gray-700 leading-relaxed">
-                                        The <b>Showcase Stage</b> is inside a larger tent with ample seating provided. Often times touring performers are booked on both the Kirby & Showcase stages so if you miss them on one, you can catch them on another.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
-                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">BAILEY ACOUSTIC STAGE</h2>
-                            <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
-                                <div className="relative h-64 md:h-auto">
-                                    <Image
-                                        src="/festival/lineup/BaileyStage.jpg"
-                                        alt="Bailey Stage"
-                                        fill
-                                        className="object-cover rounded-xl shadow-lg"
-                                    />
-                                </div>
-                                <div className="flex-1">
-                                    <p className="font-body text-gray-700 leading-relaxed mb-4">
-                                        The <b>Bailey Acoustic stage</b> predominantly focuses on showcasing emerging or established native Ohio artists, artists who do predominantly covers, and younger teen or college-aged artists. It is a vibrant and popular tent showcasing many variations of Ohio based talent!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <LineupCard
                             artistName="ANNIE & ROD CAPPS QUARTET"
