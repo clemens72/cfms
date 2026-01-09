@@ -22,8 +22,6 @@ export default function FestivalPage() {
         subtitle="Roots acoustic music at its best!"
         subtitle2='An annual celebration of music and community'
         imageURL="/festival/festival.jpg"
-        buttonText="2026 Lineup"
-        buttonLink="/festival/lineup"
       />
 
       <NavBar />
@@ -33,15 +31,6 @@ export default function FestivalPage() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column: Text, Buttons, Icons */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
-              Annual Central Ohio Folk Festival
-            </h2>
-            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
-              Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
-            </p>
-            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
-              In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
-            </p>
 
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
@@ -54,6 +43,17 @@ export default function FestivalPage() {
               <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
               <FestivalButton color="blue" href="/festival/schedule">2025 Schedule</FestivalButton>
             </div>
+
+            
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal mb-4">
+              Annual Central Ohio Folk Festival
+            </h2>
+            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
+              Join us for a two-day family friendly festival the first full weekend in June, where the magic of music comes alive across four vibrant stages. Expect an invigorating mix of folk, roots, bluegrass, old-time, and progressive, eclectic blends of these forms of music and more! Experience jams, workshops, songs, and an array of kids&apos; and youth activities. Enjoy food from some of Columbus&apos; favorite food trucks as well as local Nocterra craft beer.
+            </p>
+            <p className="font-body text-xl text-gray-700 mb-8 leading-relaxed">
+              In its 29th year, the festival brings together musicians from across the country and folk music enthusiasts from Central Ohio and beyond for a joyous, inexpensive weekend in a great outdoor setting!
+            </p>
 
             {/* Playlist Links */}
             <div className="flex items-center space-x-4">
@@ -226,7 +226,7 @@ export default function FestivalPage() {
             <div className="flex flex-wrap gap-3 mb-8">
               <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
               <FestivalButton href="/festival/workshops">2026 Workshops</FestivalButton>
-              <FestivalButton href="/festival/activities">Other Activities</FestivalButton>
+              <FestivalButton href="/festival/activities">Activities</FestivalButton>
               <FestivalButton href="/festival/vendors">Vendors</FestivalButton>
             </div>
           </div>
