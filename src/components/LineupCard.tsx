@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 interface LineupCardProps {
     artistName: string;
-    genre: string;
+    genre?: string;
     subtitle?: string;
     website?: string;
     contact?: string;
@@ -39,7 +39,11 @@ export default function LineupCard({
                 <div className="p-6">
                     <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">{artistName}</h3>
                     <p className="font-body text-gray-600 mb-4 leading-relaxed">
-                        <span className="font-semibold text-green">{genre}</span><br />
+                        {genre && (
+                            <>
+                                <span className="font-semibold text-green">{genre}</span><br />
+                            </>
+                        )}
                         {subtitle && (
                             <>
                                 <span className="font-semibold text-brown">{subtitle}</span><br />

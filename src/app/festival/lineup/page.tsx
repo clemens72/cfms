@@ -71,6 +71,18 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
+                            artistName="BRANDI SPARKS"
+                            genre="Singer-Songwriter (Hilliard, Ohio)"
+                            website="brandisparks.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Ohio native singer-songwriter Brandi Sparks journeys through life&apos;s mountaintop highs down to the darkest depths and shares how she arises with the love of a God who sees her as beautiful. The angelic cry of her voice carries her folk ditties and blue eyed soul ballads. Its smooth power and raspy edge shines in her spiritual and roots rock anthems. Her poetic wisdom compels, inspires, and motivates you to get up and be free from the storms inside."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/Au_SwB4lvQY"
+                            mediaTitle="Brandi Sparks - &quot;Daydreamer&quot;"
+                        />
+
+                        <LineupCard
                             artistName="C LA C I (pronounced Selassie I)"
                             genre="Reggae & African influenced Acoustic Roots (Columbus, OH)"
                             subtitle="SUNDAY OPENING “SONGS FOR THE SPIRIT"
@@ -81,6 +93,18 @@ export default function LineupPage() {
                             mediaType="video"
                             mediaSrc="https://www.youtube.com/embed/eSox4-CFjo4"
                             mediaTitle="C LA C I - &quot;Conversations&quot;"
+                        />
+
+                        <LineupCard
+                            artistName="LANDON ROSS"
+                            genre="Singer-Songwriter (Sunbury, Ohio)"
+                            website="Landonrossmusic.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Born and raised in the heart of Ohio, Landon Ross has been crafting his unique blend of southern rock and soulful storytelling since he first picked up a guitar at age 13. Coming from a musical family, Landon&apos;s passion for music runs deep in his roots, shaping him into the singer-songwriter he is today. His heartfelt lyrics resonate with listeners, creating an authentic connection that touches the heart and inspires the soul. He has been described as bringing to the stage an &quot;oak-toned voice and dancing strings&quot; turning the raw soul struggle into enduring hope."
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/LandonRoss.jpg"
+                            mediaTitle="LANDON ROSS"
                         />
 
                         <LineupCard
@@ -96,6 +120,18 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
+                            artistName="LEA MARRA & THE RIVER BOYS"
+                            genre="Folk-grass (Cleveland, Ohio)"
+                            website="www.leamarramusic.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Lea Marra & The River Boys specialize in a &quot;folk-grass&quot; (bluegrass/folk) style, combining heartfelt songwriting, strong vocals, acoustic instrumentation (guitar, mandolin, banjo, upright bass, fiddle), and harmonious arrangements.Their music evokes themes of life in the Rust Belt (reflecting Marra&apos;s Cleveland/Ohio roots), personal experiences, nature, relationships, and community — delivered with warmth, sincerity, and a grassroots spirit."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/T8z7nrfRg5Q"
+                            mediaTitle="Lea Marra and the River Boys - &quot;Your Friends&quot;"
+                        />
+
+                        <LineupCard
                             artistName="DENISON UNIVERSITY ROOTS ALUMNI BAND"
                             genre="Bluegrass (Newark, OH)"
                             website="denison.edu/academics/music/american-roots-music"
@@ -108,6 +144,18 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
+                            artistName="MOLLY ROISIN"
+                            genre="Irish Folk Singer/Fiddler (Columbus, Ohio)"
+                            contact='mollyroisin13@gmail.com'
+                            stage="Bailey Acoustic Stage"
+                            dayTime="Sunday 3pm"
+                            bio="Cleveland born and Columbus trained, Molly Roisin (ROE-sheen) developed her fast-paced and authentic energy at festivals and pubs all across the state. She shares a wide repertoire of traditional classics, gripping ballads, and toe tapping tunes audiences love."
+                            mediaType="video"
+                            mediaSrc="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmollymoranmusic%2Fvideos%2F1260669294891845%2F&show_text=false&width=560"
+                            mediaTitle="MOLLY ROISIN"
+                        />
+
+                        <LineupCard
                             artistName="FESTIVAL ARTISTS&apos; IMPROV JAM BAND"
                             genre="Session/Jam Band"
                             contact="szuch@breezelineohio.net"
@@ -117,6 +165,17 @@ export default function LineupPage() {
                             mediaType="image"
                             mediaSrc="/festival/lineup/COFFImprovJamBand.jpg"
                             mediaTitle="COFF Improv Jam Band"
+                        />
+
+                        <LineupCard
+                            artistName="MOST OUTRAGEOUS SONG IN THE WORLD CONTEST"
+                            contact='bob@debchi.com'
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="The “Most Outrageous Song in the World” contest is a fun-filled, participatory event.  Open to all (lyrics must be family-friendly), this contest has become quite the event. And there is a prize involved but we won&apos;t divulge those details. It&apos;s you, the audience, that chooses the &apos;Most Outrageous&apos; song winner. Pre-sign up of contestants recommended prior to the festival by emailing bob@debchi.com"
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/OutrageousSongintheWorld.jpg"
+                            mediaTitle="Outrageous Song Contest"
                         />
 
                         <LineupCard
@@ -133,6 +192,18 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
+                            artistName="RAINMAKER BLUES DUO"
+                            genre="Classic & Original Blues (Zanesville, Ohio)"
+                            website="facebook.com/RainmakerBluesTrio"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="This is the semi-acoustic duo version of John Henry & The Rainmakers (a four-piece electric blues band that was a top-five finalist in the 2022 International Blues Competition for &quot;Best Self-Produced CD&quot;). Rainmaker Blues Duo is John Henry on vocals and acoustic guitar, and David Gastel on harmonica and keyboards. They perform John Henry&apos;s originals, and they specialize in the old-school 50&apos;s-60&apos;s sounds of blues, with influences of swing and even old country. Together for eight years, they play dozens of shows annually in central Ohio."
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/RainmakerBlues.png"
+                            mediaTitle="RAINMAKER BLUES DUO"
+                        />
+
+                        <LineupCard
                             artistName="HOUSE OF HAMILL"
                             genre="Celtic folk (East Texas, PA)"
                             website="www.houseofhamill.com"
@@ -142,6 +213,18 @@ export default function LineupPage() {
                             mediaType="video"
                             mediaSrc="https://www.youtube.com/embed/f7LTJ35QuM8"
                             mediaTitle="House of Hamill - &quot;Shine&quot;"
+                        />
+
+                        <LineupCard
+                            artistName="THE HEN AND THE CROW"
+                            genre="Folk/Country (Columbus, Ohio)"
+                            contact='thehenandthecrow@gmail.com'
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="The Hen & The Crow are an American Gothic and folk country duo based out of Columbus, Ohio. They craft songs about family farms, deconstruction, and land preservation while embodying the quilt of Southern Ohio and Appalachia. Their full length album was recorded live in Columbus Ohio and will be coming out later this year."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/x6Maj1nsDmU"
+                            mediaTitle="The Hen and the Crow - &quot;Bluegrass Haze&quot;"
                         />
 
                         <LineupCard
@@ -157,6 +240,18 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
+                            artistName="THE REDBUDS"
+                            genre="Appalachian Folk (Columbus, OH)"
+                            website="www.theredbuds.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="The Redbuds is an all woman folk trio from Columbus, Ohio. Pulling most of their repertoire from the Appalachian folk tradition with sprinkles of original tunes, they play timeless music that appeals to all ages. Formed in 2013, they have performed all over the state from farmers&apos; markets to music festivals and everything in between."
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/Redbuds.PNG"
+                            mediaTitle="THE REDBUDS"
+                        />
+
+                        <LineupCard
                             artistName="MUSIC COLUMBUS presents 2026 SELECT ARTISTS"
                             subtitle='KENNEDY HALL and TALITHA BOYD'
                             genre="Singer-Songwriter/Americana (Columbus, OH)"
@@ -167,6 +262,18 @@ export default function LineupPage() {
                             mediaType="image"
                             mediaSrc="/festival/lineup/MusicColumbus.jpg"
                             mediaTitle="Music Columbus"
+                        />
+
+                        <LineupCard
+                            artistName="THE SHAW BROTHERS"
+                            genre="Folk (Columbus, OH)"
+                            website="shawbrothersmusic.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Ohio based sibling duo Shaw Brothers (Andy and Chris Shaw) have established themselves as a force to be reckoned with, taking their emotionally driven sibling harmony folk music to Colorado, Nebraska, Iowa, New York, Kentucky, West Virginia, Florida, Pennsylvania, and beyond. They released their first self titled LP in 2012 and second entitled &quot;Blood Harmony&quot; in February 2024. The record showcases their raw vulnerability speaking on family life, past traumas, politics, and even their home state with the song &quot;Ohio.&quot; Highlighting the warm rich harmonies that only family can do (hence the album title), this record blends folk, soul, and roots music into a sound of its own."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/cXkFhCtrizQ"
+                            mediaTitle="The Shaw Brothers - &quot;Still Frames&quot;"
                         />
 
                         <LineupCard
@@ -227,6 +334,18 @@ export default function LineupPage() {
                             mediaType="video"
                             mediaSrc="https://www.youtube.com/embed/kp2G0aMdT2A"
                             mediaTitle="Suzuki Music Columbus Students Performance - &quot;Tango McLean&quot;"
+                        />
+
+                        <LineupCard
+                            artistName="UPSTREAM DRIFTERS"
+                            genre="Folk/Old-time (Dalton, Ohio)"
+                            website="www.upstreamdrifters.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="In a boat collaboratively paddled against the current of modern isolation and rugged independence, Upstream Drifters joyfully create new tunes and folk songs rooted in the traditions of Old Time Appalachian mountain music and Pete Seeger-style singalongs. &quot;Life is short. Life is complicated. Life can be hard. And still, joy finds us. Especially when we come together to sing about it.&quot; - Upstream Drifters"
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/SvYrZxYCFac"
+                            mediaTitle="Upstream Drifters - &quot;Heart Beat&quot;"
                         />
                     </div>
                 )}
@@ -446,7 +565,7 @@ export default function LineupPage() {
                                 </div>
                                 <div className="flex-1">
                                     <p className="font-body text-gray-700 leading-relaxed mb-4">
-                                        The <b>Bailey Acoustic stage</b> predominantly focuses on showcasing emerging or established native Ohio artists, artists who do predominantly covers, and younger teen or college-aged artists. It is a vibrant and popular tent showcasing many variations of Ohio based talent!
+                                        The <b>Bailey Acoustic stage</b> predominantly focuses on showcasing emerging or established local Ohio artists, welcoming artists who do original music or covers in a broadly defined folk tradition, as well as local teen and college-aged artists. It is a vibrant and popular tent showcasing many variations of Ohio based talent! The tent also presents the annual &quot;Most Outrageous Song in the World Contest.&quot;
                                     </p>
                                 </div>
                             </div>
@@ -454,110 +573,133 @@ export default function LineupPage() {
 
                         <LineupCard
                             artistName="BRANDI SPARKS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Singer-Songwriter (Hilliard, Ohio)"
+                            website="brandisparks.com"
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
-                            mediaTitle="BRANDI SPARKS"
+                            bio="Ohio native singer-songwriter Brandi Sparks journeys through life&apos;s mountaintop highs down to the darkest depths and shares how she arises with the love of a God who sees her as beautiful. The angelic cry of her voice carries her folk ditties and blue eyed soul ballads. Its smooth power and raspy edge shines in her spiritual and roots rock anthems. Her poetic wisdom compels, inspires, and motivates you to get up and be free from the storms inside."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/Au_SwB4lvQY"
+                            mediaTitle="Brandi Sparks - &quot;Daydreamer&quot;"
                         />
 
                         <LineupCard
                             artistName="LANDON ROSS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Singer-Songwriter (Sunbury, Ohio)"
+                            website="Landonrossmusic.com"
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
+                            bio="Born and raised in the heart of Ohio, Landon Ross has been crafting his unique blend of southern rock and soulful storytelling since he first picked up a guitar at age 13. Coming from a musical family, Landon&apos;s passion for music runs deep in his roots, shaping him into the singer-songwriter he is today. His heartfelt lyrics resonate with listeners, creating an authentic connection that touches the heart and inspires the soul. He has been described as bringing to the stage an &quot;oak-toned voice and dancing strings&quot; turning the raw soul struggle into enduring hope."
                             mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
+                            mediaSrc="/festival/lineup/LandonRoss.jpg"
                             mediaTitle="LANDON ROSS"
                         />
 
                         <LineupCard
                             artistName="LEA MARRA & THE RIVER BOYS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Folk-grass (Cleveland, Ohio)"
+                            website="www.leamarramusic.com"
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
-                            mediaTitle="LEA MARRA & THE RIVER BOYS"
+                            bio="Lea Marra & The River Boys specialize in a &quot;folk-grass&quot; (bluegrass/folk) style, combining heartfelt songwriting, strong vocals, acoustic instrumentation (guitar, mandolin, banjo, upright bass, fiddle), and harmonious arrangements.Their music evokes themes of life in the Rust Belt (reflecting Marra&apos;s Cleveland/Ohio roots), personal experiences, nature, relationships, and community — delivered with warmth, sincerity, and a grassroots spirit."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/T8z7nrfRg5Q"
+                            mediaTitle="Lea Marra and the River Boys - &quot;Your Friends&quot;"
                         />
 
                         <LineupCard
                             artistName="MOLLY ROISIN"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Irish Folk Singer/Fiddler (Columbus, Ohio)"
+                            contact='mollyroisin13@gmail.com'
                             stage="Bailey Acoustic Stage"
-                            dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
+                            dayTime="Sunday 3pm"
+                            bio="Cleveland born and Columbus trained, Molly Roisin (ROE-sheen) developed her fast-paced and authentic energy at festivals and pubs all across the state. She shares a wide repertoire of traditional classics, gripping ballads, and toe tapping tunes audiences love."
+                            mediaType="video"
+                            mediaSrc="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmollymoranmusic%2Fvideos%2F1260669294891845%2F&show_text=false&width=560"
                             mediaTitle="MOLLY ROISIN"
                         />
 
                         <LineupCard
-                            artistName="RAINMAKER BLUES DUO"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            artistName="MOST OUTRAGEOUS SONG IN THE WORLD CONTEST"
+                            contact='bob@debchi.com'
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
+                            bio="The “Most Outrageous Song in the World” contest is a fun-filled, participatory event.  Open to all (lyrics must be family-friendly), this contest has become quite the event. And there is a prize involved but we won&apos;t divulge those details. It&apos;s you, the audience, that chooses the &apos;Most Outrageous&apos; song winner. Pre-sign up of contestants recommended prior to the festival by emailing bob@debchi.com"
                             mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
+                            mediaSrc="/festival/lineup/OutrageousSongintheWorld.jpg"
+                            mediaTitle="Outrageous Song Contest"
+                        />
+
+                        <LineupCard
+                            artistName="RAINMAKER BLUES DUO"
+                            genre="Classic & Original Blues (Zanesville, Ohio)"
+                            website="facebook.com/RainmakerBluesTrio"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="This is the semi-acoustic duo version of John Henry & The Rainmakers (a four-piece electric blues band that was a top-five finalist in the 2022 International Blues Competition for &quot;Best Self-Produced CD&quot;). Rainmaker Blues Duo is John Henry on vocals and acoustic guitar, and David Gastel on harmonica and keyboards. They perform John Henry&apos;s originals, and they specialize in the old-school 50&apos;s-60&apos;s sounds of blues, with influences of swing and even old country. Together for eight years, they play dozens of shows annually in central Ohio."
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/RainmakerBlues.png"
                             mediaTitle="RAINMAKER BLUES DUO"
                         />
 
                         <LineupCard
                             artistName="THE HEN AND THE CROW"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Folk/Country (Columbus, Ohio)"
+                            contact='thehenandthecrow@gmail.com'
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
-                            mediaTitle="THE HEN AND THE CROW"
+                            bio="The Hen & The Crow are an American Gothic and folk country duo based out of Columbus, Ohio. They craft songs about family farms, deconstruction, and land preservation while embodying the quilt of Southern Ohio and Appalachia. Their full length album was recorded live in Columbus Ohio and will be coming out later this year."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/x6Maj1nsDmU"
+                            mediaTitle="The Hen and the Crow - &quot;Bluegrass Haze&quot;"
                         />
 
                         <LineupCard
                             artistName="THE REDBUDS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Appalachian Folk (Columbus, OH)"
+                            website="www.theredbuds.com"
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
+                            bio="The Redbuds is an all woman folk trio from Columbus, Ohio. Pulling most of their repertoire from the Appalachian folk tradition with sprinkles of original tunes, they play timeless music that appeals to all ages. Formed in 2013, they have performed all over the state from farmers&apos; markets to music festivals and everything in between."
                             mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
+                            mediaSrc="/festival/lineup/Redbuds.PNG"
                             mediaTitle="THE REDBUDS"
                         />
 
                         <LineupCard
                             artistName="THE SHAW BROTHERS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            genre="Folk (Columbus, OH)"
+                            website="shawbrothersmusic.com"
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/SWCompetition.jpg"
-                            mediaTitle="THE SHAW BROTHERS"
+                            bio="Ohio based sibling duo Shaw Brothers (Andy and Chris Shaw) have established themselves as a force to be reckoned with, taking their emotionally driven sibling harmony folk music to Colorado, Nebraska, Iowa, New York, Kentucky, West Virginia, Florida, Pennsylvania, and beyond. They released their first self titled LP in 2012 and second entitled &quot;Blood Harmony&quot; in February 2024. The record showcases their raw vulnerability speaking on family life, past traumas, politics, and even their home state with the song &quot;Ohio.&quot; Highlighting the warm rich harmonies that only family can do (hence the album title), this record blends folk, soul, and roots music into a sound of its own."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/cXkFhCtrizQ"
+                            mediaTitle="The Shaw Brothers - &quot;Still Frames&quot;"
                         />
 
                         <LineupCard
-                            artistName="UPSTREAM  DRIFTERS"
-                            genre="Genre (City, State)"
-                            website="https://website.com"
+                            artistName="SINGER-SONGWRITER CONTEST WINNER"
+                            genre="Singer-songwriter"
+                            contact='songcontest@columbusfolkmusicsociety.org'
                             stage="Bailey Acoustic Stage"
-                            dayTime="TBD"
-                            bio="Artist bio goes here. This is a placeholder for the artist biography section. It provides information about the artist's background, achievements, and musical style."
+                            dayTime="Saturday / 6-6:30pm"
+                            bio="The first ever Columbus Folk Music Society&apos;s Singer-Songwriter Competition is being launched at the 2026 Central Ohio Folk Festival. Earlier in the day, from 11:30am to 1pm on the festival&apos;s Showcase Stage, six finalists, selected from 87 entries by industry professional judges, will perform two original songs each. The winner of the earlier competition, selected by those same judges, not only receives a $300 cash prize, but will perform a solo set at 6pm on the Bailey Acoustic Stage for some well-deserved recognition. Come check out the 2026 Singer-Songwriter Contest winner!"
                             mediaType="image"
                             mediaSrc="/festival/lineup/SWCompetition.jpg"
-                            mediaTitle="UPSTREAM DRIFTERS"
+                            mediaTitle="Songwriter Competition"
+                        />
+
+                        <LineupCard
+                            artistName="UPSTREAM DRIFTERS"
+                            genre="Folk/Old-time (Dalton, Ohio)"
+                            website="www.upstreamdrifters.com"
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="In a boat collaboratively paddled against the current of modern isolation and rugged independence, Upstream Drifters joyfully create new tunes and folk songs rooted in the traditions of Old Time Appalachian mountain music and Pete Seeger-style singalongs. &quot;Life is short. Life is complicated. Life can be hard. And still, joy finds us. Especially when we come together to sing about it.&quot; - Upstream Drifters"
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/SvYrZxYCFac"
+                            mediaTitle="Upstream Drifters - &quot;Heart Beat&quot;"
                         />
                     </div>
                 )}
