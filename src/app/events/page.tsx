@@ -165,7 +165,7 @@ export default function EventsPage() {
             </section>
 
             {/* --- GCAC Section --- */}
-            <section className="bg-light-brown py-16 text-white shadow-inner">
+            <section className="bg-blue py-16 text-white shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <div className="grid md:grid-cols-2 gap-6 items-center">
                         <div className="relative w-full h-auto flex items-center justify-center p-6">
@@ -179,8 +179,8 @@ export default function EventsPage() {
                         </div>
 
                         <div className="p-6">
-                            <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Columbus Folk Music Society gratefully acknowledges support from the <a href="www.gcac.org" className="text-green hover:text-brown hover:underline font-bold">Greater Columbus Arts Council (GCAC)</a> for its Americana/Folk Concert Series.</h3>
-                            <p className="font-body text-charcoal mb-4 mt-10 leading-relaxed">
+                            <h3 className="text-2xl font-heading font-semibold mb-3 text-white">The Columbus Folk Music Society gratefully acknowledges support from the <a href="www.gcac.org" className="text-light-brown underline hover:text-white font-bold">Greater Columbus Arts Council (GCAC)</a> for its Americana/Folk Concert Series.</h3>
+                            <p className="font-body text-white mb-4 mt-10 leading-relaxed">
                                 <span className="font-semibold">Championing Art / Advancing Culture / Celebrating Expression /<br />
                                     Fostering Talent / Promoting Community / Advocating Collaboration</span>
                             </p>
@@ -281,7 +281,7 @@ export default function EventsPage() {
             </section>
 
             {/* --- Contact Section --- */}
-            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
+            <section className="bg-blue py-16 text-white shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Need to contact us?

@@ -64,7 +64,6 @@ export default function ActivitiesPage() {
                             <li>Opening Sing-along and Closing Song Circle</li>
                             <li>Five ongoing open jam tents (bluegrass, old-time, folk, just song, Cbus Jammers&apos; tent welcoming the very beginner)</li>
                             <li>Participatory drum circles at close of each day</li>
-                            <li>Festival store with souvenir apparel and more</li>
                         </ul>
                         <blockquote className="mt-6 p-6 bg-gradient-to-r from-green/10 to-transparent border-l-4 border-green rounded-r-lg">
                             <p className="text-lg font-body italic text-gray-700">

@@ -14,7 +14,7 @@ export default function WorkshopsPage() {
                             href="/festival/workshops/2025-coff-workshop-list-4webv1.22.25.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                            className="inline-block px-4 py-2 bg-blue text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                         >
                             Download 2025 [PDF]
                         </a>
@@ -35,7 +35,7 @@ export default function WorkshopsPage() {
 
                     <div className="mb-12 text-center space-x-4 space-y-2 max-w-3xl mx-auto">
                         <h3 className="text-2xl font-heading font-bold mb-4 text-charcoal">
-                            2025 Request Proposal:
+                            2026 Request Proposal:
                         </h3>
                         <a
                             href="/festival/workshops/RequestForProposalWkshpsTEMPLATE_REV11.15.2025.docx"

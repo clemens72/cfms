@@ -152,8 +152,8 @@ export default function FestivalPage() {
             <div className="space-y-4">
               {/* Card 1 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <Calendar className="text-charcoal" size={28} />
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-blue flex items-center justify-center">
+                  <Calendar className="text-white" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Dates</h3>
@@ -166,8 +166,8 @@ export default function FestivalPage() {
               </div>
               {/* Card 2 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <Clock className="text-charcoal" size={28} />
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-blue flex items-center justify-center">
+                  <Clock className="text-white" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Hours</h3>
@@ -176,8 +176,8 @@ export default function FestivalPage() {
               </div>
               {/* Card 3 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <MapPin className="text-charcoal" size={28} />
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-blue flex items-center justify-center">
+                  <MapPin className="text-white" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
@@ -189,8 +189,8 @@ export default function FestivalPage() {
               </div>
               {/* Card 4 */}
               <div className="bg-white rounded-xl p-6 shadow-lg flex gap-5 text-charcoal">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-light-brown flex items-center justify-center">
-                  <User className="text-charcoal" size={28} />
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-blue flex items-center justify-center">
+                  <User className="text-white" size={28} />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
@@ -263,10 +263,12 @@ export default function FestivalPage() {
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists / Performers / Presenters</h3>
             <div className="flex flex-col gap-4">
-              <FestivalButton href="/festival/performers">2027 Performer/Presenter Apply</FestivalButton>
               <div className="mt-2">
-                <p className="text-sm font-body text-gray-700 mb-2">Performing Questions or Agent Inquiries?</p>
-                <p className="text-sm font-body">Email: <a href="mailto:festival_booking@columbusfolkmusicsociety.org" className='text-green hover:text-brown font-bold break-all'>festival_booking@columbusfolkmusicsociety.org</a></p>
+              <FestivalButton href="/festival/performers">2027 Performer/Presenter Apply</FestivalButton>
+              </div>
+              <div className="mt-2">
+                <p className="text-md font-body text-gray-700 mb-4">For performing questions or agent inquiries:</p>
+                <FestivalButton href="mailto:festival_booking@columbusfolkmusicsociety.org">Festival Booking</FestivalButton>
               </div>
             </div>
           </div>
@@ -274,20 +276,22 @@ export default function FestivalPage() {
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Vendors & Food</h3>
             <div className="flex flex-col gap-4">
               <div>
-                <p className="text-sm font-body text-gray-700 mb-2">For food truck inquiries:</p>
-                <a href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>festivalfoodtruckinquiry@columbusfolkmusicsociety.org</a>
+                <p className="text-md font-body text-gray-700 mb-4">For food truck inquiries:</p>
+                <FestivalButton href="mailto:festivalfoodtruckinquiry@columbusfolkmusicsociety.org">Festival Food Truck Inquiry</FestivalButton>
               </div>
               <div>
-                <p className="text-sm font-body text-gray-700 mb-2">For Artisan Vendor Applications:</p>
-                <a href="mailto:festivalvendorinquiry@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>festivalvendorinquiry@columbusfolkmusicsociety.org</a>
+                <p className="text-md font-body text-gray-700 mb-4">For Artisan Vendor Applications:</p>
+                <FestivalButton href="mailto:festivalvendorinquiry@columbusfolkmusicsociety.org">Festival Vendor Inquiry</FestivalButton>
               </div>
             </div>
           </div>
           <div className="p-6 bg-white rounded-xl shadow-lg">
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">General Questions</h3>
             <div className="flex flex-col gap-2">
-              <p className="text-sm font-body text-gray-700 mb-2">For any other questions, please email us at:</p>
-              <a href="mailto:infofestival@columbusfolkmusicsociety.org" className='text-sm text-green hover:text-brown font-bold break-all'>infofestival@columbusfolkmusicsociety.org</a>
+              <p className="text-md font-body text-gray-700 mb-4">For any other questions, please email us here:</p>
+              <div>
+                <FestivalButton href="mailto:infofestival@columbusfolkmusicsociety.org">General Festival Inquiry</FestivalButton>
+            </div>
             </div>
           </div>
         </div>
