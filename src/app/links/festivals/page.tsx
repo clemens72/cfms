@@ -57,7 +57,7 @@ export default function FolkFestivalsPage() {
 
 
             {/* --- Contact Section --- */}
-            <section className="bg-light-brown py-16 text-charcoal shadow-inner">
+            <section className="bg-blue py-16 text-white shadow-inner">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Suggestions?

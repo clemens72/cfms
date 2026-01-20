@@ -13,6 +13,45 @@ export default function ActivitiesPage() {
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-center h-full">
+                        <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
+                            Official Festival Store (all proceeds help the festival)
+                        </h2>
+                        <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
+                            <li>T-shirts & sweatshirts</li>
+                            <li>Branded Tritan BPA & BPS free plastic water bottles </li>
+                            <li>Festival ceramic mugs</li>
+                        </ul>
+                    </div>
+                    <div className="relative h-64 md:h-auto">
+                        <Image
+                            src="/festival/activities/vendors.jpg"
+                            alt="Vendors"
+                            width={400}
+                            height={200}
+                            className="w-full h-auto object-contain rounded-xl shadow-lg"
+                        />
+                    </div>
+
+                    <div className="relative h-64 md:h-auto">
+                        <Image
+                            src="/festival/vendors/foodtrucks.jpg"
+                            alt="Kids' crafts activities"
+                            fill
+                            className="object-cover rounded-xl shadow-lg"
+                        />
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
+                            Food Vendors
+                        </h2>
+                        <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
+                            <li>Healthy options</li>
+                            <li>Traditional options</li>
+                            <li>Favored family food</li>
+                        </ul>
+                    </div>
+
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 
                         <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
@@ -33,44 +72,7 @@ export default function ActivitiesPage() {
                             className="object-cover rounded-xl shadow-lg"
                         />
                     </div>
-                    <div className="relative h-64 md:h-auto">
-                        <Image
-                            src="/festival/vendors/foodtrucks.jpg"
-                            alt="Kids' crafts activities"
-                            fill
-                            className="object-cover rounded-xl shadow-lg"
-                        />
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
-                            Food Vendors
-                        </h2>
-                        <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
-                            <li>Healthy options</li>
-                            <li>Traditional options</li>
-                            <li>Favored family food</li>
-                        </ul>
-                    </div>
-                    
-                    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-center h-full">
-                        <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
-                            Official Festival Store (all proceeds help the festival)
-                        </h2>
-                        <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
-                            <li>T-shirts & sweatshirts</li>
-                            <li>Branded Tritan BPA & BPS free plastic water bottles </li>
-                            <li>Festival ceramic mugs</li>
-                        </ul>
-                    </div>
-                    <div className="relative h-64 md:h-auto">
-                        <Image
-                            src="/festival/activities/vendors.jpg"
-                            alt="Vendors"
-                            width={400}
-                            height={200}
-                            className="w-full h-auto object-contain rounded-xl shadow-lg"
-                        />
-                    </div>
+
                 </div>
             </section>
         </div>
