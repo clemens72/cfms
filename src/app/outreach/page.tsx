@@ -5,24 +5,23 @@ export default function OutreachPage() {
         <div className="min-h-screen bg-bg-brown">
 
             <section className="container mx-auto px-4 py-16">
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
                     {/* Left Column: Text, Buttons, Icons */}
                     <div>
                         <h2 className="text-3xl md:text-4xl font-heading font-bold text-green mb-4">
-                            OUTREACH
+                            OUTREACH JAMS
                         </h2>
                         <p className="text-gray-700 mb-8 leading-relaxed">
-                            The Columbus Folk Music Society is a not-for-profit 501c(3) organization that exists for cultural, educational and charitable purposes.
+                            The informal jam group &quot;Cbus Jammers&quot;  welcomes all skill levels of playing.
                         </p>
                         <p className="text-gray-700 mb-8 leading-relaxed">
-                            In addition to being a cultural cornerstone in the local community and facilitating performances of the folk arts for all to enjoy, part of our mission includes the broadening of folk art knowledge, understanding and appreciation. To this end, we offer educational experiences in different forms (including workshops we run every year at our Central Ohio Folk Festival).
+                            &quot;Cbus Jammers&quot; provide musical outreach by holding jam sessions at different sites such as Worthington Farmers Market, various retirement communities, Columbus Parks and Rec, Metro Park events, Franklin County Fair, holiday dinner music for the unhoused, and several children programs in the Columbus area.
                         </p>
                         <p className="text-gray-700 mb-8 leading-relaxed">
-                            Links to some of our other outreach programs are listed below. Please click to find out more about them!
+                            If you are interested in participating and would like to receive a weekly schedule contact Jane VanAuken at: <a href="mailto:jvanauk@gmail.com" className="text-green hover:text-brown font-bold">jvanauk@gmail.com</a>
                         </p>
                         <p className="text-gray-700 mb-8 leading-relaxed">
-                            <a href="/outreach/kirby" className="text-green hover:text-brown font-bold transition-colors">Bob Kirby Scholarship Program</a><br />
-                            <a href="/weekly-jam" className="text-green hover:text-brown font-bold transition-colors">Weekly Community Jam</a>
+                            <a href="/kirby" className="text-green text-xl hover:text-brown font-bold transition-colors">Bob Kirby Scholarship Program</a><br />
                         </p>
                     </div>
 
@@ -78,6 +77,28 @@ export default function OutreachPage() {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-12 items-center mb-8">
+                    <div>
+                        <h2 className="text-3xl md:text-4xl font-heading font-bold text-green mb-4">
+                            IN PERSON JAM CALENDAR
+                        </h2>
+                    </div>                    
+                </div>
+                
+                {/* Google Calendar Embed */}
+                <div className="w-full max-w-5xl mx-auto">
+                    <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <iframe 
+                            src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America%2FNew_York"
+                            className="w-full"
+                            style={{ border: 0 }}
+                            width="800"
+                            height="600"
+                            frameBorder="0"
+                            scrolling="no"
+                        ></iframe>
                     </div>
                 </div>
             </section>
