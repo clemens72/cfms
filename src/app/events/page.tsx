@@ -9,7 +9,7 @@ export default function EventsPage() {
                 subtitle="Join Us for Live Folk Music Performances"
                 imageURL="/events/StillhouseJunkies.jpg"
                 buttonText="Jam & Events Calendar"
-                buttonLink="/jam-sessions"
+                buttonLink="/outreach"
             />
             <section className="container mx-auto px-4 py-16">
                 <div className="text-center mb-10">
@@ -45,42 +45,41 @@ export default function EventsPage() {
                     </div>
                 </div>
                 <div className="space-y-8 max-w-5xl mx-auto mb-16">
-                    {/* Example Event Card */}
+                    {/* Current Event Card */}
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                        <div className="grid md:grid-cols-2 gap-6 items-center">
-                            {/* Left: Details */}
-                            <div className="p-6">
-                                <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Montvales</h3>
-                                <p className="font-body text-gray-600 mb-4 leading-relaxed">
-                                    <span className="font-semibold text-green text-lg">Saturday, January 24th, 7pm</span><br />
-                                    The Columbus Mennonite Church<br />
-                                    35 Oakland Park Ave, Columbus OH
-                                </p>
-                                <a
-                                    href="https://themontvales.com/"
-                                    className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
-                                >
-                                    Artist Website
-                                </a>
-                            </div>
-                            {/* Right: YouTube Video */}
-                            <div className="relative h-64 md:h-full min-h-[300px]">
-                                <iframe
-                                    className="absolute inset-0 w-full h-full"
-                                    src="https://www.youtube.com/embed/RS62sL4bgOQ"
-                                    title="The Montvales"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                />
+                            <div className="grid md:grid-cols-2 gap-6 items-center">
+                                {/* Left: Details */}
+                                <div className="p-6">
+                                    <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">Jordan Smart</h3>
+                                    <p className="font-body text-gray-600 mb-4 leading-relaxed">
+                                        <span className="font-semibold text-green text-lg">Saturday, February 28th, 7pm</span><br />
+                                        The Columbus Mennonite Church<br />
+                                        35 Oakland Park Ave, Columbus OH
+                                    </p>
+                                    <a
+                                        href="https://jordansmartmusic.com"
+                                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                                    >
+                                        Artist Website
+                                    </a>
+                                </div>
+                                {/* Right: Image */}
+                                <div className="relative h-64 md:h-full min-h-[300px]">
+                                    <Image
+                                        src="/events/JordanSmart.jpg"
+                                        alt="Jordan Smart"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4">
                         <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal">
-                            2026 Series Line-Up
+                            Full 2026 Series Line-Up
                         </h2>
                     </div>
                     <div className="mt-8 mb-10">
@@ -100,6 +99,39 @@ export default function EventsPage() {
 
 
                     <div className="space-y-16 max-w-5xl text-left mx-auto mb-10">
+
+                        {/* January Event Card */}
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                            <div className="grid md:grid-cols-2 gap-6 items-center">
+                                {/* Left: Details */}
+                                <div className="p-6">
+                                    <h3 className="text-2xl font-heading font-semibold mb-3 text-charcoal">The Montvales</h3>
+                                    <p className="font-body text-gray-600 mb-4 leading-relaxed">
+                                        <span className="font-semibold text-green text-lg">Saturday, January 24th, 7pm</span><br />
+                                        <span className="font-semibold text-red text-lg">*This event has passed*</span><br />
+                                        The Columbus Mennonite Church<br />
+                                        35 Oakland Park Ave, Columbus OH
+                                    </p>
+                                    <a
+                                        href="https://themontvales.com/"
+                                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                                    >
+                                        Artist Website
+                                    </a>
+                                </div>
+                                {/* Right: YouTube Video */}
+                                <div className="relative h-64 md:h-full min-h-[300px]">
+                                    <iframe
+                                        className="absolute inset-0 w-full h-full"
+                                        src="https://www.youtube.com/embed/RS62sL4bgOQ"
+                                        title="The Montvales"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
                         {/* February Event Card */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                             <div className="grid md:grid-cols-2 gap-6 items-center">

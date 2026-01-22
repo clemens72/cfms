@@ -71,7 +71,7 @@ export default function Homepage() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="relative h-48">
               <Image
-                src="/outreach/07youth.jpg"
+                src="/outreach/outreach11.jpg"
                 alt="Educational Outreach"
                 fill
                 className="object-cover"
@@ -84,9 +84,15 @@ export default function Homepage() {
               </p>
               <a
                 href="/outreach"
-                className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+                className="inline-block px-4 mr-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
               >
                 Learn More
+              </a>
+              <a
+                href="/kirby"
+                className="inline-block px-4 py-2 my-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
+              >
+                Scholarship
               </a>
             </div>
           </div>

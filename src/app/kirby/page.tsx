@@ -14,14 +14,14 @@ export default function KirbyPage() {
                         APPLICATION & COVER LETTER
                     </h2>
                     <a
-                        href="/outreach/application-kirbyscholar2025.docx"
+                        href="/kirby/application-kirbyscholar2025.docx"
                         target="_blank"
                         className="inline-block mt-4 px-6 py-3 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
                         Download [Word]
                     </a>
                     <a
-                        href="/outreach/application-kirbyscholar2025.pdf"
+                        href="/kirby/application-kirbyscholar2025.pdf"
                         target="_blank"
                         className="inline-block mt-4 px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >
@@ -32,66 +32,121 @@ export default function KirbyPage() {
                     {/* Benefit Card 1 */}
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
-                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">About the Program</h3>
+                            <h3 className="text-xl font-heading font-semibold mb-8 text-charcoal">In 2009, the Columbus Folk Music Society established the Bob Kirby Scholarship Memorial Fund in memory of Bob Kirby.</h3>
+                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">PURPOSE</h3>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                In 2009, the Columbus Folk Music Society established the Bob Kirby Scholarship Memorial Fund in memory of Bob Kirby.
+                                <b>To assist young musicians from the central Ohio area by offering new musical opportunities</b>
                             </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                The purpose of the fund is to provide support to young musicians from Central Ohio by offering monetary awards to be used to enhance musical skills in the folk music tradition. Recipients may use the $500 award to purchase an instrument, take music lessons, attend music workshops, etc.
-                            </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
+                            <ul className="font-body text-gray-700 mt-3 mb-4 ml-6 list-disc space-y-2">
+                                <li>To enhance musical skills</li>
+                                <li>To pursue a greater knowledge of, and appreciation for folk music</li>
+                                <li>To offer performance experience</li>
+                            </ul>
+                            <p className="font-body text-gray-700 mb-8 leading-relaxed">
                                 Recipients also have the opportunity to perform at and attend workshops at the Central Ohio Folk Festival.
                             </p>
+                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">REQUIREMENTS</h3>
+                            <ul className="font-body text-gray-700 mt-3 mb-4 ml-6 list-disc space-y-2">
+                                <li>Open to All Students in grades 3-12</li>
+                                <li>Submit a letter explaining your interest in music, your musical goals, what musical instrument you are interested in playing (or play) and if you sing.  The due date is March 20th.</li>
+                                <li>An interview will be held with the top 5 applicants</li>
+                            </ul>
                         </div>
                     </div>
                     {/* Benefit Card 2 */}
                     <div className="overflow-hidden">
-                        <div className="p-6 justify-items-center text-center">
-                            <Image
-                                src="/outreach/outreach1.png"
-                                alt="Bob Kirby Scholarship"
-                                width={400}
-                                height={250}
-                                className="object-cover rounded-md mb-4"
-                            />
-                            <p className="font-body text-gray-600 mb-4 text-sm leading-relaxed">
-                                Kirby Scholarship is awarded to Toryn Myles at the Central Ohio Folk Festival
-                            </p>
+                        <div className="p-6">
+                            <div className="grid grid-cols-2 gap-4">
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture1.jpg"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture2.png"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture3.jpg"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture4.jpg"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* Benefit Card 3 */}
-                    <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div className="overflow-hidden">
                         <div className="p-6">
-                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Application Requirements</h3>
-                            <ul className="font-body text-gray-700 mt-3 ml-6 list-disc space-y-2">
-                                <li>for students grades 3-12</li>
-                                <li>completed application form</li>
-                                <li>letter explaining interest in folk music, musical experience, musical instrument(s) applicant plays / is interested in playing. A singing voice qualifies.</li>
-                                <li>deadline for submission is in March (for exact date, refer to application at link above).</li><br />
-                            </ul>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                All applications are reviewed and the top five applicants interviewed.
-                            </p>
+                            <div className="grid grid-cols-2 gap-4">
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture5.png"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture6.jpg"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture7.png"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                                <div className="relative aspect-square">
+                                    <Image
+                                        src="/kirby/Picture8.png"
+                                        alt="Bob Kirby Scholarship recipient"
+                                        fill
+                                        className="object-cover rounded-md"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* Benefit Card 4 */}
                     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div className="p-6">
-                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Scholarship Award</h3>
+                            <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">BENEFITS</h3>
+                            <ul className="font-body text-gray-700 mt-3 mb-4 ml-6 list-disc space-y-2">
+                                <li>Household admission to The Central Ohio Folk Festival 2026, June 6 & 7 at Bank Run Metro Park</li>
+                                <li>$40 for meals at the festival</li>
+                                <li>An opportunity to perform at The Central Ohio Folk Festival 2026 (not required)</li>
+                                <li>$500.00 award to be used toward music, such as, but not limited to, instrument purchase or music lessons</li>
+                                <li>The CFMS newsletter “A Different Strummer” will be sent monthly to the winner</li>
+                            </ul>
                             <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                The award is announced and received at the Central Ohio Folk Festival in June.
+                                <i>Disclaimer:</i> This award and the criteria are subject to change at the discretion of the Scholarship Committee.
                             </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                An application form and cover letter explaining the program can be found at the link above.
-                            </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                If you know someone who might be interested, please pass on the information!
-                            </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                Questions concerning the Kirby Scholarship can be directed to <a href="mailto:info@columbusfolkmusicsociety.org" className="font-bold text-green hover:underline">info@columbusfolkmusicsociety.org</a>.
-                            </p>
-                            <p className="font-body text-gray-700 mb-4 leading-relaxed">
-                                If you are interested in making a donation to the memorial fund, please contact CFMS Treasurer at: <a href="mailto:treasurer@columbusfolkmusicsociety.org" className="font-bold text-green hover:underline">treasurer@columbusfolkmusicsociety.org</a>.
+                            <p className="font-body text-gray-700 leading-relaxed">
+                                For additional information email: <a href="mailto:lindamcdonald@columbusfolkmusicsociety.org" className="text-green hover:text-brown font-bold">lindamcdonald@columbusfolkmusicsociety.org</a>.
                             </p>
                         </div>
                     </div>
@@ -105,7 +160,7 @@ export default function KirbyPage() {
                         Past Kirby Scholarship Winners
                     </h2>
                     <a
-                        href="/outreach/kirby-scholarship-winnersrev2025.pdf"
+                        href="/kirby/kirby-scholarship-winnersrev2025.pdf"
                         target="_blank"
                         className="inline-block mt-4 px-6 py-3 mx-4 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                     >

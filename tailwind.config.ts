@@ -17,6 +17,7 @@ const config: Config = {
         //'green': '#3f860a',
         'brown': '#a77010',
         'charcoal': '#404040',
+        'red': '#b11226',
         //'light-brown': '#f6f5e2',
 
         //Diane's Changes
