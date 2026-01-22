@@ -6,10 +6,10 @@ export default function Homepage() {
     <div className="min-h-screen bg-bg-brown">
 
       <Hero
-        title="Next Concert: The Montvales"
-        subtitle="Saturday, January 24th, 7pm"
+        title="Next Concert: Jordan Smart"
+        subtitle="Saturday, February 28th, 7pm"
         subtitle2="The Columbus Mennonite Church"
-        imageURL="/events/TheMontvales.png"
+        imageURL="/events/JordanSmartHero.jpg"
         buttonText="More Info"
         buttonLink="/events"
       />
