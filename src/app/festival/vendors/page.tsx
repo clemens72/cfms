@@ -15,13 +15,19 @@ export default function ActivitiesPage() {
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-center h-full">
                         <h2 className="text-xl md:text-2xl font-heading font-bold mb-4 text-charcoal">
-                            Official Festival Store (all proceeds help the festival)
+                            Visit our Official Festival Store!
                         </h2>
+                        <p className="text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed">
+                            Offering:
+                        </p>
                         <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
-                            <li>T-shirts & sweatshirts</li>
-                            <li>Branded Tritan BPA & BPS free plastic water bottles </li>
-                            <li>Festival ceramic mugs</li>
+                            <li>Festival themed T-shirts & sweatshirts</li>
+                            <li>Logoed BPA & BPS free, durable water bottles (premium Tritan material)</li>
+                            <li>Festival themed ceramic mugs</li>
                         </ul>
+                        <p className="text-lg md:text-xl font-body text-gray-700 leading-relaxed">
+                            All proceeds help the festival!
+                        </p>
                     </div>
                     <div className="relative h-64 md:h-auto">
                         <Image

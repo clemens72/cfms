@@ -8,10 +8,24 @@ export default function EventsPage() {
                 title="Upcoming Events"
                 subtitle="Join Us for Live Folk Music Performances"
                 imageURL="/events/StillhouseJunkies.jpg"
-                buttonText="Jam & Events Calendar"
-                buttonLink="/outreach"
             />
-            <section className="container mx-auto px-4 py-16">
+            <div className="container mx-auto mt-12 px-4">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                    <a
+                        href="/events/calendar"
+                        className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg shadow hover:bg-green/90 transition duration-200"
+                    >
+                        CFMS Events Calendar
+                    </a>
+                    <a
+                        href="/outreach#jam-calendar"
+                        className="inline-block px-6 py-3 bg-white text-green font-body font-semibold rounded-lg border border-green shadow hover:bg-green/10 transition duration-200"
+                    >
+                        Jam Calendar
+                    </a>
+                </div>
+            </div>
+            <section className="container mx-auto px-4 py-8">
                 <div className="text-center mb-10">
                     <div className="flex items-center justify-center gap-3 mb-4 text-green">
                         <h2 className="text-xl md:text-2xl font-heading font-bold">

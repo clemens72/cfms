@@ -46,7 +46,7 @@ export default function NewsletterPage() {
                         </div>
                         <div className="space-x-4 space-y-2">
                             <a
-                                href="/newsletter/DecJan2025.pdf"
+                                href="/newsletter/Feb2026.pdf"
                                 target="_blank"
                                 className="inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                             >
@@ -73,6 +73,11 @@ export default function NewsletterPage() {
                         </h3>
                         <ul className="list-none space-y-2 font-body text-gray-700">
                             <li>
+                                <a href="/newsletter/Feb2026.pdf" target="_blank" className="text-green hover:text-brown font-bold transition-colors">
+                                    February 2026
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/newsletter/DecJan2025.pdf" target="_blank" className="text-green hover:text-brown font-bold transition-colors">
                                     December 2025/January 2026
                                 </a>
@@ -98,9 +103,14 @@ export default function NewsletterPage() {
                                 </a>
                             </li>
                         </ul>
-                        <a href="/newsletter/archive" className="mt-6 inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">
+                        {/* <a href="/newsletter/archive" className="mt-6 inline-block px-6 py-3 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200">
                             View Full Archive
-                        </a>
+                        </a> */}
+                        <span
+                            className="text-sm mt-6 inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
+                        >
+                            Full Archive Coming Soon
+                        </span>
                     </div>
                 </div>
             </section>

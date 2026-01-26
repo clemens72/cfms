@@ -8,7 +8,7 @@ export default function PressPage() {
                         Downloadable Press Materials:
                     </h3>
                     <a
-                        href="/festival/2026 COFF Press ReleaseVER12.11.FINAL.pdf"
+                        href="/festival/press/2026COFFPressReleaseVER01.28.26.pdf"
                         className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -24,7 +24,7 @@ export default function PressPage() {
                         Festival Fast Facts [PDF]
                     </a>
                     <a
-                        href="/festival/2026_COFFHeadlinerOneSheetREV11.22.25.pdf"
+                        href="/festival/headliner/COFFHeadlinerOneSheetREV01.24.26.pdf"
                         className="inline-block px-4 py-2 bg-green text-white font-body font-semibold rounded-lg hover:bg-green/90 transition duration-200"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -49,10 +49,10 @@ export default function PressPage() {
                         Annual Folk Festival Combines Family Friendly Celebration in the Great Outdoors with a New Date and Location
                     </h2>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        COLUMBUS, OH - November 22, 2025
+                        COLUMBUS, OH - January 28, 2026
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        The <b>Central Ohio Folk Festival celebrates its 29th year</b> with a warmer date. It has moved its traditional beginning of May event to the first full weekend in June: <b>June 6 & 7, 2026.</b>  The festival also announces a new location. It&apos;s moving from Highbanks Metro Park to the brand new <b>Bank Run Metro Park located in Lockbourne, Ohio.</b> With the new space comes a new focus: an event space with a larger capacity.  From the north side of town, it&apos;s ONLY an additional ten minute drive and easily accessible via interstates. The site was the previous home of the sizable annual Musicians Against Childhood Cancer (MACC) Music Festival.
+                        The <b>Central Ohio Folk Festival celebrates its 29th year</b> with a warmer date. It has moved its traditional beginning of May event to the first full weekend in June: <b>June 6 & 7, 2026.</b>  The festival also announces a new location. It&apos;s moving from Highbanks Metro Park to the brand new <b>Bank Run Metro Park located in Lockbourne, Ohio.</b> With the new space comes a new focus: an event space with a larger capacity. The park is easily accessible via interstates. It is in its final construction phase and currently not open to the public. The site was the previous home of the sizable annual Musicians Against Childhood Cancer (MACC) Music Festival.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         Join us for an incredible two-day event where the magic of music comes alive across four vibrant stages. The festival <b>attracts more than 12,000 over the two days</b> from Central Ohio and beyond, yet retains an attractive smaller community vibe. The gathering features scores of musical performances by touring and local artists, showcasing folk, bluegrass, old-time, and roots music in both traditional and contemporary eclectic mixes.
@@ -67,14 +67,13 @@ export default function PressPage() {
                         At the new space, attendees can enjoy a vaulted ceiling pavilion with a capacity for 300 picnickers, a large outdoor stage, and lots of open green space dotted with old, majestic trees. Food trucks will be onsite as well as Nocterra craft beer for those who enjoy locally made brews.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        There is a <b>modest entrance fee.</b> Tickets are ONLY $10 pre-event for 18 and over and $15 onsite. Admission for 17 and under is free. The ticket covers BOTH days and includes lawn seating for the Saturday headliner (preferred seating for Saturday evening is $10 additional). Ticket sales open in early 2026 and can be purchased at: <a href="https://columbusfolkmusicsociety.org/festival.html" className="text-green hover:text-brown font-bold">columbusfolkmusicsociety.org/festival.html</a> where more details will be shared in the months ahead.  
+                        There is a <b>modest admission fee.</b> PRE-SALE General Admission tickets are  $10 (18 and over). ON-SITE General Admission tickets are $15. Under 18 is free. General Admission covers both days. HEADLINER PREFERRED SEATING tickets are $20 and include General Admission. Tickets are on sale NOW and the link to purchase can be found at: <a href="https://columbusfolkmusicsociety.org/festival.html" className="text-green hover:text-brown font-bold">columbusfolkmusicsociety.org/festival.html</a>
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
-                        CONTACT: <a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown font-bold">infofestival@columbusfolkmusicsociety.org</a><br />
-                        Link to Press Kit/Photos: <a href="https://columbusfolkmusicsociety.org/press-release.html" className="text-green hover:text-brown font-bold">columbusfolkmusicsociety.org/press-release.html</a>
+                        CONTACT: <a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown font-bold">infofestival@columbusfolkmusicsociety.org</a>
                     </p>
                     <p className="text-xl font-body text-gray-700 mb-6 leading-relaxed">
                         ###

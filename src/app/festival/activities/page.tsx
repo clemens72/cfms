@@ -21,8 +21,8 @@ export default function ActivitiesPage() {
                         <ul className="list-disc list-inside text-lg md:text-xl font-body text-gray-700 mb-4 leading-relaxed space-y-2">
                             <li>YouthFolk Stages presenting music & storytelling</li>
                             <li>Instrument Petting Zoo</li>
-                            <li>Crafts (floral headbands, parade streamer making and more)!</li>
-                            <li>Box frame drum making (12 & up)</li>
+                            <li>Floral headbands, canister drums, shakers, parade steamers and more!</li>
+                            <li>Box frame drums and decorative quilt squares (ages 12 & up)</li>
                             <li>Parade with festival mascot Darby Duck</li>
                             <li>Coloring station</li>
                             <li>Participation in festival drum circles (separate location)</li>

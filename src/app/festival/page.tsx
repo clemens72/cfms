@@ -82,7 +82,12 @@ export default function FestivalPage() {
             What&apos;s New for 2026
           </h2>
           <p className="text-xl font-body mb-8 max-w-3xl">
-            A new location and a new date! A very modest admission fee. Same programming in a larger space with easy ample parking!
+            <b>A new location and a new date!<br />A very modest admission fee:</b> We are shifting to a modest admission fee to provide this enhanced festival experience.<br />
+            PRE-SALE General Admission tickets are $10 (18 and over)<br />
+            ON-SITE General Admission tickets are $15.<br />
+            Under 18 is free. General admission tickets are good for BOTH days. <br />
+            HEADLINER PREFERRED SEATING (Sat. night) tickets are $20 (includes G.A.).<br />
+            Visit the GET TICKETS link for additional details.
           </p>
           <FestivalButton color="green" href="/festival/new">
             CHECK IT OUT
@@ -137,7 +142,7 @@ export default function FestivalPage() {
               <p className="text-xl font-body leading-relaxed pr-12">
                 The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
               </p>
-              <FestivalButton href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026">Get Tickets</FestivalButton>
+              <a href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026" className='inline-block mt-8 px-6 py-3 bg-green hover:bg-green/90 text-white font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]'>Get Tickets</a>
             </div>
 
             {/* Right Column: Cards */}
@@ -175,7 +180,7 @@ export default function FestivalPage() {
                   <h3 className="font-heading font-semibold text-lg mb-1">Location</h3>
                   <p className="font-body text-sm leading-relaxed">
                     Bank Run Metro Park<br />
-                    Address to follow <i>(still under construction)</i><br />
+                    Address to follow: <i><b>(in final construction phase and currently remains closed to public)</b></i><br />
                     Lockbourne, Ohio</p>
                 </div>
               </div>
@@ -187,12 +192,11 @@ export default function FestivalPage() {
                 <div>
                   <h3 className="font-heading font-semibold text-lg mb-1">Admissions</h3>
                   <p className="font-body text-sm leading-relaxed">
-                    $10 pre-registration (18+)  /  Pre-registration comes with perks (see FAQ details)<br />
-                    $15 onsite (18+)  / Under 18 free<br />
-                    Saturday night headliner:  preferred seating + $10<br />
-                    Admission tickets cover BOTH days!<br />
-                    Festival free entry window:  Sat & Sun - 10:30-11:30am<br />
-                    Ticket sales open in early 2026
+                    PRE-SALE General Admission - $10 (18+)<br />
+                    ON-SITE General Admission - $15 (18+) <br />
+                    Under 18 free / General Admission covers both days<br />
+                    Headliner preferred seating - $20 (includes General Admission)<br /><br />
+                    If the $10/$15 fee is a barrier to attendance then between the hours of 10:30am-11:30am Sat. or Sun. come in as our guest.
                   </p>
                 </div>
               </div>

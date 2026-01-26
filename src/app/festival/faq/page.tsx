@@ -29,35 +29,43 @@ export default function FAQPage() {
                                 <ul className="space-y-3 text-lg font-body text-gray-700 ml-6">
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Tickets will go on sale in early 2026. The ticket link will be found on the festival page near the top.</span>
+                                        <span>Tickets are on sale as of January 28, 2026. Visit the top of the festival page for the link to purchase tickets.</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Pre-purchased tickets are <strong>$10</strong> for adults 18 and over and includes both days and lawn seating for the Saturday evening headliner.</span>
+                                        <span>PRE-SALE General Admission tickets are <strong>$10</strong> (18 and over)</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Onsite purchased tickets are <strong>$15</strong> for adults 18 and over and includes both days and lawn seating for the headliner.</span>
+                                        <span>ON-SITE General Admission tickets are <strong>$15</strong> (18 & over)</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Children 17 and under are <strong>free</strong>!</span>
+                                        <span><strong>Under 18 are free.</strong> General admission tickets are good for both days</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="border-t border-gray-200 pt-6">
                                 <h3 className="text-xl font-heading font-semibold text-charcoal mb-3">
-                                    Do I pay extra for the Saturday evening headliner?
+                                    What if I want to see the Saturday night headliner concert?
                                 </h3>
                                 <ul className="space-y-3 text-lg font-body text-gray-700 ml-6">
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>There is an additional <strong>$10</strong> ticket fee if you want preferred seating for the Saturday evening headliner. The main stage is now outdoors. Preferred seating includes options of under a tent or outside under the evening skies.</span>
+                                        <span>General Admission ticket holders can enjoy the Saturday evening concert on the surrounding lawn, but must bring blanket/chairs.</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>There are no reserved seats for preferred seating; it is first-come, first-served. However, all preferred seating is more close-up seating. Select &quot;add $10 for headliner preferred seating&quot; at ticket check-out.</span>
+                                        <span>The Kirby Main Stage where the headliner show occurs is a large OUTDOOR stage</span>
+                                    </li>
+                                    <li className="flex items-start gap-3">
+                                        <span className="text-rust mt-1">•</span>
+                                        <span>Headliner Preferred seating tickets are <strong>$20</strong> (and include General Admission). You must have a ticket to enter that area Saturday evening. Seating is closest up, self-served, and has two options: under the stars OR under a canopy. Under canopy seats are padded.</span>
+                                    </li>
+                                    <li className="flex items-start gap-3">
+                                        <span className="text-rust mt-1">•</span>
+                                        <span>Headliner Preferred Seating is limited to 175 seats and customarily sells out well before the event</span>
                                     </li>
                                 </ul>
                             </div>
@@ -69,7 +77,7 @@ export default function FAQPage() {
                                 <ul className="space-y-3 text-lg font-body text-gray-700 ml-6">
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Yes, there are multiple benefits to pre-purchasing tickets and we encourage you to do so!  You&apos;ll save $5 a ticket AND we absorb the ticketing platform fee. The first ticketed entrants will get a free fun “flexible frisbee flyer” and a “festival” sticker until supplies run out. And if you wish to get preferred seating for the Saturday evening show, pre-purchase is the way to go as that seating is limited. Just show your festival ticket at the entrance and we&apos;ll give you your entrance wristband which is good for BOTH days.</span>
+                                        <span>Yes, there are multiple benefits to pre-purchasing tickets and we encourage you to do so!  You&apos;ll save $5 a ticket. The first ticketed entrants will get a free fun “flexible frisbee flyer” and a “festival” sticker until supplies run out. And if you wish to get preferred seating for the Saturday evening show, pre-purchase is the way to go as that seating is limited. Tickets will be sent via TicketLeap. You can either print them or have them handy on your phone. You will need to present tickets at one of the entrance gates and you will be issued a festival wristband. You will also need your HEADLINER PREFERRED SEATING ticket in order to gain access to the close up seating area for Saturday night&apos;s concert.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -120,7 +128,7 @@ export default function FAQPage() {
                                 <ul className="space-y-3 text-lg font-body text-gray-700 ml-6">
                                     <li className="flex items-start gap-3">
                                         <span className="text-rust mt-1">•</span>
-                                        <span>Parking is free at the Metro Park. There will be two entrances. <b><i>Watch this space for parking entrance directions.</i></b></span>
+                                        <span>Parking is free at the Metro Park. There is ONE main entrance to the park off of Rohr Rd. Follow the signs once you enter the main entrance.</span>
                                     </li>
                                 </ul>
                             </div>

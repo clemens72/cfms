@@ -109,7 +109,7 @@ export default function OutreachPage() {
                                 Links to some of our other outreach programs are listed below. Please click to find out more about them!
                             </p>
                             <p className="text-gray-700 mb-8 leading-relaxed">
-                                <a href="/kirby" className="text-green hover:text-brown font-bold transition-colors">Bob Kirby Scholarship Program</a>
+                                <a href="/kirby" className="text-green hover:text-brown font-bold transition-colors">Kirby Music Scholarship Program</a>
                             </p>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export default function OutreachPage() {
                         <ImageCarousel images={outreachImages} autoPlayInterval={5000} />
                     </div>
                 </div>
-                <div className="text-center mb-12">
+                <div id="jam-calendar" className="text-center mb-12">
                     <div>
                         <h2 className="text-3xl md:text-4xl font-heading font-bold text-green mb-4">
                             IN PERSON JAM CALENDAR

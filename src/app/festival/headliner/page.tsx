@@ -56,8 +56,9 @@ export default function HeadlinerPage() {
                                 TICKETS
                             </h2>
                             <p className="text-l font-body text-gray-700 leading-relaxed">
-                                The entrance fee for the festival includes lawn seating for the Saturday evening headliner performance and you would need to bring your own blanket/chairs. Festival admission tickets are $10 pre-event for 18 and over / $15 on site. Closer provided and preferred seating tickets (limited number of seats) are available for an additional $10 at the festival admissions ticketing platform.<br /><br />
-                                <a href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026" className="text-green font-bold underline">Get tickets!</a>
+                                General Admission tickets for the festival includes farther afield lawn seating for the Saturday evening headliner performance and you would need to bring your own blanket/chairs.<br />
+                                PRE-SALE General Admission tickets are <b>$10</b> (18 and over) and ON-SITE General Admission tickets are <b>$15</b>. HEADLINER PREFERRED SEATING tickets are <b>$20</b> (and include General Admission). Headliner Preferred Seating is limited to 175 seats and customarily sells out well before the event.<br /><br />
+                                <a href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026" className='inline-block px-6 py-3 bg-green hover:bg-green/90 text-white font-body font-semibold rounded-lg shadow transition duration-300 transform hover:scale-[1.02]'>Get Tickets</a>
                             </p>
                         </div>
                     </div>

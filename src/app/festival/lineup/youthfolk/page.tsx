@@ -105,7 +105,7 @@ export default function LineupPage() {
                             subtitle='Box Frame Drums & Quilt Art (ages 12 & up) and Parade Streamer Making (all ages)'
                             stage="YouthFolk Storytelling & Craft Tent"
                             dayTime="Saturday 11am-1pm & 1:45-3pm / Sunday 11:45am-12:45pm & 1:30-3:30pm"
-                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided along with guidance.Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
+                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided frame drum kits along with guidance for assembly. Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
                             mediaType="image"
                             mediaSrc="/festival/lineup/QuiltArtCraft.jpg"
                             mediaTitle="Box Frame Drum Activity"
@@ -149,7 +149,7 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="KIRBY SCHOLARSHIP AWARDS"
+                            artistName="KIRBY SCHOLARSHIP MUSIC AWARDS"
                             contact='lindamcdonald@columbusfolkmusicsociety.org'
                             stage="YouthFolk Performing Tent"
                             dayTime="Saturday 2:15pm"
@@ -165,7 +165,7 @@ export default function LineupPage() {
                             dayTime="Saturday 3-4pm"
                             bio="Hey kids! Meet over at the Instrument Petting Zoo at 3pm on Satrurday and bring your musical selves!  If you&apos;ve made a drum, bring it!  If you&apos;ve made shakers or a parade streamer, bring them! You&apos;ll have some adults to help &quot;anchor down&quot; what might be your very first &quot;informal music jam!&quot;"
                             mediaType="image"
-                            mediaSrc="/festival/lineup/KidswDrums.jpg"
+                            mediaSrc="/festival/lineup/KIDSwDRUMS.jpg"
                             mediaTitle="Kirby Awards Ceremony (previous year)"
                         />
 
@@ -262,7 +262,7 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="KIRBY SCHOLARSHIP AWARDS"
+                            artistName="KIRBY SCHOLARSHIP MUSIC AWARDS"
                             contact='lindamcdonald@columbusfolkmusicsociety.org'
                             stage="YouthFolk Performing Tent"
                             dayTime="Saturday 2:15pm"
@@ -278,7 +278,7 @@ export default function LineupPage() {
                             dayTime="Saturday 3-4pm"
                             bio="Hey kids! Meet over at the Instrument Petting Zoo at 3pm on Satrurday and bring your musical selves!  If you&apos;ve made a drum, bring it!  If you&apos;ve made shakers or a parade streamer, bring them! You&apos;ll have some adults to help &quot;anchor down&quot; what might be your very first &quot;informal music jam!&quot;"
                             mediaType="image"
-                            mediaSrc="/festival/lineup/KidswDrums.jpg"
+                            mediaSrc="/festival/lineup/KIDSwDRUMS.jpg"
                             mediaTitle="Kirby Awards Ceremony (previous year)"
                         />
 
@@ -308,7 +308,7 @@ export default function LineupPage() {
                             subtitle='Box Frame Drums & Quilt Art (ages 12 & up) and Parade Streamer Making (all ages)'
                             stage="YouthFolk Storytelling & Craft Tent"
                             dayTime="Saturday 11am-1pm & 1:45-3pm / Sunday 11:45am-12:45pm & 1:30-3:30pm"
-                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided along with guidance.Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
+                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided frame drum kits along with guidance for assembly. Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
                             mediaType="image"
                             mediaSrc="/festival/lineup/QuiltArtCraft.jpg"
                             mediaTitle="Box Frame Drum Activity"
