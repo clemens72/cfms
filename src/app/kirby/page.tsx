@@ -7,7 +7,7 @@ export default function KirbyPage() {
             {/* MEMBERSHIP BENEFITS SECTION */}
             <section className="container mx-auto px-4 py-16">
                 <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-green text-center">
-                    Bob Kirby Scholarship Memorial Fund
+                    Kirby Music Scholarship Program
                 </h1>
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-heading font-bold text-brown">
@@ -59,7 +59,7 @@ export default function KirbyPage() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative aspect-square">
                                     <Image
-                                        src="/kirby/Picture1.jpg"
+                                        src="/kirby/NilsSkinnerJacksonSweeney.jpg"
                                         alt="Bob Kirby Scholarship recipient"
                                         fill
                                         className="object-cover rounded-md"
@@ -67,7 +67,7 @@ export default function KirbyPage() {
                                 </div>
                                 <div className="relative aspect-square">
                                     <Image
-                                        src="/kirby/Picture2.png"
+                                        src="/kirby/Picture2.jpg"
                                         alt="Bob Kirby Scholarship recipient"
                                         fill
                                         className="object-cover rounded-md"
@@ -98,7 +98,7 @@ export default function KirbyPage() {
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="relative aspect-square">
                                     <Image
-                                        src="/kirby/Picture5.png"
+                                        src="/kirby/Picture5.jpg"
                                         alt="Bob Kirby Scholarship recipient"
                                         fill
                                         className="object-cover rounded-md"
@@ -114,7 +114,7 @@ export default function KirbyPage() {
                                 </div>
                                 <div className="relative aspect-square">
                                     <Image
-                                        src="/kirby/Picture7.png"
+                                        src="/kirby/Picture7.jpg"
                                         alt="Bob Kirby Scholarship recipient"
                                         fill
                                         className="object-cover rounded-md"
@@ -122,7 +122,7 @@ export default function KirbyPage() {
                                 </div>
                                 <div className="relative aspect-square">
                                     <Image
-                                        src="/kirby/Picture8.png"
+                                        src="/kirby/MagnusMcKayc.jpg"
                                         alt="Bob Kirby Scholarship recipient"
                                         fill
                                         className="object-cover rounded-md"
