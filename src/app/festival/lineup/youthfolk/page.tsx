@@ -81,7 +81,7 @@ export default function LineupPage() {
                             contact='joaniecalem@gmail.com'
                             stage="YouthFolk Storytelling & Craft Tent"
                             dayTime="Saturday 1-1:45pm"
-                            bio="Joanie Calem is a musician, singer-songwriter, storyteller and inclusion advocate (1983 to present). She performs for audiences of all ages and teaches piano, guitar, ukulele, voice and recorders. Joanie is always thrilled to give people the gift of knowing how to play an instrument!"
+                            bio={`Some stories sing, some songs tell stories, and both songs and stories invite us to a magic place of wonder, discovery and special people. Come join Joanie as she takes you on a journey with singing stories and story songs.\n\nJoanie Calem is a musician, singer-songwriter, storyteller and inclusion advocate (1983 to present). She performs for audiences of all ages and teaches piano, guitar, ukulele, voice and recorders. Joanie is always thrilled to give people the gift of knowing how to play an instrument!`}
                             mediaType="video"
                             mediaSrc="https://www.youtube.com/embed/N3TETRZghwQ"
                             mediaTitle="Joanie Calem - &quot;Grandfather and the Enormous Carrot&quot;"
@@ -100,14 +100,14 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="BOX FRAME DRUM / PARADE STREAMERS ACTIVITY"
+                            artistName="BOX FRAME DRUM / QUILT ART / PARADE STREAMER ACTIVITY"
                             genre="Crafts"
-                            subtitle='Box Frame Drums (ages 12 & up) and Parade Streamer Making (all ages)'
+                            subtitle='Box Frame Drums & Quilt Art (ages 12 & up) and Parade Streamer Making (all ages)'
                             stage="YouthFolk Storytelling & Craft Tent"
-                            dayTime="Saturday 11am-1pm / Sunday 1:30-3:30pm"
-                            bio="BOX FRAME DRUMS: While younger kids get to decorate and make “handmade drums” out of oatmeal canisters in the Kids&apos; Craft Tent, we offer a Box Frame Drum craft activity for ages 12 & up in the YouthFolk tent. Craft kits are provided, meaning the basic wood frame, wrapping tape and markers/stickers, along with guidance. Youth will end up with a nice sounding and decorated percussive instrument. Other activities on the grounds allow youth to use the drum they have made as well as learn some basic rhythms. There are daily drum circles (open to all), opportunities for “informal” jamming by kids and youth in the Petting Zoo area, and a festival parade for kids, youth and their parents late Sunday afternoon.                             PARADE STREAMER MAKING: Another activity in the YouthFolk tent that occurs at the same time (for younger kids in tow) is parade streamer making. The parade led by festival mascot, Darby Duck, is held on Sunday afternoon and is a fun-filled event to wave streamers! Kids are also encouraged to wave their streamers to the music in the YouthFolk Performing Tent!"
+                            dayTime="Saturday 11am-1pm & 1:45-3pm / Sunday 11:45am-12:45pm & 1:30-3:30pm"
+                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided along with guidance.Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
                             mediaType="image"
-                            mediaSrc="/festival/lineup/FrameboxDrumsCircle.jpg"
+                            mediaSrc="/festival/lineup/QuiltArtCraft.jpg"
                             mediaTitle="Box Frame Drum Activity"
                         />
 
@@ -125,25 +125,13 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="QUILT ART ACTIVITY"
-                            genre="Crafts"
-                            subtitle='Quilt Art activity (ages 12 & up)'
-                            stage="YouthFolk Storytelling & Craft Tent"
-                            dayTime="Saturday 1:45-3pm / Sunday 11:45am-12:45pm"
-                            bio="We are bringing back decorating pieces of fabric with artwork as a craft. This time the craft is offered to youth ages 12 & up in the YouthFolk tent. Blank fabric squares are provided, along with fabric markers and stencils. Youth can either do free lance art or incorporate stencil work to create a finished fabric art square. Participants can choose to do more then one. Youth can take home their artwork or leave it with the festival, for us to incorporate into a decorative tent hanging composed of artwork done by previous years&apos; attendees. The overall goal is to have the wall hanging become large enough to become an eventual &quot;quilt top.&quot;"
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/QuiltArtCraft.jpg"
-                            mediaTitle="Quilt Art Craft"
-                        />
-
-                        <LineupCard
                             artistName="2025 KIRBY SCHOLARSHIP WINNERS SHOWCASE"
                             subtitle="Magnus McKay and Nils Sellman Skinner with Jackson Sweeney"
                             stage="YouthFolk Performing Tent"
                             dayTime="Saturday 1pm / Saturday 1:30pm"
                             bio="Performing will be the 2025 Kirby Scholarship winners, Magnus McKay and Nils Sellman Skinner with Jackson Sweeney. Begun in 2009, the scholarship fund was created to assist young people (grades 3-12) to pursue or enhance their interest in music in the folk/roots tradition by a monetary award used towards the purchase of an instrument or lessons. Included with the award is providing an opportunity to perform at the annual Central Ohio Folk Festival. Let&apos;s give a big shout out to them for pursuing and developing their interest in music!"
                             mediaType="image"
-                            mediaSrc="/festival/lineup/KirbyWinnersPerformance.jpg"
+                            mediaSrc="/festival/lineup/2025KirbysSIDEbySIDE.jpg"
                             mediaTitle="Kirby Winners Performance"
                         />
 
@@ -162,12 +150,22 @@ export default function LineupPage() {
 
                         <LineupCard
                             artistName="KIRBY SCHOLARSHIP AWARDS"
-                            contact='info@columbusfolkmusicsociety.org'
+                            contact='lindamcdonald@columbusfolkmusicsociety.org'
                             stage="YouthFolk Performing Tent"
                             dayTime="Saturday 2:15pm"
                             bio="The annual Kirby Scholarship Award is given to one or two young musicians by the Columbus Folk Music Society. The Society, the producer of the festival, established the Scholarship Memorial Fund in 2009 in memory of Bob Kirby, a very early supporter of the festival. The purpose of the fund is to provide support to young musicians (grades 3-12) from Central Ohio by offering a monetary award to be used to enhance musical skills in the folk/roots music tradition. Recipients may use the $500 award to purchase an instrument, take music lessons, attend music workshops, etc. Recipients also have the opportunity to perform at the Central Ohio Folk Festival. Join us in the YouthFolk Performing Tent to see the awards ceremony. The award winners will be given an opportunity to perform after the awards."
                             mediaType="image"
                             mediaSrc="/festival/lineup/KirbyAwardsCeremony2024.jpg"
+                            mediaTitle="Kirby Awards Ceremony (previous year)"
+                        />
+
+                        <LineupCard
+                            artistName="KID&apos;S JAM"
+                            stage="Meet in the Petting Zoo area"
+                            dayTime="Saturday 3-4pm"
+                            bio="Hey kids! Meet over at the Instrument Petting Zoo at 3pm on Satrurday and bring your musical selves!  If you&apos;ve made a drum, bring it!  If you&apos;ve made shakers or a parade streamer, bring them! You&apos;ll have some adults to help &quot;anchor down&quot; what might be your very first &quot;informal music jam!&quot;"
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/KidswDrums.jpg"
                             mediaTitle="Kirby Awards Ceremony (previous year)"
                         />
 
@@ -259,18 +257,28 @@ export default function LineupPage() {
                             dayTime="Saturday 1pm / Saturday 1:30pm"
                             bio="Performing will be the 2025 Kirby Scholarship winners, Magnus McKay and Nils Sellman Skinner with Jackson Sweeney. Begun in 2009, the scholarship fund was created to assist young people (grades 3-12) to pursue or enhance their interest in music in the folk/roots tradition by a monetary award used towards the purchase of an instrument or lessons. Included with the award is providing an opportunity to perform at the annual Central Ohio Folk Festival. Let&apos;s give a big shout out to them for pursuing and developing their interest in music!"
                             mediaType="image"
-                            mediaSrc="/festival/lineup/KirbyWinnersPerformance.jpg"
+                            mediaSrc="/festival/lineup/2025KirbysSIDEbySIDE.jpg"
                             mediaTitle="Kirby Winners Performance"
                         />
 
                         <LineupCard
                             artistName="KIRBY SCHOLARSHIP AWARDS"
-                            contact='info@columbusfolkmusicsociety.org'
+                            contact='lindamcdonald@columbusfolkmusicsociety.org'
                             stage="YouthFolk Performing Tent"
                             dayTime="Saturday 2:15pm"
                             bio="The annual Kirby Scholarship Award is given to one or two young musicians by the Columbus Folk Music Society. The Society, the producer of the festival, established the Scholarship Memorial Fund in 2009 in memory of Bob Kirby, a very early supporter of the festival. The purpose of the fund is to provide support to young musicians (grades 3-12) from Central Ohio by offering a monetary award to be used to enhance musical skills in the folk/roots music tradition. Recipients may use the $500 award to purchase an instrument, take music lessons, attend music workshops, etc. Recipients also have the opportunity to perform at the Central Ohio Folk Festival. Join us in the YouthFolk Performing Tent to see the awards ceremony. The award winners will be given an opportunity to perform after the awards."
                             mediaType="image"
                             mediaSrc="/festival/lineup/KirbyAwardsCeremony2024.jpg"
+                            mediaTitle="Kirby Awards Ceremony (previous year)"
+                        />
+
+                        <LineupCard
+                            artistName="KID&apos;S JAM"
+                            stage="Meet in the Petting Zoo area"
+                            dayTime="Saturday 3-4pm"
+                            bio="Hey kids! Meet over at the Instrument Petting Zoo at 3pm on Satrurday and bring your musical selves!  If you&apos;ve made a drum, bring it!  If you&apos;ve made shakers or a parade streamer, bring them! You&apos;ll have some adults to help &quot;anchor down&quot; what might be your very first &quot;informal music jam!&quot;"
+                            mediaType="image"
+                            mediaSrc="/festival/lineup/KidswDrums.jpg"
                             mediaTitle="Kirby Awards Ceremony (previous year)"
                         />
 
@@ -288,34 +296,22 @@ export default function LineupPage() {
                             contact='joaniecalem@gmail.com'
                             stage="YouthFolk Storytelling & Craft Tent"
                             dayTime="Saturday 1-1:45pm"
-                            bio="Joanie Calem is a musician, singer-songwriter, storyteller and inclusion advocate (1983 to present). She performs for audiences of all ages and teaches piano, guitar, ukulele, voice and recorders. Joanie is always thrilled to give people the gift of knowing how to play an instrument!"
+                            bio={`Some stories sing, some songs tell stories, and both songs and stories invite us to a magic place of wonder, discovery and special people. Come join Joanie as she takes you on a journey with singing stories and story songs.\n\nJoanie Calem is a musician, singer-songwriter, storyteller and inclusion advocate (1983 to present). She performs for audiences of all ages and teaches piano, guitar, ukulele, voice and recorders. Joanie is always thrilled to give people the gift of knowing how to play an instrument!`}
                             mediaType="video"
                             mediaSrc="https://www.youtube.com/embed/N3TETRZghwQ"
                             mediaTitle="Joanie Calem - &quot;Grandfather and the Enormous Carrot&quot;"
                         />
 
                         <LineupCard
-                            artistName="BOX FRAME DRUM / PARADE STREAMERS ACTIVITY"
+                            artistName="BOX FRAME DRUM / QUILT ART / PARADE STREAMER ACTIVITY"
                             genre="Crafts"
-                            subtitle='Box Frame Drums (ages 12 & up) and Parade Streamer Making (all ages)'
+                            subtitle='Box Frame Drums & Quilt Art (ages 12 & up) and Parade Streamer Making (all ages)'
                             stage="YouthFolk Storytelling & Craft Tent"
-                            dayTime="Saturday 11am-1pm / Sunday 1:30-3:30pm"
-                            bio="BOX FRAME DRUMS: While younger kids get to decorate and make “handmade drums” out of oatmeal canisters in the Kids&apos; Craft Tent, we offer a Box Frame Drum craft activity for ages 12 & up in the YouthFolk tent. Craft kits are provided, meaning the basic wood frame, wrapping tape and markers/stickers, along with guidance. Youth will end up with a nice sounding and decorated percussive instrument. Other activities on the grounds allow youth to use the drum they have made as well as learn some basic rhythms. There are daily drum circles (open to all), opportunities for “informal” jamming by kids and youth in the Petting Zoo area, and a festival parade for kids, youth and their parents late Sunday afternoon.                             PARADE STREAMER MAKING: Another activity in the YouthFolk tent that occurs at the same time (for younger kids in tow) is parade streamer making. The parade led by festival mascot, Darby Duck, is held on Sunday afternoon and is a fun-filled event to wave streamers! Kids are also encouraged to wave their streamers to the music in the YouthFolk Performing Tent!"
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/FrameboxDrumsCircle.jpg"
-                            mediaTitle="Box Frame Drum Activity"
-                        />
-
-                        <LineupCard
-                            artistName="QUILT ART ACTIVITY"
-                            genre="Crafts"
-                            subtitle='Quilt Art activity (ages 12 & up)'
-                            stage="YouthFolk Storytelling & Craft Tent"
-                            dayTime="Saturday 1:45-3pm / Sunday 11:45am-12:45pm"
-                            bio="We are bringing back decorating pieces of fabric with artwork as a craft. This time the craft is offered to youth ages 12 & up in the YouthFolk tent. Blank fabric squares are provided, along with fabric markers and stencils. Youth can either do free lance art or incorporate stencil work to create a finished fabric art square. Participants can choose to do more then one. Youth can take home their artwork or leave it with the festival, for us to incorporate into a decorative tent hanging composed of artwork done by previous years&apos; attendees. The overall goal is to have the wall hanging become large enough to become an eventual &quot;quilt top.&quot;"
+                            dayTime="Saturday 11am-1pm & 1:45-3pm / Sunday 11:45am-12:45pm & 1:30-3:30pm"
+                            bio={`BOX FRAME DRUMS: a craft activity for ages 12 & up. Kits are provided along with guidance.Youth will have a pleasant sounding percussive instrument they can use in the drum circle and kids jam or parade.\n\nQUILT ART: youth ages 12 & up can do decorative art on a fabric square. If they choose to leave it with us, it will be added to the fabric quilt top that is hung next year in the YouthFolk Craft tent.\n\nPARADE STREAMERS: kids can make streamers and use them in the parade led by festival mascot, Darby Duck on Sunday afternoon. OR just have fun waving them to the music!`}
                             mediaType="image"
                             mediaSrc="/festival/lineup/QuiltArtCraft.jpg"
-                            mediaTitle="Quilt Art Craft"
+                            mediaTitle="Box Frame Drum Activity"
                         />
 
                         <LineupCard

@@ -116,7 +116,7 @@ export default function AboutPage() {
                     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <h2 className="text-2xl font-heading font-bold mb-4 text-charcoal">Central Ohio Folk Festival</h2>
                         <p className="font-body text-gray-700 leading-relaxed">
-                            The Central Ohio Folk Festival (COFF) was founded in 1997 by the CFMS to make folk arts accessible to a much larger public. The festival continues to grow, attracting over 11,000 participants over the two day event. We partner with the Metro Parks in order to provide an outdoor location -- &apos;a harmony of nature and music&apos;, which is open to the community.
+                            The Central Ohio Folk Festival (COFF) was founded in 1997 by the CFMS to make folk arts accessible to a much larger public. The festival continues to grow, attracting over 12,000 participants over the two day event. We partner with the Metro Parks in order to provide an outdoor location -- &apos;a harmony of nature and music&apos;, which is open to the community.
                         </p>
                     </div>
 

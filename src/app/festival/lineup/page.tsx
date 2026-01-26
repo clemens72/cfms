@@ -58,6 +58,13 @@ export default function LineupPage() {
                 {activeTab === 'all' && (
                     <div className="space-y-16 max-w-5xl mx-auto mb-10">
 
+                        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+                            <h2 className="text-3xl font-heading text-center font-bold text-green mb-4">ALL STAGES</h2>
+                            <p className="font-body text-gray-700 leading-relaxed">
+                                The <b>Kirby Main & Showcase stages</b> feature national, regional, and local performers.  The <b>Bailey Acoustic Stage</b> showcases emerging or established Ohio artists, as well as local teen and college-aged artists.
+                            </p>
+                        </div>
+
                         <LineupCard
                             artistName="ANNIE & ROD CAPPS QUARTET"
                             genre="Folk/Americana (Chelsea, MI)"
@@ -148,7 +155,7 @@ export default function LineupPage() {
                             genre="Irish Folk Singer/Fiddler (Columbus, Ohio)"
                             contact='mollyroisin13@gmail.com'
                             stage="Bailey Acoustic Stage"
-                            dayTime="Sunday 3pm"
+                            dayTime="TBD"
                             bio="Cleveland born and Columbus trained, Molly Roisin (ROE-sheen) developed her fast-paced and authentic energy at festivals and pubs all across the state. She shares a wide repertoire of traditional classics, gripping ballads, and toe tapping tunes audiences love."
                             mediaType="video"
                             mediaSrc="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmollymoranmusic%2Fvideos%2F1260669294891845%2F&show_text=false&width=560"
@@ -176,6 +183,19 @@ export default function LineupPage() {
                             mediaType="image"
                             mediaSrc="/festival/lineup/OutrageousSongintheWorld.jpg"
                             mediaTitle="Outrageous Song Contest"
+                        />
+
+                        <LineupCard
+                            artistName="TOADSTOOL SHADOW"
+                            genre="Mixing music & humor! (Chillicothe, OH)"
+                            website="toadstoolshadow.com"
+                            contact='toadstoolshadow@gmail.com'
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Toadstool Shadow is a family-friendly folk band from Chillicothe, Ohio. Their songs are a seamless synthesis of the serious, the silly, and the surreal. They are best known for their musical-comedy gnome act at the Ohio Renaissance Festival. However, in 2026, for America 250, they will also be doing a red, white, and blue cowboy act at select festivals like the Central Ohio Folk Festival. They are led by songwriter Chris Till, a recipient of a 2025-2026 Ohio Arts Council Artist Opportunity grant for his work with Toadstool Shadow."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/v5YvyR-WRWI"
+                            mediaTitle="Toadstool Shadow - &quot;The World According to Toadstool Shadow&quot;"
                         />
 
                         <LineupCard
@@ -246,14 +266,14 @@ export default function LineupPage() {
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
                             bio="The Redbuds is an all woman folk trio from Columbus, Ohio. Pulling most of their repertoire from the Appalachian folk tradition with sprinkles of original tunes, they play timeless music that appeals to all ages. Formed in 2013, they have performed all over the state from farmers&apos; markets to music festivals and everything in between."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/Redbuds.PNG"
-                            mediaTitle="THE REDBUDS"
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/Bpg0W1Jrrno"
+                            mediaTitle="The Redbuds"
                         />
 
                         <LineupCard
                             artistName="MUSIC COLUMBUS presents 2026 SELECT ARTISTS"
-                            subtitle='KENNEDY HALL and TALITHA BOYD'
+                            subtitle='KENNEDY HALL (duo) & TALITHA BOYD (duo)'
                             genre="Singer-Songwriter/Americana (Columbus, OH)"
                             website="musiccolumbus.com"
                             stage="Showcase Stage"
@@ -318,7 +338,7 @@ export default function LineupPage() {
                             contact="songcontest@columbusfolkmusicsociety.org"
                             stage="Showcase Stage & Bailey Acoustic Stage"
                             dayTime="Saturday, 11:30am & 6:00pm"
-                            bio="The first ever Columbus Folk Music Society&apos;s Singer-Songwriter Competition showcases songwriting and provides a venue for singer-songwriters to share their work at the Central Ohio Folk Festival. Six finalists were selected by a panel of industry professional judges out of 87 entries from Central Ohio and beyond. All six finalists will perform two original songs each on the festival&apos;s Showcase Stage starting at 11:30 am. Competing finalists are judged on their songs&apos; originality and overall quality, as well as their performance and general stage presence. The winner receives a $300 cash prize and performs a solo set on the Bailey Acoustic stage at 6pm on Saturday. Enjoy this wonderful new addition to the festival!"
+                            bio="The first ever Columbus Folk Music Society&apos;s Singer-Songwriter Competition showcases songwriting and provides a venue for singer-songwriters to share their work at the Central Ohio Folk Festival. Six finalists were selected by a panel of industry professional judges out of 87 entries from Central Ohio and beyond. The judges are: Jasey Schnaars, Keith Larsen, Jacque Morgan, and Diane Gee-Frasca. All six finalists will perform two original songs each on the festival&apos;s Showcase Stage starting at 11:30 am. Competing finalists are judged on their songs&apos; originality and overall quality, as well as their performance and general stage presence. The winner receives a $300 cash prize and performs a solo set on the Bailey Acoustic stage at 6pm on Saturday. Enjoy this wonderful new addition to the festival!"
                             mediaType="image"
                             mediaSrc="/festival/lineup/SWCompetition.jpg"
                             mediaTitle="Songwriter Competition"
@@ -475,7 +495,8 @@ export default function LineupPage() {
                         />
 
                         <LineupCard
-                            artistName="MUSIC COLUMBUS presents SELECT ARTISTS"
+                            artistName="MUSIC COLUMBUS presents 2026 SELECT ARTISTS"
+                            subtitle='KENNEDY HALL (duo) & TALITHA BOYD (duo)'
                             genre="Singer-Songwriter/Americana (Columbus, OH)"
                             website="musiccolumbus.com"
                             stage="Showcase Stage"
@@ -528,7 +549,7 @@ export default function LineupPage() {
                             contact="songcontest@columbusfolkmusicsociety.org"
                             stage="Showcase Stage & Bailey Acoustic Stage"
                             dayTime="Saturday, 11:30am & 6:00pm"
-                            bio="The first ever Columbus Folk Music Society&apos;s Singer-Songwriter Competition showcases songwriting and provides a venue for singer-songwriters to share their work at the Central Ohio Folk Festival. Six finalists were selected by a panel of industry professional judges out of 87 entries from Central Ohio and beyond. All six finalists will perform two original songs each on the festival&apos;s Showcase Stage starting at 11:30 am. Competing finalists are judged on their songs&apos; originality and overall quality, as well as their performance and general stage presence. The winner receives a $300 cash prize and performs a solo set on the Bailey Acoustic stage at 6pm on Saturday. Enjoy this wonderful new addition to the festival!"
+                            bio="The first ever Columbus Folk Music Society&apos;s Singer-Songwriter Competition showcases songwriting and provides a venue for singer-songwriters to share their work at the Central Ohio Folk Festival. Six finalists were selected by a panel of industry professional judges out of 87 entries from Central Ohio and beyond. The judges are: Jasey Schnaars, Keith Larsen, Jacque Morgan, and Diane Gee-Frasca. All six finalists will perform two original songs each on the festival&apos;s Showcase Stage starting at 11:30 am. Competing finalists are judged on their songs&apos; originality and overall quality, as well as their performance and general stage presence. The winner receives a $300 cash prize and performs a solo set on the Bailey Acoustic stage at 6pm on Saturday. Enjoy this wonderful new addition to the festival!"
                             mediaType="image"
                             mediaSrc="/festival/lineup/SWCompetition.jpg"
                             mediaTitle="Songwriter Competition"
@@ -612,7 +633,7 @@ export default function LineupPage() {
                             genre="Irish Folk Singer/Fiddler (Columbus, Ohio)"
                             contact='mollyroisin13@gmail.com'
                             stage="Bailey Acoustic Stage"
-                            dayTime="Sunday 3pm"
+                            dayTime="TBD"
                             bio="Cleveland born and Columbus trained, Molly Roisin (ROE-sheen) developed her fast-paced and authentic energy at festivals and pubs all across the state. She shares a wide repertoire of traditional classics, gripping ballads, and toe tapping tunes audiences love."
                             mediaType="video"
                             mediaSrc="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmollymoranmusic%2Fvideos%2F1260669294891845%2F&show_text=false&width=560"
@@ -628,6 +649,19 @@ export default function LineupPage() {
                             mediaType="image"
                             mediaSrc="/festival/lineup/OutrageousSongintheWorld.jpg"
                             mediaTitle="Outrageous Song Contest"
+                        />
+
+                        <LineupCard
+                            artistName="TOADSTOOL SHADOW"
+                            genre="Mixing music & humor! (Chillicothe, OH)"
+                            website="toadstoolshadow.com"
+                            contact='toadstoolshadow@gmail.com'
+                            stage="Bailey Acoustic Stage"
+                            dayTime="TBD"
+                            bio="Toadstool Shadow is a family-friendly folk band from Chillicothe, Ohio. Their songs are a seamless synthesis of the serious, the silly, and the surreal. They are best known for their musical-comedy gnome act at the Ohio Renaissance Festival. However, in 2026, for America 250, they will also be doing a red, white, and blue cowboy act at select festivals like the Central Ohio Folk Festival. They are led by songwriter Chris Till, a recipient of a 2025-2026 Ohio Arts Council Artist Opportunity grant for his work with Toadstool Shadow."
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/v5YvyR-WRWI"
+                            mediaTitle="Toadstool Shadow - &quot;The World According to Toadstool Shadow&quot;"
                         />
 
                         <LineupCard
@@ -661,9 +695,9 @@ export default function LineupPage() {
                             stage="Bailey Acoustic Stage"
                             dayTime="TBD"
                             bio="The Redbuds is an all woman folk trio from Columbus, Ohio. Pulling most of their repertoire from the Appalachian folk tradition with sprinkles of original tunes, they play timeless music that appeals to all ages. Formed in 2013, they have performed all over the state from farmers&apos; markets to music festivals and everything in between."
-                            mediaType="image"
-                            mediaSrc="/festival/lineup/Redbuds.PNG"
-                            mediaTitle="THE REDBUDS"
+                            mediaType="video"
+                            mediaSrc="https://www.youtube.com/embed/Bpg0W1Jrrno"
+                            mediaTitle="The Redbuds"
                         />
 
                         <LineupCard

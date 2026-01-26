@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function LeadershipPage() {
     return (
         <div className="min-h-screen bg-bg-brown">
@@ -9,6 +11,10 @@ export default function LeadershipPage() {
                 <p className="text-lg font-body text-gray-700 mb-12 text-center max-w-3xl mx-auto">
                     Leadership and Trustees of 2025-2026
                 </p>
+
+                <div className="mb-12 text-center">
+                    <Image src="/about/boardphoto.jpg" alt="CFMS Board Photo 2025" width={800} height={600} className="mx-auto rounded-lg shadow-md" />
+                </div>
                 
                 <div className="grid md:grid-cols-2 gap-6 max-w-7xl mx-auto">
                     {/* Card 1: Columbus Folk Music Society */}

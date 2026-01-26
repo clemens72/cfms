@@ -18,7 +18,7 @@ export default function ContactPage() {
                 <ul className="font-body text-gray-700 mb-2 leading-relaxed space-y-2 break-all">
                     <li>For <b>Americana/Folk Concert Series bookings: </b><a href="mailto:coffeehousebooking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">coffeehousebooking@columbusfolkmusicsociety.org</a>
                     </li>
-                    <li>For <b>Festival bookings: </b><a href="/festival/performers" className="text-green hover:text-brown transition-colors font-bold">2027 Performer/Presenter Apply</a>
+                    <li>For <b>Festival bookings: </b><a href="mailto:festival_booking@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">festival_booking@columbusfolkmusicsociety.org</a>
                     </li>
                     <li>For <b>Festival info: </b><a href="mailto:infofestival@columbusfolkmusicsociety.org" className="text-green hover:text-brown transition-colors font-bold">infofestival@columbusfolkmusicsociety.org</a>
                     </li>

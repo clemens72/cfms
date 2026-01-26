@@ -78,9 +78,13 @@ export default function LineupCard({
                     </button>
                     {isDescriptionOpen && (
                         <div className="mt-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
-                            <p className="font-body text-gray-700 leading-relaxed">
-                                {bio}
-                            </p>
+                            <div className="font-body text-gray-700 leading-relaxed">
+                                {bio.split('\n').map((paragraph, index) => (
+                                    <p key={index} className={index > 0 ? 'mt-4' : ''}>
+                                        {paragraph}
+                                    </p>
+                                ))}
+                            </div>
                         </div>
                     )}
                 </div>

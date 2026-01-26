@@ -34,11 +34,7 @@ export default function FestivalPage() {
 
             {/* Feature Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
-              <span
-                className="text-sm inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
-              >
-                Get Tickets (Coming Soon)
-              </span>
+              <FestivalButton href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026">Get Tickets</FestivalButton>
               <FestivalButton href="/festival/headliner">2026 Headliner</FestivalButton>
               <FestivalButton href="/festival/lineup">2026 Lineup</FestivalButton>
               <FestivalButton color="blue" href="/festival/schedule">2025 Schedule</FestivalButton>
@@ -141,11 +137,7 @@ export default function FestivalPage() {
               <p className="text-xl font-body leading-relaxed pr-12">
                 The festival has a mobile street food area, a festival store, and offers Nocterra craft beer for those who enjoy locally made brews. We remain committed to making the festival accessible to as many people as possible by providing a very low-cost as well as family-friendly event!  The event runs rain or shine. The festival is produced by the Columbus Folk Music Society and is co-sponsored by WCBE 90.5FM.
               </p>
-              <span
-                className="text-md inline-block px-8 py-4 mt-8 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
-              >
-                Get Tickets (Available Early 2026)
-              </span>
+              <FestivalButton href="https://www.ticketleap.events/tickets/wwwcolumbusfolkmusicsocietyorg/central-ohio-folk-festival-2026">Get Tickets</FestivalButton>
             </div>
 
             {/* Right Column: Cards */}
@@ -264,7 +256,11 @@ export default function FestivalPage() {
             <h3 className="text-xl font-heading font-semibold mb-3 text-charcoal">Artists / Performers / Presenters</h3>
             <div className="flex flex-col gap-4">
               <div className="mt-2">
-              <FestivalButton href="/festival/performers">2027 Performer/Presenter Apply</FestivalButton>
+              <span
+                className="text-sm inline-block px-4 py-2 bg-gray-400 text-white font-body font-semibold rounded-lg cursor-not-allowed opacity-60"
+              >
+                2027 Application Coming Soon
+              </span>
               </div>
               <div className="mt-2">
                 <p className="text-md font-body text-gray-700 mb-4">For performing questions or agent inquiries:</p>
